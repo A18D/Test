@@ -63,6 +63,7 @@ module.exports = {
             }
         }),
         new HtmlWebpackPlugin({
+            hash: true,
             template: './src/index.html',
             title: 'Test react app',
             myPageHeader: 'Automatically generated',
