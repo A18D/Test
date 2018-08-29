@@ -1,7 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
+import CSelect from './TestSelect'
+import store from './store'
 
 
-window.React = React
-
-render(<h1>Hello world4</h1>, document.getElementById('react-container'))
+render(<CSelect />, document.getElementById('react-container'))
+//render(<Store />, document.getElementById('react-container'))
