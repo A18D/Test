@@ -1,5 +1,6 @@
 var webpack = require("webpack")
 var path = require("path")
+var ExtractTextWebpackPlugin = require("extract-text-webpack-plugin")
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
@@ -41,6 +42,10 @@ module.exports = {
                         plugins: () => [require('autoprefixer')]
                     }
                 }, 'sass-loader']
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
+                use: "file-loader"
             }
         ]
     },
@@ -68,6 +73,7 @@ module.exports = {
             title: 'Test react app',
             myPageHeader: 'Automatically generated',
             filename: 'index.html' //relative to root of the application
-        })
+        })//,
+        // new ExtractTextWebpackPlugin('bundle.css')
     ]
 }
