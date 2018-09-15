@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 //import { default as Navbar, MenuElementKind } from 'react-navbar'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 //import './stylesheets/menus.scss'
+import { LinkContainer } from 'react-router-bootstrap';
 
 const selectedStyle = {
     backgroundColor: "white",
@@ -26,12 +27,13 @@ export const MainMenu = () =>
         </Navbar.Header>
         <Navbar.Collapse>
             <Nav>
-                <NavItem eventKey={1} href="#" className="navbarborder">
-                    Обучение
-                </NavItem>
-                <NavItem eventKey={2} href="#" className="navbarborder">
-                    О проекте
-                </NavItem>
+                <LinkContainer to="/Training" >
+                    <NavItem className="navbarborder">Обучение</NavItem>
+                </LinkContainer>
+                <LinkContainer to="/AboutProject" >
+                    <NavItem className="navbarborder">О проекте</NavItem>
+                </LinkContainer>
+
                 <NavItem eventKey={3} href="#" className="navbarborder">
                     Блог
                 </NavItem>
@@ -45,7 +47,7 @@ export const MainMenu = () =>
             </Nav>
             <div >
                 <form class="navbar-form navbar-left " role="search">
-                    <button type="submit" class=" btn btn-default navbar-MyBtn"><span class="glyphicon glyphicon-search"></span></button>
+                    <button class=" btn btn-default navbar-MyBtn"><span class="glyphicon glyphicon-search"></span></button>
                 </form>
             </div>
             <Nav pullRight>
@@ -62,25 +64,25 @@ export const MainMenu = () =>
 export const AboutMenu = ({ match }) =>
     <div>
         <li>
-            <NavLink to="/about"
+            <NavLink to="/Training"
                 style={match.isExact && selectedStyle}>
                 [Company]
             </NavLink>
         </li>
         <li>
-            <NavLink to="/about/history"
+            <NavLink to="/Training/history"
                 activeStyle={selectedStyle}>
                 [History]
             </NavLink>
         </li>
         <li>
-            <NavLink to="/about/services"
+            <NavLink to="/Training/services"
                 activeStyle={selectedStyle}>
                 [Services]
             </NavLink>
         </li>
         <li>
-            <NavLink to="/about/location"
+            <NavLink to="/Training/location"
                 activeStyle={selectedStyle}>
                 [Location]
             </NavLink>

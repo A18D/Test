@@ -12,7 +12,7 @@ const PageTemplate = ({ children }) =>
 export const Home = () =>
     <div>
         <PageTemplate>
-            <h1>[Company Website]</h1>
+            <h1>The test single page application</h1>
         </PageTemplate>
     </div>
 
@@ -21,10 +21,10 @@ export const Whoops404 = ({ location }) =>
         <h1>Resource not found at '{location.pathname}'</h1>
     </div>
 
-export const Events = () =>
+export const AboutProject = () =>
     <PageTemplate>
         <section>
-            <h1>[Event Calendar]</h1>
+            <h1>About project</h1>
         </section>
     </PageTemplate>
 
@@ -42,14 +42,14 @@ export const Contact = () =>
         </section>
     </PageTemplate>
 
-export const About = ({ match }) =>
+export const Training = ({ match }) =>
     <PageTemplate>
         <section>
             <Route component={AboutMenu} />
-            <Route exact path="/about" component={Company} />
-            <Route path="/about/history" component={History} />
-            <Route path="/about/services" component={Services} />
-            <Route path="/about/location" component={Location} />
+            <Route exact path="/Training" component={Company} />
+            <Route path="/Training/history" component={History} />
+            <Route path="/Training/services" component={Services} />
+            <Route path="/Training/location" component={Location} />
         </section>
     </PageTemplate>
 

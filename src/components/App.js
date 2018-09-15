@@ -5,8 +5,8 @@ import { ConnectedRouter } from 'react-router-redux'
 import history from '../history'
 import {
     Home,
-    About,
-    Events,
+    Training,
+    AboutProject,
     Products,
     Contact,
     Whoops404
@@ -23,11 +23,11 @@ class App extends Component {
                 <div>
                     <Switch>
                         <Route exact path="/" component={Home} />
-                        <Route path="/about" component={About} />
-                        <Redirect from="/history" to="/about/history" />
-                        <Redirect from="/services" to="/about/services" />
-                        <Redirect from="/location" to="/about/location" />
-                        <Route path="/events" component={Events} />
+                        <Route path="/Training" component={Training} />
+                        <Redirect from="/history" to="/Training/history" />
+                        <Redirect from="/services" to="/Training/services" />
+                        <Redirect from="/location" to="/Training/location" />
+                        <Route path="/AboutProject" component={AboutProject} />
                         <Route path="/products" component={Products} />
                         <Route path="/contact" component={Contact} />
                         <Route component={Whoops404} />
