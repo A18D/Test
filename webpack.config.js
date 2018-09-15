@@ -26,6 +26,14 @@ module.exports = {
                 }
             },
             {
+                test: /\.jsx$/,
+                exclude: /(node_modules)/,
+                loader: 'babel-loader',
+                query: {
+                    presets: ['env', 'stage-0', 'react', 'react-hmre']
+                }
+            },
+            {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader', {
                     loader: 'postcss-loader',
@@ -45,8 +53,26 @@ module.exports = {
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
-                use: "file-loader"
-            }
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: './src/fonts/'
+                    }
+                }]
+            },
+            {
+                test: /\.(jpg|png|gif|svg)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: './src/images/'
+                        }
+                    }
+                ]
+            },
         ]
     },
     optimization: {
