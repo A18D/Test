@@ -16,10 +16,13 @@ export const MainMenu = () =>
         <Navbar.Header>
             <Navbar.Brand>
                 <div className="container-Logo">
-                    <a href="#" target="_blank" role="button" className="linkLogo">
-                        <img src="/src/images/imgLogo.jpg"
-                            alt="логотип" width="40" height="40" /> iSMART
-                    </a>
+
+                    <LinkContainer to="/" className="container-Logo">
+                        <NavItem className="linkLogo">
+                            <img src="/src/images/imgLogo.jpg"
+                                alt="логотип" width="40" height="40" /> iSMART
+                    </NavItem>
+                    </LinkContainer>
                 </div>
 
             </Navbar.Brand>
