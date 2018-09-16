@@ -36,23 +36,23 @@ export const MainMenu = () =>
                 <LinkContainer to="/AboutProject" >
                     <NavItem className="navbarborder">О проекте</NavItem>
                 </LinkContainer>
-
-                <NavItem eventKey={3} href="#" className="navbarborder">
-                    Блог
-                </NavItem>
-                <NavItem eventKey={3} href="#" className="navbarborder">
-                    Вебинары
-                </NavItem>
+                <LinkContainer to="/Blog" >
+                    <NavItem className="navbarborder">Блог</NavItem>
+                </LinkContainer>
+                <LinkContainer to="/Webinar" >
+                    <NavItem className="navbarborder">Вебинар</NavItem>
+                </LinkContainer>
                 <NavItem eventKey={3} href="#" className="navbarborder">
                     Диагностика
-            </NavItem>
-
+                </NavItem>
             </Nav>
-            <div >
-                <form class="navbar-form navbar-left " role="search">
-                    <button class=" btn btn-default navbar-MyBtn"><span class="glyphicon glyphicon-search"></span></button>
-                </form>
-            </div>
+            <LinkContainer to="/Search" >
+                <div >
+                    <form class="navbar-form navbar-left " role="search">
+                        <button class=" btn btn-default navbar-MyBtn"><span class="glyphicon glyphicon-search"></span></button>
+                    </form>
+                </div>
+            </LinkContainer>
             <Nav pullRight>
                 <NavItem eventKey={1} href="#" className="navbarborder">
                     Вход

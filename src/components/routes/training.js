@@ -1,46 +1,7 @@
 import React, { PureComponent } from 'react'
-import { Link, Route } from 'react-router-dom'
-import { MainMenu, AboutMenu } from './menus'
-//import './stylesheets/pages.scss'
-
-const PageTemplate = ({ children }) =>
-    <p>
-        <MainMenu />
-        {children}
-    </p>
-
-export const Home = () =>
-    <div>
-        <PageTemplate>
-            <h1>The test single page application</h1>
-        </PageTemplate>
-    </div>
-
-export const Whoops404 = ({ location }) =>
-    <div>
-        <h1>Resource not found at '{location.pathname}'</h1>
-    </div>
-
-export const AboutProject = () =>
-    <PageTemplate>
-        <section>
-            <h1>About project</h1>
-        </section>
-    </PageTemplate>
-
-export const Products = () =>
-    <PageTemplate>
-        <section>
-            <h1>[Product Catalog]</h1>
-        </section>
-    </PageTemplate>
-
-export const Contact = () =>
-    <PageTemplate>
-        <section>
-            <h1>[Contact Us]</h1>
-        </section>
-    </PageTemplate>
+import { Route } from 'react-router-dom'
+import { PageTemplate } from './pageTemplate'
+import { AboutMenu } from '../menus'
 
 export const Training = ({ match }) =>
     <PageTemplate>
