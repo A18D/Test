@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 //import { default as Navbar, MenuElementKind } from 'react-navbar'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 //import './stylesheets/menus.scss'
-import { LinkContainer } from 'react-router-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap'
 
 const selectedStyle = {
     backgroundColor: "white",
@@ -21,7 +21,7 @@ export const MainMenu = () =>
                         <NavItem className="linkLogo">
                             <img src="/src/images/imgLogo.jpg"
                                 alt="логотип" width="40" height="40" /> iSMART
-                    </NavItem>
+                        </NavItem>
                     </LinkContainer>
                 </div>
 
@@ -49,7 +49,7 @@ export const MainMenu = () =>
             <LinkContainer to="/Search" >
                 <div >
                     <form class="navbar-form navbar-left " role="search">
-                        <button class=" btn btn-default navbar-MyBtn"><span class="glyphicon glyphicon-search"></span></button>
+                        <button class=" btn btn-default navbar-MyBtn" ><span class="glyphicon glyphicon-search"></span></button>
                     </form>
                 </div>
             </LinkContainer>

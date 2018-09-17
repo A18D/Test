@@ -1954,7 +1954,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".navbar-green {\r\n  background-color: #3a9b8b;\r\n  border-color: #3a9b8b;\r\n  color: #ffffff;\r\n}\r\n\r\n.navbar-green .navbar-nav > li > a {\r\n  color: #ffffff;\r\n}\r\n\r\n.navbar-green .navbar-nav > li > a:hover,\r\n.navbar-green .navbar-nav > li > a:focus {\r\n  color: #c3f8f5;\r\n  background-color: transparent;\r\n}\r\n\r\n.navbar-green .navbarborderReg{\r\n  background-color: #d8701b; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborderReg:hover,\r\n.navbar-green .navbarborderReg:focus{\r\n  background-color: #ecb53d; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder{\r\n  background-color: #3a9b8b; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder:hover,\r\n.navbar-green .navbarborder:focus{\r\n  background-color: #0d3d35; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbar-nav  >  .active  > a,\r\n.navbar-green .navbar-nav  >  .active  > a:hover,\r\n.navbar-green .navbar-nav  >  .active  > a:focus\r\n{\r\n  background-color: #0d3d35; \r\n  /*border: 4px solid #3a9b8b; */\r\n  color: white;\r\n}\r\n\r\n\r\n.navbar-green form{\r\n  background: #3a9b8b;\r\n\r\n  padding: 9px 15px;\r\n  margin-top: 3px;\r\n  margin-bottom: 3px;\r\n  /*margin-left: -18px;*/\r\n\r\n}\r\n\r\n.navbar-MyBtn{\r\n  background: #3a9b8b;\r\n  color: #ffffff;\r\n  width: 37px;\r\n  border: 1px solid #ffffff; /* Параметры рамки */ /* Firefox */ /* Safari 4 */\r\n  border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n }\r\n\r\n /*.navbar-MyBtn:target,*/\r\n.navbar-MyBtn:hover,\r\n.navbar-MyBtn:focus,\r\n.navbar-MyBtn:focus,\r\n.navbar-MyBtn:active:focus,\r\n.navbar-MyBtn.active:focus,\r\n.navbar-MyBtn.focus,\r\n.navbar-MyBtn:active.focus,\r\n.navbar-MyBtn.active.focus {\r\n  background: #0d3d35;\r\n  color: #c3f8f5;\r\n  width: 37px;\r\n  border: 1px solid #c3f8f5; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n  border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n   outline: none;\r\n }\r\n\r\n\r\n.container-Logo {\r\n  background: #3a9b8b;\r\n  padding: 5px;\r\n  padding-right: 5px; \r\n  float: left;\r\n\r\n}\r\n\r\n.linkLogo {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n\r\n.linkLogo:hover,\r\n.linkLogo:focus {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n", ""]);
+exports.push([module.i, ".navbar-green {\r\n  background-color: #3a9b8b;\r\n  border-color: #3a9b8b;\r\n  color: #ffffff;\r\n}\r\n\r\n.navbar-green .navbar-nav > li > a {\r\n  color: #ffffff;\r\n}\r\n\r\n.navbar-green .navbar-nav > li > a:hover,\r\n.navbar-green .navbar-nav > li > a:focus {\r\n  color: #c3f8f5;\r\n  background-color: transparent;\r\n}\r\n\r\n.navbar-green .navbarborderReg{\r\n  background-color: #d8701b; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborderReg:hover,\r\n.navbar-green .navbarborderReg:focus{\r\n  background-color: #ecb53d; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder{\r\n  background-color: #3a9b8b; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder:hover,\r\n.navbar-green .navbarborder:focus{\r\n  background-color: #0d3d35; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbar-nav  >  .active  > a,\r\n.navbar-green .navbar-nav  >  .active  > a:hover,\r\n.navbar-green .navbar-nav  >  .active  > a:focus\r\n{\r\n  background-color: #0d3d35; \r\n  /*border: 4px solid #3a9b8b; */\r\n  color: white;\r\n}\r\n\r\n\r\n.navbar-green form{\r\n  background: #3a9b8b;\r\n\r\n  padding: 9px 15px;\r\n  margin-top: 3px;\r\n  margin-bottom: 3px;\r\n  /*margin-left: -18px;*/\r\n\r\n}\r\n\r\n.navbar-MyBtn{\r\n  background: #3a9b8b;\r\n  color: #ffffff;\r\n  width: 37px;\r\n  border: 1px solid #ffffff; /* Параметры рамки */ /* Firefox */ /* Safari 4 */\r\n  border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n }\r\n\r\n.navbar-MyBtn:hover,\r\n.navbar-MyBtn:focus,\r\n.navbar-MyBtn:focus,\r\n.navbar-MyBtn:active:focus,\r\n.navbar-MyBtn.active:focus,\r\n.navbar-MyBtn.focus,\r\n.navbar-MyBtn:active.focus,\r\n.navbar-MyBtn.active.focus {\r\n  background: #0d3d35;\r\n  color: #c3f8f5;\r\n  width: 37px;\r\n  border: 1px solid #c3f8f5; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n  border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n   outline: none;\r\n }\r\n\r\n\r\n.container-Logo {\r\n  background: #3a9b8b;\r\n  padding: 5px;\r\n  padding-right: 5px; \r\n  float: left;\r\n  list-style-type: none;\r\n}\r\n\r\n.linkLogo > a {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n\r\n.linkLogo > a:hover,\r\n.linkLogo > a:focus {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n", ""]);
 
 // exports
 
@@ -34969,6 +34969,40 @@ exports.default = _DefaultExportValue;
 
 /***/ }),
 
+/***/ "./node_modules/redux-thunk/lib/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/redux-thunk/lib/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+function createThunkMiddleware(extraArgument) {
+  return function (_ref) {
+    var dispatch = _ref.dispatch,
+        getState = _ref.getState;
+    return function (next) {
+      return function (action) {
+        if (typeof action === 'function') {
+          return action(dispatch, getState, extraArgument);
+        }
+
+        return next(action);
+      };
+    };
+  };
+}
+
+var thunk = createThunkMiddleware();
+thunk.withExtraArgument = createThunkMiddleware;
+
+exports['default'] = thunk;
+
+/***/ }),
+
 /***/ "./node_modules/redux/es/applyMiddleware.js":
 /*!**************************************************!*\
   !*** ./node_modules/redux/es/applyMiddleware.js ***!
@@ -39221,7 +39255,25 @@ var _history = __webpack_require__(/*! ../history */ "./src/history.js");
 
 var _history2 = _interopRequireDefault(_history);
 
-var _pages = __webpack_require__(/*! ./pages */ "./src/components/pages.js");
+var _home = __webpack_require__(/*! ./routes/home */ "./src/components/routes/home.js");
+
+var _training = __webpack_require__(/*! ./routes/training */ "./src/components/routes/training.js");
+
+var _search = __webpack_require__(/*! ./routes/search */ "./src/components/routes/search.js");
+
+var _blog = __webpack_require__(/*! ./routes/blog */ "./src/components/routes/blog.js");
+
+var _aboutProject = __webpack_require__(/*! ./routes/aboutProject */ "./src/components/routes/aboutProject.js");
+
+var _webinar = __webpack_require__(/*! ./routes/webinar */ "./src/components/routes/webinar.js");
+
+var _whoops = __webpack_require__(/*! ./routes/whoops404 */ "./src/components/routes/whoops404.js");
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _store = __webpack_require__(/*! ../store */ "./src/store/index.js");
+
+var _store2 = _interopRequireDefault(_store);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39269,24 +39321,30 @@ var App = _wrapComponent('App')((_temp = _class = function (_Component) {
     _createClass(App, [{
         key: 'render',
         value: function render() {
+            var phistory = (0, _reactRouterRedux.syncHistoryWithStore)(_history2.default, _store2.default);
             return _react3.default.createElement(
-                _reactRouterDom.HashRouter,
-                null,
+                _reactRedux.Provider,
+                { store: _store2.default },
                 _react3.default.createElement(
-                    'div',
-                    null,
+                    _reactRouterDom.HashRouter,
+                    { history: phistory },
                     _react3.default.createElement(
-                        _reactRouterDom.Switch,
+                        'div',
                         null,
-                        _react3.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _pages.Home }),
-                        _react3.default.createElement(_reactRouterDom.Route, { path: '/Training', component: _pages.Training }),
-                        _react3.default.createElement(_reactRouterDom.Redirect, { from: '/history', to: '/Training/history' }),
-                        _react3.default.createElement(_reactRouterDom.Redirect, { from: '/services', to: '/Training/services' }),
-                        _react3.default.createElement(_reactRouterDom.Redirect, { from: '/location', to: '/Training/location' }),
-                        _react3.default.createElement(_reactRouterDom.Route, { path: '/AboutProject', component: _pages.AboutProject }),
-                        _react3.default.createElement(_reactRouterDom.Route, { path: '/products', component: _pages.Products }),
-                        _react3.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _pages.Contact }),
-                        _react3.default.createElement(_reactRouterDom.Route, { component: _pages.Whoops404 })
+                        _react3.default.createElement(
+                            _reactRouterDom.Switch,
+                            null,
+                            _react3.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _home.Home }),
+                            _react3.default.createElement(_reactRouterDom.Route, { path: '/Training', component: _training.Training }),
+                            _react3.default.createElement(_reactRouterDom.Redirect, { from: '/history', to: '/Training/history' }),
+                            _react3.default.createElement(_reactRouterDom.Redirect, { from: '/services', to: '/Training/services' }),
+                            _react3.default.createElement(_reactRouterDom.Redirect, { from: '/location', to: '/Training/location' }),
+                            _react3.default.createElement(_reactRouterDom.Route, { path: '/AboutProject', component: _aboutProject.AboutProject }),
+                            _react3.default.createElement(_reactRouterDom.Route, { path: '/Blog', component: _blog.Blog }),
+                            _react3.default.createElement(_reactRouterDom.Route, { path: '/Webinar', component: _webinar.Webinar }),
+                            _react3.default.createElement(_reactRouterDom.Route, { path: '/Search', component: _search.Search }),
+                            _react3.default.createElement(_reactRouterDom.Route, { component: _whoops.Whoops404 })
+                        )
                     )
                 )
             );
@@ -39326,12 +39384,6 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 var _App = __webpack_require__(/*! ./App */ "./src/components/App.js");
 
 var _App2 = _interopRequireDefault(_App);
-
-var _store = __webpack_require__(/*! ../store */ "./src/store/index.js");
-
-var _store2 = _interopRequireDefault(_store);
-
-var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39374,14 +39426,18 @@ var _reactBootstrap = __webpack_require__(/*! react-bootstrap */ "./node_modules
 
 var _reactRouterBootstrap = __webpack_require__(/*! react-router-bootstrap */ "./node_modules/react-router-bootstrap/lib/index.js");
 
+var _history = __webpack_require__(/*! ../history */ "./src/history.js");
+
+var _history2 = _interopRequireDefault(_history);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//import { default as Navbar, MenuElementKind } from 'react-navbar'
+//import './stylesheets/menus.scss'
 var selectedStyle = {
     backgroundColor: "white",
     color: "slategray"
 };
-//import './stylesheets/menus.scss'
+//import { default as Navbar, MenuElementKind } from 'react-navbar'
 var MainMenu = exports.MainMenu = function MainMenu() {
     return _react2.default.createElement(
         _reactBootstrap.Navbar,
@@ -39396,11 +39452,15 @@ var MainMenu = exports.MainMenu = function MainMenu() {
                     'div',
                     { className: 'container-Logo' },
                     _react2.default.createElement(
-                        'a',
-                        { href: '#', target: '_blank', role: 'button', className: 'linkLogo' },
-                        _react2.default.createElement('img', { src: '/src/images/imgLogo.jpg',
-                            alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F', width: '40', height: '40' }),
-                        ' iSMART'
+                        _reactRouterBootstrap.LinkContainer,
+                        { to: '/', className: 'container-Logo' },
+                        _react2.default.createElement(
+                            _reactBootstrap.NavItem,
+                            { className: 'linkLogo' },
+                            _react2.default.createElement('img', { src: '/src/images/imgLogo.jpg',
+                                alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F', width: '40', height: '40' }),
+                            ' iSMART'
+                        )
                     )
                 )
             ),
@@ -39431,14 +39491,22 @@ var MainMenu = exports.MainMenu = function MainMenu() {
                     )
                 ),
                 _react2.default.createElement(
-                    _reactBootstrap.NavItem,
-                    { eventKey: 3, href: '#', className: 'navbarborder' },
-                    '\u0411\u043B\u043E\u0433'
+                    _reactRouterBootstrap.LinkContainer,
+                    { to: '/Blog' },
+                    _react2.default.createElement(
+                        _reactBootstrap.NavItem,
+                        { className: 'navbarborder' },
+                        '\u0411\u043B\u043E\u0433'
+                    )
                 ),
                 _react2.default.createElement(
-                    _reactBootstrap.NavItem,
-                    { eventKey: 3, href: '#', className: 'navbarborder' },
-                    '\u0412\u0435\u0431\u0438\u043D\u0430\u0440\u044B'
+                    _reactRouterBootstrap.LinkContainer,
+                    { to: '/Webinar' },
+                    _react2.default.createElement(
+                        _reactBootstrap.NavItem,
+                        { className: 'navbarborder' },
+                        '\u0412\u0435\u0431\u0438\u043D\u0430\u0440'
+                    )
                 ),
                 _react2.default.createElement(
                     _reactBootstrap.NavItem,
@@ -39447,15 +39515,19 @@ var MainMenu = exports.MainMenu = function MainMenu() {
                 )
             ),
             _react2.default.createElement(
-                'div',
-                null,
+                _reactRouterBootstrap.LinkContainer,
+                { to: '/Search' },
                 _react2.default.createElement(
-                    'form',
-                    { 'class': 'navbar-form navbar-left ', role: 'search' },
+                    'div',
+                    null,
                     _react2.default.createElement(
-                        'button',
-                        { 'class': ' btn btn-default navbar-MyBtn' },
-                        _react2.default.createElement('span', { 'class': 'glyphicon glyphicon-search' })
+                        'form',
+                        { 'class': 'navbar-form navbar-left ', role: 'search' },
+                        _react2.default.createElement(
+                            'button',
+                            { 'class': ' btn btn-default navbar-MyBtn' },
+                            _react2.default.createElement('span', { 'class': 'glyphicon glyphicon-search' })
+                        )
                     )
                 )
             ),
@@ -39527,10 +39599,10 @@ var AboutMenu = exports.AboutMenu = function AboutMenu(_ref) {
 
 /***/ }),
 
-/***/ "./src/components/pages.js":
-/*!*********************************!*\
-  !*** ./src/components/pages.js ***!
-  \*********************************/
+/***/ "./src/components/routes/aboutProject.js":
+/*!***********************************************!*\
+  !*** ./src/components/routes/aboutProject.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39540,64 +39612,19 @@ var AboutMenu = exports.AboutMenu = function AboutMenu(_ref) {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.History = exports.Company = exports.Location = exports.Services = exports.Training = exports.Contact = exports.Products = exports.AboutProject = exports.Whoops404 = exports.Home = undefined;
+exports.AboutProject = undefined;
 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
-
-var _menus = __webpack_require__(/*! ./menus */ "./src/components/menus.js");
+var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/routes/pageTemplate.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//import './stylesheets/pages.scss'
-
-var PageTemplate = function PageTemplate(_ref) {
-    var children = _ref.children;
-    return _react2.default.createElement(
-        'p',
-        null,
-        _react2.default.createElement(_menus.MainMenu, null),
-        children
-    );
-};
-
-var Home = exports.Home = function Home() {
-    return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-            PageTemplate,
-            null,
-            _react2.default.createElement(
-                'h1',
-                null,
-                'The test single page application'
-            )
-        )
-    );
-};
-
-var Whoops404 = exports.Whoops404 = function Whoops404(_ref2) {
-    var location = _ref2.location;
-    return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-            'h1',
-            null,
-            'Resource not found at \'',
-            location.pathname,
-            '\''
-        )
-    );
-};
-
 var AboutProject = exports.AboutProject = function AboutProject() {
     return _react2.default.createElement(
-        PageTemplate,
+        _pageTemplate.PageTemplate,
         null,
         _react2.default.createElement(
             'section',
@@ -39611,9 +39638,34 @@ var AboutProject = exports.AboutProject = function AboutProject() {
     );
 };
 
-var Products = exports.Products = function Products() {
+/***/ }),
+
+/***/ "./src/components/routes/blog.js":
+/*!***************************************!*\
+  !*** ./src/components/routes/blog.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Blog = undefined;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/routes/pageTemplate.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Blog = exports.Blog = function Blog() {
     return _react2.default.createElement(
-        PageTemplate,
+        _pageTemplate.PageTemplate,
         null,
         _react2.default.createElement(
             'section',
@@ -39621,15 +39673,116 @@ var Products = exports.Products = function Products() {
             _react2.default.createElement(
                 'h1',
                 null,
-                '[Product Catalog]'
+                'Blog'
             )
         )
     );
 };
 
-var Contact = exports.Contact = function Contact() {
+/***/ }),
+
+/***/ "./src/components/routes/home.js":
+/*!***************************************!*\
+  !*** ./src/components/routes/home.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Home = undefined;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/routes/pageTemplate.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Home = exports.Home = function Home() {
     return _react2.default.createElement(
-        PageTemplate,
+        'div',
+        null,
+        _react2.default.createElement(
+            _pageTemplate.PageTemplate,
+            null,
+            _react2.default.createElement(
+                'h1',
+                null,
+                'The test single page application'
+            )
+        )
+    );
+};
+
+/***/ }),
+
+/***/ "./src/components/routes/pageTemplate.js":
+/*!***********************************************!*\
+  !*** ./src/components/routes/pageTemplate.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.PageTemplate = undefined;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _menus = __webpack_require__(/*! ../menus */ "./src/components/menus.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var PageTemplate = exports.PageTemplate = function PageTemplate(_ref) {
+    var children = _ref.children;
+    return _react2.default.createElement(
+        'p',
+        null,
+        _react2.default.createElement(_menus.MainMenu, null),
+        children
+    );
+};
+
+/***/ }),
+
+/***/ "./src/components/routes/search.js":
+/*!*****************************************!*\
+  !*** ./src/components/routes/search.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Search = undefined;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/routes/pageTemplate.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Search = exports.Search = function Search() {
+    return _react2.default.createElement(
+        _pageTemplate.PageTemplate,
         null,
         _react2.default.createElement(
             'section',
@@ -39637,16 +39790,45 @@ var Contact = exports.Contact = function Contact() {
             _react2.default.createElement(
                 'h1',
                 null,
-                '[Contact Us]'
+                'Search the information'
             )
         )
     );
 };
 
-var Training = exports.Training = function Training(_ref3) {
-    var match = _ref3.match;
+/***/ }),
+
+/***/ "./src/components/routes/training.js":
+/*!*******************************************!*\
+  !*** ./src/components/routes/training.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.History = exports.Company = exports.Location = exports.Services = exports.Training = undefined;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
+var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/routes/pageTemplate.js");
+
+var _menus = __webpack_require__(/*! ../menus */ "./src/components/menus.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Training = exports.Training = function Training(_ref) {
+    var match = _ref.match;
     return _react2.default.createElement(
-        PageTemplate,
+        _pageTemplate.PageTemplate,
         null,
         _react2.default.createElement(
             'section',
@@ -39754,6 +39936,91 @@ var History = exports.History = function History() {
             'p',
             null,
             ' Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'
+        )
+    );
+};
+
+/***/ }),
+
+/***/ "./src/components/routes/webinar.js":
+/*!******************************************!*\
+  !*** ./src/components/routes/webinar.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Webinar = undefined;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/routes/pageTemplate.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Webinar = exports.Webinar = function Webinar() {
+    return _react2.default.createElement(
+        _pageTemplate.PageTemplate,
+        null,
+        _react2.default.createElement(
+            'section',
+            null,
+            _react2.default.createElement(
+                'h1',
+                null,
+                '\u0412\u0435\u0431\u0438\u043D\u0430\u0440'
+            )
+        )
+    );
+};
+
+/***/ }),
+
+/***/ "./src/components/routes/whoops404.js":
+/*!********************************************!*\
+  !*** ./src/components/routes/whoops404.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Whoops404 = undefined;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/routes/pageTemplate.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Whoops404 = exports.Whoops404 = function Whoops404(_ref) {
+    var location = _ref.location;
+    return _react2.default.createElement(
+        _pageTemplate.PageTemplate,
+        null,
+        _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement(
+                'h1',
+                null,
+                'Resource not found at \'',
+                location.pathname,
+                '\''
+            )
         )
     );
 };
@@ -39876,7 +40143,7 @@ module.exports = __webpack_require__.p + "src/fonts/glyphicons-halflings-regular
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _createBrowserHistory = __webpack_require__(/*! history/createBrowserHistory */ "./node_modules/history/createBrowserHistory.js");
@@ -39886,7 +40153,11 @@ var _createBrowserHistory2 = _interopRequireDefault(_createBrowserHistory);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var history = (0, _createBrowserHistory2.default)();
-//window.routerHistory = history
+history.listen(function (location, action) {
+    console.log('The current URL is ' + location.pathname + location.search + location.hash);
+    console.log('The last navigation action was ' + action);
+});
+window.routerHistory = history;
 
 exports.default = history;
 
@@ -39935,6 +40206,62 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 //import "./css/style.css"
 //import store from './store'
+
+/***/ }),
+
+/***/ "./src/middlewares/logger.js":
+/*!***********************************!*\
+  !*** ./src/middlewares/logger.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+exports.default = function (store) {
+    return function (next) {
+        return function (action) {
+            console.log('---', 'state before: ', store.getState());
+            console.log('---', 'dispatching', action);
+            next(action);
+            console.log('---', 'state after: ', store.getState());
+        };
+    };
+};
+
+/***/ }),
+
+/***/ "./src/middlewares/randomId.js":
+/*!*************************************!*\
+  !*** ./src/middlewares/randomId.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+exports.default = function (store) {
+    return function (next) {
+        return function (action) {
+            if (!action.generateId) return next(action);
+            next(_extends({}, action, {
+                randomId: (Date.now() + Math.random()).toString()
+            }));
+        };
+    };
+};
 
 /***/ }),
 
@@ -39990,9 +40317,12 @@ var _counter2 = _interopRequireDefault(_counter);
 
 var _redux = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
 
+var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ "./node_modules/react-router-redux/lib/index.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _redux.combineReducers)({
+    routing: _reactRouterRedux.routerReducer,
     count: _counter2.default
 });
 
@@ -40018,9 +40348,30 @@ var _reducer = __webpack_require__(/*! ../reducer */ "./src/reducer/index.js");
 
 var _reducer2 = _interopRequireDefault(_reducer);
 
+var _reduxThunk = __webpack_require__(/*! redux-thunk */ "./node_modules/redux-thunk/lib/index.js");
+
+var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
+
+var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ "./node_modules/react-router-redux/lib/index.js");
+
+var _history = __webpack_require__(/*! ../history */ "./src/history.js");
+
+var _history2 = _interopRequireDefault(_history);
+
+var _randomId = __webpack_require__(/*! ../middlewares/randomId */ "./src/middlewares/randomId.js");
+
+var _randomId2 = _interopRequireDefault(_randomId);
+
+var _logger = __webpack_require__(/*! ../middlewares/logger */ "./src/middlewares/logger.js");
+
+var _logger2 = _interopRequireDefault(_logger);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var store = (0, _redux.createStore)(_reducer2.default);
+var enhancer = (0, _redux.applyMiddleware)(_reduxThunk2.default, (0, _reactRouterRedux.routerMiddleware)(_history2.default), _randomId2.default, _logger2.default);
+
+var store = (0, _redux.createStore)(_reducer2.default, {}, enhancer);
+
 //dev only
 window.store = store;
 exports.default = store;
