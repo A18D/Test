@@ -9,9 +9,9 @@ import "./fonts/glyphicons-halflings-regular.woff"
 import "./fonts/glyphicons-halflings-regular.woff2"
 
 import "./css/bootstrap.css"
-//import "./css/style.css"
+import "./css/subMenu.css"
 //import store from './store'
-import "./css/StyleMenu.css"
+import "./css/styleMenu.css"
 
 
 render(<Root />, document.getElementById('react-container'))

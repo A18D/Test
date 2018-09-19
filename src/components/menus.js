@@ -6,11 +6,6 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 //import './stylesheets/menus.scss'
 import { LinkContainer } from 'react-router-bootstrap'
 
-const selectedStyle = {
-    backgroundColor: "white",
-    color: "slategray"
-}
-
 export const MainMenu = () =>
     <Navbar fluid collapseOnSelect className="navbar-green">
         <Navbar.Header>
@@ -24,7 +19,6 @@ export const MainMenu = () =>
                         </NavItem>
                     </LinkContainer>
                 </div>
-
             </Navbar.Brand>
             <Navbar.Toggle />
         </Navbar.Header>
@@ -62,32 +56,22 @@ export const MainMenu = () =>
                 </NavItem>
             </Nav>
         </Navbar.Collapse>
-    </Navbar>;
+    </Navbar>
 
 export const AboutMenu = ({ match }) =>
-    <div>
-        <li>
-            <NavLink to="/Training"
-                style={match.isExact && selectedStyle}>
-                [Company]
-            </NavLink>
-        </li>
-        <li>
-            <NavLink to="/Training/history"
-                activeStyle={selectedStyle}>
-                [History]
-            </NavLink>
-        </li>
-        <li>
-            <NavLink to="/Training/services"
-                activeStyle={selectedStyle}>
-                [Services]
-            </NavLink>
-        </li>
-        <li>
-            <NavLink to="/Training/location"
-                activeStyle={selectedStyle}>
-                [Location]
-            </NavLink>
-        </li>
+    <div >
+        <Navbar fluid className="navbar-groupGrey">
+            <Navbar.Toggle />
+
+            <Navbar.Collapse className="navbar-groupGrey">
+                <Nav>
+                    <LinkContainer to="/Training/begin" >
+                        <NavItem>С чего начать</NavItem>
+                    </LinkContainer>
+                    <LinkContainer to="/Training/rewards" >
+                        <NavItem>Награды</NavItem>
+                    </LinkContainer>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     </div>
