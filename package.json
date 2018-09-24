@@ -53,6 +53,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "history": "^4.7.2",
     "httpster": "1.0.3",
+    "mdbreact": "^4.7.1",
     "prop-types": "^15.6.0",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.4",

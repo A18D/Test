@@ -8,7 +8,20 @@ import "./fonts/glyphicons-halflings-regular.ttf"
 import "./fonts/glyphicons-halflings-regular.woff"
 import "./fonts/glyphicons-halflings-regular.woff2"
 
+import "./fonts//font-awesome/fontawesome-webfont.eot"
+import "./fonts//font-awesome/fontawesome-webfont.svg"
+import "./fonts//font-awesome/fontawesome-webfont.ttf"
+import "./fonts//font-awesome/fontawesome-webfont.woff"
+import "./fonts//font-awesome/fontawesome-webfont.woff2"
+import "./fonts//font-awesome/FontAwesome.otf"
+
+
+
+
 import "./css/bootstrap.css"
+import "./css/styleFooter.css"
+import "./css/font-awesome.css"
+
 import "./css/subMenu.css"
 //import store from './store'
 import "./css/styleMenu.css"
