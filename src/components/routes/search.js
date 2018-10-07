@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
+import { render } from 'react-dom'
 import { PageTemplate } from './pageTemplate'
 import history from '../../history'
-
 
 export class Search extends React.Component {
     goBackToPath() {
@@ -18,10 +18,12 @@ export class Search extends React.Component {
             <PageTemplate>
                 <section>
                     <h1>Search the information</h1>
+                    <div id="menu-training"></div>
+
                     <button onClick={(e) => this.goBackToPath(e)}>go back</button>
                     <button onClick={(e) => this.pushWebinarToPath(e)}>push webinar to path</button>
                 </section>
             </PageTemplate >
-        );
+        )
     }
 }

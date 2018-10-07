@@ -23,15 +23,15 @@ footer.page-footer a {
 
 /* Clear floats (clearfix hack) */
 .SpaceContainer > a{
-    border-right: 10px solid rgb(255, 255, 255); /* Линия справа от текста */
+    border-right: 10px solid rgb(255, 255, 255); 
 }
   
 .SpaceContainer > span{
-    border-right: 10px solid rgb(255, 255, 255); /* Линия справа от текста */
+    border-right: 10px solid rgb(255, 255, 255); 
 }
 
 .TopSpaceContainer > ul{
-    border-top: 34px solid rgb(255, 255, 255); /* Линия справа от текста */
+    border-top: 34px solid rgb(255, 255, 255); 
 }
 
 

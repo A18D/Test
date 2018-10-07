@@ -25,6 +25,7 @@ import "./css/font-awesome.css"
 import "./css/subMenu.css"
 //import store from './store'
 import "./css/styleMenu.css"
+import "./css/styleMenuBegin.css"
 
 
 render(<Root />, document.getElementById('react-container'))

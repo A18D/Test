@@ -62,6 +62,16 @@ module.exports = {
                 }]
             },
             {
+                test: /\.json/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: './src/JSONFiles/'
+                    }
+                }]
+            },
+            {
                 test: /\.(jpg|png|gif|svg)$/,
                 use: [
                     {

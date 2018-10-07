@@ -1992,7 +1992,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "footer.page-footer {\r\n    bottom: 0;\r\n    color: rgb(7, 7, 7); \r\n    font-size: 10px;\r\n    border-top: 50px solid rgb(255, 255, 255); /* Линия справа от текста */\r\n\r\n}\r\n\r\nfooter.page-footer .container-fluid {\r\n    width: auto;\r\n}\r\n\r\nfooter.page-footer .footer-copyright {\r\n    overflow: hidden;\r\n    background-color: rgba(0, 0, 0, 0.2);\r\n    color: rgb(7, 7, 7); \r\n}\r\n\r\nfooter.page-footer a {\r\n    color: rgb(7, 7, 7); \r\n}\r\n\r\n/* Clear floats (clearfix hack) */\r\n.SpaceContainer > a{\r\n    border-right: 10px solid rgb(255, 255, 255); /* Линия справа от текста */\r\n}\r\n  \r\n.SpaceContainer > span{\r\n    border-right: 10px solid rgb(255, 255, 255); /* Линия справа от текста */\r\n}\r\n\r\n.TopSpaceContainer > ul{\r\n    border-top: 34px solid rgb(255, 255, 255); /* Линия справа от текста */\r\n}\r\n\r\n\r\n\r\n.FBtn{\r\n    background: #3b5998;\r\n    padding: 1px 5px;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #3b5998; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n   }\r\n  \r\n.FBtn:hover,\r\n.FBtn:focus,\r\n.FBtn:focus,\r\n.FBtn:active:focus,\r\n.FBtn.active:focus,\r\n.FBtn.focus,\r\n.FBtn:active.focus,\r\n.FBtn.active.focus {\r\n    background: #3b5998;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #3b5998; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n}\r\n  \r\n.VKBtn{\r\n    background: #597da3;\r\n    padding: 0px 0px;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #597da3; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n   }\r\n  \r\n.VKBtn:hover,\r\n.VKBtn:focus,\r\n.VKBtn:focus,\r\n.VKBtn:active:focus,\r\n.VKBtn.active:focus,\r\n.VKBtn.focus,\r\n.VKBtn:active.focus,\r\n.VKBtn.active.focus {\r\n    background: #597da3;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #597da3; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n}\r\n\r\n.TBtn{\r\n    background: #00aced;\r\n    padding: 0px 0px;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #00aced; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n   }\r\n  \r\n.TBtn:hover,\r\n.TBtn:focus,\r\n.TBtn:focus,\r\n.TBtn:active:focus,\r\n.TBtn.active:focus,\r\n.TBtn.focus,\r\n.TBtn:active.focus,\r\n.TBtn.active.focus {\r\n    background: #00aced;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #00aced; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n}\r\n\r\n.InstagramBtn{\r\n    background: #ffffff;\r\n    padding: 0px 0px;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #ffffff; /* Параметры границы */\r\n\r\n        outline: none;\r\n   }\r\n  \r\n.InstagramBtn:hover,\r\n.InstagramBtn:focus,\r\n.InstagramBtn:focus,\r\n.InstagramBtn:active:focus,\r\n.InstagramBtn.active:focus,\r\n.InstagramBtn.focus,\r\n.InstagramBtn:active.focus,\r\n.InstagramBtn.active.focus {\r\n    background: #00aced;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #00aced; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n}\r\n", ""]);
+exports.push([module.i, "footer.page-footer {\r\n    bottom: 0;\r\n    color: rgb(7, 7, 7); \r\n    font-size: 10px;\r\n    border-top: 50px solid rgb(255, 255, 255); /* Линия справа от текста */\r\n\r\n}\r\n\r\nfooter.page-footer .container-fluid {\r\n    width: auto;\r\n}\r\n\r\nfooter.page-footer .footer-copyright {\r\n    overflow: hidden;\r\n    background-color: rgba(0, 0, 0, 0.2);\r\n    color: rgb(7, 7, 7); \r\n}\r\n\r\nfooter.page-footer a {\r\n    color: rgb(7, 7, 7); \r\n    cursor: pointer ;\r\n}\r\n\r\n/* Clear floats (clearfix hack) */\r\n.SpaceContainer > a{\r\n    border-right: 10px solid rgb(255, 255, 255); \r\n}\r\n  \r\n.SpaceContainer > span{\r\n    border-right: 10px solid rgb(255, 255, 255); \r\n}\r\n\r\n.TopSpaceContainer > ul{\r\n    border-top: 34px solid rgb(255, 255, 255); \r\n}\r\n\r\n\r\n\r\n.FBtn{\r\n    background: #3b5998;\r\n    padding: 1px 5px;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #3b5998; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n   }\r\n  \r\n.FBtn:hover,\r\n.FBtn:focus,\r\n.FBtn:focus,\r\n.FBtn:active:focus,\r\n.FBtn.active:focus,\r\n.FBtn.focus,\r\n.FBtn:active.focus,\r\n.FBtn.active.focus {\r\n    background: #3b5998;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #3b5998; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n}\r\n  \r\n.VKBtn{\r\n    background: #597da3;\r\n    padding: 0px 0px;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #597da3; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n   }\r\n  \r\n.VKBtn:hover,\r\n.VKBtn:focus,\r\n.VKBtn:focus,\r\n.VKBtn:active:focus,\r\n.VKBtn.active:focus,\r\n.VKBtn.focus,\r\n.VKBtn:active.focus,\r\n.VKBtn.active.focus {\r\n    background: #597da3;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #597da3; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n}\r\n\r\n.TBtn{\r\n    background: #00aced;\r\n    padding: 0px 0px;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #00aced; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n   }\r\n  \r\n.TBtn:hover,\r\n.TBtn:focus,\r\n.TBtn:focus,\r\n.TBtn:active:focus,\r\n.TBtn.active:focus,\r\n.TBtn.focus,\r\n.TBtn:active.focus,\r\n.TBtn.active.focus {\r\n    background: #00aced;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #00aced; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n}\r\n\r\n.InstagramBtn{\r\n    background: #ffffff;\r\n    padding: 0px 0px;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #ffffff; /* Параметры границы */\r\n\r\n        outline: none;\r\n   }\r\n  \r\n.InstagramBtn:hover,\r\n.InstagramBtn:focus,\r\n.InstagramBtn:focus,\r\n.InstagramBtn:active:focus,\r\n.InstagramBtn.active:focus,\r\n.InstagramBtn.focus,\r\n.InstagramBtn:active.focus,\r\n.InstagramBtn.active.focus {\r\n    background: #00aced;\r\n    color: #ffffff;\r\n    width: 20px;\r\n    height: 20px;\r\n    border: 1px solid #00aced; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n    border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n        outline: none;\r\n}\r\n", ""]);
 
 // exports
 
@@ -2012,6 +2012,25 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 // module
 exports.push([module.i, ".navbar-green {\r\n  background-color: #3a9b8b;\r\n  border-color: #3a9b8b;\r\n  color: #ffffff;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.navbar-green .navbar-nav > li > a {\r\n  color: #ffffff;\r\n}\r\n\r\n.navbar-green .navbar-nav > li > a:hover,\r\n.navbar-green .navbar-nav > li > a:focus {\r\n  color: #c3f8f5;\r\n  background-color: transparent;\r\n}\r\n\r\n.navbar-green .navbarborderReg{\r\n  background-color: #d8701b; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborderReg:hover,\r\n.navbar-green .navbarborderReg:focus{\r\n  background-color: #ecb53d; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder{\r\n  background-color: #3a9b8b; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder:hover,\r\n.navbar-green .navbarborder:focus{\r\n  background-color: #0d3d35; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbar-nav  >  .active  > a,\r\n.navbar-green .navbar-nav  >  .active  > a:hover,\r\n.navbar-green .navbar-nav  >  .active  > a:focus\r\n{\r\n  background-color: #0d3d35; \r\n  /*border: 4px solid #3a9b8b; */\r\n  color: white;\r\n}\r\n\r\n\r\n.navbar-green form{\r\n  background: #3a9b8b;\r\n\r\n  padding: 9px 15px;\r\n  margin-top: 3px;\r\n  margin-bottom: 3px;\r\n  /*margin-left: -18px;*/\r\n\r\n}\r\n\r\n.navbar-MyBtn{\r\n  background: #3a9b8b;\r\n  color: #ffffff;\r\n  width: 37px;\r\n  border: 1px solid #ffffff; /* Параметры рамки */ /* Firefox */ /* Safari 4 */\r\n  border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n }\r\n\r\n.navbar-MyBtn:hover,\r\n.navbar-MyBtn:focus,\r\n.navbar-MyBtn:focus,\r\n.navbar-MyBtn:active:focus,\r\n.navbar-MyBtn.active:focus,\r\n.navbar-MyBtn.focus,\r\n.navbar-MyBtn:active.focus,\r\n.navbar-MyBtn.active.focus {\r\n  background: #0d3d35;\r\n  color: #c3f8f5;\r\n  width: 37px;\r\n  border: 1px solid #c3f8f5; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n  border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n   outline: none;\r\n }\r\n\r\n\r\n.container-Logo {\r\n  background: #3a9b8b;\r\n  padding: 5px;\r\n  padding-right: 5px; \r\n  float: left;\r\n  list-style-type: none;\r\n}\r\n\r\n.linkLogo > a {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n\r\n.linkLogo > a:hover,\r\n.linkLogo > a:focus {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleMenuBegin.css":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--6-2!./src/css/styleMenuBegin.css ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".navbar-Begin {\r\n    background-color: #3a9b8b;\r\n    border-color: #3a9b8b;\r\n    color: #ffffff;\r\n    margin-bottom: 10px;\r\n    width: 100%;\r\n}\r\n  \r\n  .navbar-BeginContainer {\r\n    padding-top: 16px; \r\n\r\n}\r\n.navbar-Begin .leftimg{\r\n    width: 20%;\r\n    \r\n  }\r\n\r\n\r\n  .navbar-Begin .navbar-nav > li > a {\r\n    color: #ffffff;\r\n  }\r\n  \r\n  .navbar-Begin .navbar-nav > li > a:hover,\r\n  .navbar-Begin .navbar-nav > li > a:focus {\r\n    color: #c3f8f5;\r\n    background-color: transparent;\r\n  }\r\n  \r\n  \r\n  .navbar-Begin .navbarborder{\r\n    background-color: #3a9b8b; /* Цвет фона под текстом параграфа */\r\n    border: 4px solid #3a9b8b; /* Параметры границы */\r\n    color: white; /* Цвет текста */\r\n  }\r\n  \r\n  .navbar-Begin .navbarborder:hover,\r\n  .navbar-Begin .navbarborder:focus{\r\n    background-color: #0d3d35; /* Цвет фона под текстом параграфа */\r\n    border: 4px solid #3a9b8b; /* Параметры границы */\r\n    color: white; /* Цвет текста */\r\n  }\r\n  \r\n  .navbar-Begin .navbar-nav  >  .active  > a,\r\n  .navbar-Begin .navbar-nav  >  .active  > a:hover,\r\n  .navbar-Begin .navbar-nav  >  .active  > a:focus\r\n  {\r\n    background-color: #0d3d35; \r\n    /*border: 4px solid #3a9b8b; */\r\n    color: white;\r\n  }\r\n  \r\n  \r\n  .navbar-Begin1 > ul {\r\n    overflow: hidden;\r\n}\r\n.navbar-Begin1 > ul li.one {\r\n            float: left;\r\n    }\r\n    .navbar-Begin1 > ul li.two {\r\n            overflow : hidden;\r\n            float : none;\r\n    }\r\n    .navbar-Begin1 > ul li.two li {\r\n            width: 25%;\r\n            text-align: right;\r\n            float: left;\r\n\r\n            /* Лекарство для IE6-7*/\r\n            //width: 24.9%;\r\n    }\r\n\r\n    .navbar-Begin1 > ul li .content {\r\n            background: #E76D13;\r\n            width: 98px;\r\n            height: 98px;\r\n            display: inline-block;\r\n            text-align: left;\r\n            border: 1px solid #000;\r\n\r\n            /* эмуляция inline-block для IE6-7*/\r\n            //display : inline;\r\n            //zoom : 1;\r\n    }\r\n", ""]);
 
 // exports
 
@@ -39266,6 +39285,103 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./src/JSONFiles/Lessons.js":
+/*!**********************************!*\
+  !*** ./src/JSONFiles/Lessons.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var comments = [{
+    "id": "qwerqwer",
+    "user": "Gilliam Underwood",
+    "text": "Velit anim deserunt elit velit est fugiat duis eiusmod eu do incididunt ut tempor voluptate. Officia dolor aliqua id anim mollit pariatur id commodo. Laborum minim non ut aliquip commodo est consectetur. Mollit eu aliqua tempor est nulla ullamco irure. Sit non amet et eiusmod cillum ex cillum anim incididunt ad laboris mollit. Sunt quis incididunt elit ea qui non ullamco aliquip consequat voluptate eiusmod est. Irure laboris amet culpa sit aliquip."
+}, {
+    "id": "lkjhsdlfkg",
+    "user": "Dolly Franklin",
+    "text": "Aliquip id nostrud adipisicing irure. Labore reprehenderit ea ex officia ullamco incididunt consequat elit amet quis commodo. Fugiat amet veniam cillum ut aliquip velit est esse minim fugiat eiusmod sint. Commodo ea in culpa deserunt."
+}, {
+    "id": "zxcvzcxvzxcv",
+    "user": "Brennan Atkins",
+    "text": "Nisi sit nisi cillum dolor fugiat sint do nostrud ex cillum cupidatat. Culpa do duis non et excepteur labore dolor culpa qui tempor veniam. Ex labore deserunt qui sit aute ad incididunt do cupidatat eiusmod reprehenderit ad. Qui laborum qui voluptate velit et consectetur ipsum enim dolore minim. Est sint velit tempor reprehenderit. Qui consectetur ad minim consequat."
+}, {
+    "id": "fghjfghjfghj",
+    "user": "Jodi Humphrey",
+    "text": "Non amet amet ut magna culpa dolore consequat occaecat. Commodo adipisicing laboris voluptate enim mollit mollit anim aliquip deserunt nostrud deserunt cillum est. Ad eu cupidatat dolor nostrud et minim id in dolor occaecat ad magna elit. Laboris elit laboris aliquip Lorem reprehenderit id amet reprehenderit laborum minim incididunt cupidatat eiusmod."
+}, {
+    "id": "ertyoertywte",
+    "user": "Joyce Weber",
+    "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
+}, {
+    "id": "qwerqwertyy",
+    "user": "Gilliam Underwood",
+    "text": "Velit anim deserunt elit velit est fugiat duis eiusmod eu do incididunt ut tempor voluptate. Officia dolor aliqua id anim mollit pariatur id commodo. Laborum minim non ut aliquip commodo est consectetur. Mollit eu aliqua tempor est nulla ullamco irure. Sit non amet et eiusmod cillum ex cillum anim incididunt ad laboris mollit. Sunt quis incididunt elit ea qui non ullamco aliquip consequat voluptate eiusmod est. Irure laboris amet culpa sit aliquip."
+}, {
+    "id": "sdfgsdfghu7u7urtv",
+    "user": "Jodi Humphrey",
+    "text": "Non amet amet ut magna culpa dolore consequat occaecat. Commodo adipisicing laboris voluptate enim mollit mollit anim aliquip deserunt nostrud deserunt cillum est. Ad eu cupidatat dolor nostrud et minim id in dolor occaecat ad magna elit. Laboris elit laboris aliquip Lorem reprehenderit id amet reprehenderit laborum minim incididunt cupidatat eiusmod."
+}, {
+    "id": "kjfviudfv089w74",
+    "user": "Joyce Weber",
+    "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
+}, {
+    "id": "r23uyrghasdfb7",
+    "user": "Joyce Weber",
+    "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
+}, {
+    "id": "rflsbvyeuwr334rg5",
+    "user": "Random Name",
+    "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
+}, {
+    "id": "234faasffasgfq3r3eda",
+    "user": "Felix Soyferman",
+    "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
+}, {
+    "id": "23rfasdfasdvg",
+    "user": "Hello World",
+    "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
+}, {
+    "id": "fqasfd4r35tga",
+    "user": "Sofia Michailenko",
+    "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
+}, {
+    "id": "23qwfasdf3",
+    "user": "Brad McKeon",
+    "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
+}, {
+    "id": "dadsafw4f45w",
+    "user": "Dolly Franklin",
+    "text": "Aliquip id nostrud adipisicing irure. Labore reprehenderit ea ex officia ullamco incididunt consequat elit amet quis commodo. Fugiat amet veniam cillum ut aliquip velit est esse minim fugiat eiusmod sint. Commodo ea in culpa deserunt."
+}, {
+    "id": "234erasfdastw4a",
+    "user": "Brennan Atkins",
+    "text": "Nisi sit nisi cillum dolor fugiat sint do nostrud ex cillum cupidatat. Culpa do duis non et excepteur labore dolor culpa qui tempor veniam. Ex labore deserunt qui sit aute ad incididunt do cupidatat eiusmod reprehenderit ad. Qui laborum qui voluptate velit et consectetur ipsum enim dolore minim. Est sint velit tempor reprehenderit. Qui consectetur ad minim consequat."
+}];
+
+var lessons = [{
+    "id": "Mathematics",
+    "title": "Математика"
+}, {
+    "id": "Russian",
+    "title": "Русский язык"
+}, {
+    "id": "English",
+    "title": "Английский язык"
+}, {
+    "id": "World",
+    "title": "Окружающий мир"
+}];
+
+module.exports = {
+    comments: comments,
+    lessons: lessons
+};
+
+/***/ }),
+
 /***/ "./src/components/App.js":
 /*!*******************************!*\
   !*** ./src/components/App.js ***!
@@ -39423,291 +39539,438 @@ exports.default = App;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(module) {
 
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.FooterPage = undefined;
 
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var _index = __webpack_require__(/*! ./node_modules/redbox-react/lib/index.js */ "./node_modules/redbox-react/lib/index.js");
 
-var _react2 = _interopRequireDefault(_react);
+var _index2 = _interopRequireDefault(_index);
+
+var _index3 = __webpack_require__(/*! ./node_modules/react-transform-catch-errors/lib/index.js */ "./node_modules/react-transform-catch-errors/lib/index.js");
+
+var _index4 = _interopRequireDefault(_index3);
+
+var _react2 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react3 = _interopRequireDefault(_react2);
+
+var _index5 = __webpack_require__(/*! ./node_modules/react-transform-hmr/lib/index.js */ "./node_modules/react-transform-hmr/lib/index.js");
+
+var _index6 = _interopRequireDefault(_index5);
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _history = __webpack_require__(/*! ../history */ "./src/history.js");
+
+var _history2 = _interopRequireDefault(_history);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var FooterPage = exports.FooterPage = function FooterPage() {
-    return _react2.default.createElement(
-        "footer",
-        { "class": "page-footer font-small pt-4" },
-        _react2.default.createElement(
-            "div",
-            { "class": "container-fluid text-center text-md-left" },
-            _react2.default.createElement(
-                "div",
-                { "class": "row" },
-                _react2.default.createElement(
-                    "div",
-                    { "class": "col-md-3 mt-md-0 mt-3 text-left" },
-                    _react2.default.createElement(
-                        "p",
-                        { "class": "SpaceContainer" },
-                        _react2.default.createElement(
-                            "a",
-                            { href: "/", target: "_blank" },
-                            _react2.default.createElement("img", { src: "/src/images/iSmart.png",
-                                alt: "\u043B\u043E\u0433\u043E\u0442\u0438\u043F", width: "40", height: "40" })
-                        ),
-                        _react2.default.createElement(
-                            "b",
-                            null,
-                            "\u0410\u0439 \u0421\u043C\u0430\u0440\u0442, \u041E\u041E\u041E"
-                        )
-                    ),
-                    _react2.default.createElement(
-                        "p",
-                        null,
-                        "E-learning platform"
-                    ),
-                    _react2.default.createElement(
-                        "p",
-                        null,
-                        "\u0442\u0435\u043B: +7 495 123 45 67"
-                    ),
-                    _react2.default.createElement(
-                        "div",
-                        { "class": "SpaceContainer" },
-                        _react2.default.createElement(
-                            "button",
-                            { "class": " btn btn-default VKBtn" },
-                            _react2.default.createElement("i", { "class": "fa fa-vk" })
-                        ),
-                        _react2.default.createElement("span", null),
-                        _react2.default.createElement(
-                            "button",
-                            { "class": " btn btn-default TBtn" },
-                            _react2.default.createElement("i", { "class": "fa fa-twitter" })
-                        ),
-                        _react2.default.createElement("span", null),
-                        _react2.default.createElement(
-                            "button",
-                            { "class": " btn btn-default FBtn" },
-                            _react2.default.createElement("i", { "class": "fa fa-facebook" })
-                        ),
-                        _react2.default.createElement("span", null),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "https://www.instagram.com", target: "_blank" },
-                            _react2.default.createElement("img", { src: "/src/images/imgInstagram.jpg",
-                                alt: "\u043B\u043E\u0433\u043E\u0442\u0438\u043F", width: "20", height: "20" })
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { "class": "col-md-3" },
-                    _react2.default.createElement(
-                        "h5",
-                        null,
-                        "\u0421\u043E\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435:"
-                    ),
-                    _react2.default.createElement(
-                        "ul",
-                        { "class": "list-unstyled" },
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 1"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 2"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 3"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 4"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 5"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 6"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 7"
-                            )
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { "class": "col-md-3 TopSpaceContainer" },
-                    _react2.default.createElement(
-                        "ul",
-                        { "class": "list-unstyled" },
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 1"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 2"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 3"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 4"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 5"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 6"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 7"
-                            )
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { "class": "col-md-2" },
-                    _react2.default.createElement(
-                        "h5",
-                        null,
-                        "\u041F\u043E\u043C\u043E\u0449\u044C:"
-                    ),
-                    _react2.default.createElement(
-                        "ul",
-                        { "class": "list-unstyled" },
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 1"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 2"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 3"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#!" },
-                                "Link 4"
-                            )
-                        )
-                    )
-                )
-            )
-        ),
-        _react2.default.createElement(
-            "div",
-            { "class": "footer-copyright text-center py-3" },
-            "iSmart, LTD 2017 (c) \u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0437\u0430\u043F\u0440\u0435\u0449\u0435\u043D\u043E"
-        )
-    );
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _components = {
+    FooterPage: {
+        displayName: 'FooterPage'
+    }
 };
+
+var _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformHmrLibIndexJs2 = (0, _index6.default)({
+    filename: 'D:/USR/www/s2.localhost/MyAppReact/color-organizer/src/components/FooterMenu.js',
+    components: _components,
+    locals: [module],
+    imports: [_react3.default]
+});
+
+var _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformCatchErrorsLibIndexJs2 = (0, _index4.default)({
+    filename: 'D:/USR/www/s2.localhost/MyAppReact/color-organizer/src/components/FooterMenu.js',
+    components: _components,
+    locals: [],
+    imports: [_react3.default, _index2.default]
+});
+
+function _wrapComponent(id) {
+    return function (Component) {
+        return _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformHmrLibIndexJs2(_DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);
+    };
+}
+
+var FooterPage = exports.FooterPage = _wrapComponent('FooterPage')(function (_React$Component) {
+    _inherits(FooterPage, _React$Component);
+
+    function FooterPage() {
+        _classCallCheck(this, FooterPage);
+
+        return _possibleConstructorReturn(this, (FooterPage.__proto__ || Object.getPrototypeOf(FooterPage)).apply(this, arguments));
+    }
+
+    _createClass(FooterPage, [{
+        key: 'pushTrainingToPath',
+        value: function pushTrainingToPath(e) {
+            _history2.default.push("/#/Training");
+            _history2.default.go();
+        }
+    }, {
+        key: 'pushAboutProjecToPath',
+        value: function pushAboutProjecToPath(e) {
+            _history2.default.push("/#/AboutProject");
+            _history2.default.go();
+        }
+    }, {
+        key: 'pushBlogToPath',
+        value: function pushBlogToPath(e) {
+            _history2.default.push("/#/Blog");
+            _history2.default.go();
+        }
+    }, {
+        key: 'pushWebinarToPath',
+        value: function pushWebinarToPath(e) {
+            _history2.default.push("/#/Webinar");
+            _history2.default.go();
+        }
+    }, {
+        key: 'pushRewardsToPath',
+        value: function pushRewardsToPath(e) {
+            _history2.default.push("/#/Training/rewards");
+            _history2.default.go();
+        }
+    }, {
+        key: 'pushBeginToPath',
+        value: function pushBeginToPath(e) {
+            _history2.default.push("/#/Training/begin");
+            _history2.default.go();
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            //Такой синтаксис гарантирует, что "this" привязан к onLog
+            return _react3.default.createElement(
+                'footer',
+                { 'class': 'page-footer font-small pt-4' },
+                _react3.default.createElement(
+                    'div',
+                    { 'class': 'container-fluid text-center text-md-left' },
+                    _react3.default.createElement(
+                        'div',
+                        { 'class': 'row' },
+                        _react3.default.createElement(
+                            'div',
+                            { 'class': 'col-md-3 mt-md-0 mt-3 text-left' },
+                            _react3.default.createElement(
+                                'p',
+                                { 'class': 'SpaceContainer' },
+                                _react3.default.createElement(
+                                    'a',
+                                    { href: '/', target: '_blank' },
+                                    _react3.default.createElement('img', { src: '/src/images/iSmart.png',
+                                        alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F', width: '40', height: '40' })
+                                ),
+                                _react3.default.createElement(
+                                    'b',
+                                    null,
+                                    '\u0410\u0439 \u0421\u043C\u0430\u0440\u0442, \u041E\u041E\u041E'
+                                )
+                            ),
+                            _react3.default.createElement(
+                                'p',
+                                null,
+                                'E-learning platform'
+                            ),
+                            _react3.default.createElement(
+                                'p',
+                                null,
+                                '\u0442\u0435\u043B: +7 495 123 45 67'
+                            ),
+                            _react3.default.createElement(
+                                'div',
+                                { 'class': 'form-inline SpaceContainer' },
+                                _react3.default.createElement(
+                                    'form',
+                                    { 'class': 'form-group', action: 'https://www.vk.com', target: '_blank' },
+                                    _react3.default.createElement(
+                                        'button',
+                                        { 'class': ' btn btn-default VKBtn', type: 'submit' },
+                                        _react3.default.createElement('i', { 'class': ' fa fa-vk' })
+                                    )
+                                ),
+                                _react3.default.createElement('span', null),
+                                _react3.default.createElement(
+                                    'form',
+                                    { 'class': 'form-group', action: 'https://twitter.com', target: '_blank' },
+                                    _react3.default.createElement(
+                                        'button',
+                                        { 'class': ' btn btn-default TBtn', type: 'submit' },
+                                        _react3.default.createElement('i', { 'class': 'fa fa-twitter' })
+                                    )
+                                ),
+                                _react3.default.createElement('span', null),
+                                _react3.default.createElement(
+                                    'form',
+                                    { 'class': 'form-group', action: 'https://ru-ru.facebook.com/', target: '_blank' },
+                                    _react3.default.createElement(
+                                        'button',
+                                        { 'class': ' btn btn-default FBtn' },
+                                        _react3.default.createElement('i', { 'class': 'fa fa-facebook' })
+                                    )
+                                ),
+                                _react3.default.createElement('span', null),
+                                _react3.default.createElement(
+                                    'a',
+                                    { href: 'https://www.instagram.com', target: '_blank' },
+                                    _react3.default.createElement('img', { src: '/src/images/imgInstagram.jpg',
+                                        alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F', width: '20', height: '20' })
+                                )
+                            )
+                        ),
+                        _react3.default.createElement(
+                            'div',
+                            { 'class': 'col-md-3' },
+                            _react3.default.createElement(
+                                'h5',
+                                null,
+                                '\u0421\u043E\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435:'
+                            ),
+                            _react3.default.createElement(
+                                'ul',
+                                { 'class': 'list-unstyled' },
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        { onClick: function onClick(e) {
+                                                return _this2.pushTrainingToPath(e);
+                                            } },
+                                        '\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        { onClick: function onClick(e) {
+                                                return _this2.pushAboutProjecToPath(e);
+                                            } },
+                                        '\u041E \u043F\u0440\u043E\u0435\u043A\u0442\u0435'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        { onClick: function onClick(e) {
+                                                return _this2.pushBlogToPath(e);
+                                            } },
+                                        '\u0411\u043B\u043E\u0433'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        { onClick: function onClick(e) {
+                                                return _this2.pushWebinarToPath(e);
+                                            } },
+                                        '\u0412\u0435\u0431\u0438\u043D\u0430\u0440\u044B'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0410\u043D\u0430\u043B\u0438\u0442\u0438\u043A\u0430'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u041F\u043E\u0434\u043F\u0438\u0441\u043A\u0430'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        { onClick: function onClick(e) {
+                                                return _this2.pushRewardsToPath(e);
+                                            } },
+                                        '\u041D\u0430\u0433\u0440\u0430\u0434\u044B'
+                                    )
+                                )
+                            )
+                        ),
+                        _react3.default.createElement(
+                            'div',
+                            { 'class': 'col-md-3 TopSpaceContainer' },
+                            _react3.default.createElement(
+                                'ul',
+                                { 'class': 'list-unstyled' },
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0414\u0438\u0430\u0433\u043D\u043E\u0441\u0442\u0438\u043A\u0430'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        { onClick: function onClick(e) {
+                                                return _this2.pushBeginToPath(e);
+                                            } },
+                                        '\u0421 \u0447\u0435\u0433\u043E \u043D\u0430\u0447\u0430\u0442\u044C?'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u044F\u0437\u044B\u043A'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0410\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439 \u044F\u0437\u044B\u043A'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u041E\u043A\u0440\u0443\u0436\u0430\u044E\u0449\u0438\u0439 \u043C\u0438\u0440'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        { href: 'http://www.google.com', target: '_blank' },
+                                        '\u041F\u043E\u0438\u0441\u043A'
+                                    )
+                                )
+                            )
+                        ),
+                        _react3.default.createElement(
+                            'div',
+                            { 'class': 'col-md-2' },
+                            _react3.default.createElement(
+                                'h5',
+                                null,
+                                '\u041F\u043E\u043C\u043E\u0449\u044C:'
+                            ),
+                            _react3.default.createElement(
+                                'ul',
+                                { 'class': 'list-unstyled' },
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        'FAQ'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0421\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0440\u0430\u0441\u043F\u0438\u0441\u0430\u043D\u0438\u044F'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0430\u043D\u0430\u043B\u0438\u0442\u0438\u043A\u0438'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u0430\u0439\u0442\u0435'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0443\u0447\u0435\u043D\u0438\u043A\u0430'
+                                    )
+                                ),
+                                _react3.default.createElement(
+                                    'li',
+                                    null,
+                                    _react3.default.createElement(
+                                        'a',
+                                        null,
+                                        '\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043D\u0430\u0433\u0440\u0430\u0434'
+                                    )
+                                )
+                            )
+                        )
+                    )
+                ),
+                _react3.default.createElement(
+                    'div',
+                    { 'class': 'footer-copyright text-center py-3' },
+                    'iSmart, LTD 2017 (c) \u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0437\u0430\u043F\u0440\u0435\u0449\u0435\u043D\u043E'
+                )
+            );
+        }
+    }]);
+
+    return FooterPage;
+}(_react3.default.Component));
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -40127,6 +40390,8 @@ var _index6 = _interopRequireDefault(_index5);
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+
 var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/routes/pageTemplate.js");
 
 var _history = __webpack_require__(/*! ../../history */ "./src/history.js");
@@ -40204,6 +40469,7 @@ var Search = exports.Search = _wrapComponent('Search')(function (_React$Componen
                         null,
                         'Search the information'
                     ),
+                    _react3.default.createElement('div', { id: 'menu-training' }),
                     _react3.default.createElement(
                         'button',
                         { onClick: function onClick(e) {
@@ -40269,8 +40535,13 @@ var Training = exports.Training = function Training(_ref) {
             'section',
             null,
             _react2.default.createElement(_reactRouterDom.Route, { component: _menus.AboutMenu }),
-            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/Training/begin', component: _begin.Begin }),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/Training/begin', component: _begin.MenuTraining }),
             _react2.default.createElement(_reactRouterDom.Route, { path: '/Training/rewards', component: _rewards.Rewards })
+        ),
+        _react2.default.createElement(
+            'p',
+            null,
+            'Hello'
         )
     );
 };
@@ -40285,40 +40556,206 @@ var Training = exports.Training = function Training(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(module) {
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+	value: true
 });
-exports.Begin = undefined;
+exports.MenuTraining = undefined;
 
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var _index = __webpack_require__(/*! ./node_modules/redbox-react/lib/index.js */ "./node_modules/redbox-react/lib/index.js");
 
-var _react2 = _interopRequireDefault(_react);
+var _index2 = _interopRequireDefault(_index);
+
+var _index3 = __webpack_require__(/*! ./node_modules/react-transform-catch-errors/lib/index.js */ "./node_modules/react-transform-catch-errors/lib/index.js");
+
+var _index4 = _interopRequireDefault(_index3);
+
+var _react2 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react3 = _interopRequireDefault(_react2);
+
+var _index5 = __webpack_require__(/*! ./node_modules/react-transform-hmr/lib/index.js */ "./node_modules/react-transform-hmr/lib/index.js");
+
+var _index6 = _interopRequireDefault(_index5);
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _Lessons = __webpack_require__(/*! ../../../JSONFiles/Lessons */ "./src/JSONFiles/Lessons.js");
+
+var _reactBootstrap = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+
+var _reactRouterBootstrap = __webpack_require__(/*! react-router-bootstrap */ "./node_modules/react-router-bootstrap/lib/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Begin = exports.Begin = function Begin() {
-    return _react2.default.createElement(
-        'section',
-        null,
-        _react2.default.createElement(
-            'h2',
-            null,
-            '\u0421 \u0447\u0435\u0433\u043E \u043D\u0430\u0447\u0430\u0442\u044C'
-        ),
-        _react2.default.createElement(
-            'p',
-            null,
-            '\u0422\u0435\u0441\u0442\u044B'
-        ),
-        _react2.default.createElement(
-            'p',
-            null,
-            '\u0417\u0430\u0434\u0430\u0447\u0438'
-        )
-    );
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _components = {
+	MenuTraining: {
+		displayName: 'MenuTraining'
+	}
 };
+
+var _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformHmrLibIndexJs2 = (0, _index6.default)({
+	filename: 'D:/USR/www/s2.localhost/MyAppReact/color-organizer/src/components/routes/training/begin.js',
+	components: _components,
+	locals: [module],
+	imports: [_react3.default]
+});
+
+var _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformCatchErrorsLibIndexJs2 = (0, _index4.default)({
+	filename: 'D:/USR/www/s2.localhost/MyAppReact/color-organizer/src/components/routes/training/begin.js',
+	components: _components,
+	locals: [],
+	imports: [_react3.default, _index2.default]
+});
+
+function _wrapComponent(id) {
+	return function (Component) {
+		return _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformHmrLibIndexJs2(_DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);
+	};
+}
+
+var LinkItem = function LinkItem(lesson, i) {
+	//if (i > 1) {
+	_react3.default.createElement(
+		_reactRouterBootstrap.LinkContainer,
+		{ to: '/Training/begin/' + lesson.id, className: 'navbarborder' },
+		_react3.default.createElement(
+			_reactBootstrap.NavItem,
+			{ className: 'navbarborder' },
+			lesson.title,
+			i
+		)
+	);
+	//	}
+};
+
+var MenuTraining = exports.MenuTraining = _wrapComponent('MenuTraining')(function (_React$Component) {
+	_inherits(MenuTraining, _React$Component);
+
+	function MenuTraining() {
+		_classCallCheck(this, MenuTraining);
+
+		return _possibleConstructorReturn(this, (MenuTraining.__proto__ || Object.getPrototypeOf(MenuTraining)).apply(this, arguments));
+	}
+
+	_createClass(MenuTraining, [{
+		key: 'render',
+		value: function render() {
+			return _react3.default.createElement(
+				'div',
+				null,
+				_react3.default.createElement(
+					'div',
+					null,
+					_react3.default.createElement(
+						'div',
+						{ className: 'navbar-BeginContainer form-inline ' },
+						_react3.default.createElement('img', { className: 'leftimg', src: '/src/images/leftImageBegin.png', alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F', height: '40' }),
+						_react3.default.createElement(
+							_reactBootstrap.Navbar,
+							{ fluid: true, className: 'navbar-Begin form-group row' },
+							_react3.default.createElement(_reactBootstrap.Navbar.Toggle, null),
+							_react3.default.createElement(
+								_reactBootstrap.Navbar.Collapse,
+								{ 'class': 'navbar-Begin1' },
+								_react3.default.createElement(
+									_reactBootstrap.Nav,
+									null,
+									_Lessons.lessons.map(function (lesson, i) {
+										if (i > 1) {
+											return _react3.default.createElement(
+												_reactRouterBootstrap.LinkContainer,
+												{ to: '/Training/begin/' + lesson.id, className: 'navbarborder' },
+												_react3.default.createElement(
+													_reactBootstrap.NavItem,
+													{ className: 'navbarborder' },
+													lesson.title,
+													i
+												)
+											);
+										}
+									})
+								)
+							)
+						),
+						_react3.default.createElement('img', { className: 'leftimg', src: '/src/images/rightImageBegin.png', alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F', height: '40' })
+					)
+				),
+				_react3.default.createElement(
+					'div',
+					{ 'class': 'navbar-Begin1' },
+					_react3.default.createElement(
+						'ul',
+						null,
+						_react3.default.createElement(
+							'li',
+							{ 'class': 'one' },
+							_react3.default.createElement(
+								'div',
+								{ 'class': 'content' },
+								'1'
+							)
+						),
+						_react3.default.createElement(
+							'li',
+							{ 'class': 'two' },
+							_react3.default.createElement(
+								'ul',
+								null,
+								_react3.default.createElement(
+									'li',
+									null,
+									_react3.default.createElement(
+										'div',
+										{ 'class': 'content' },
+										'2'
+									)
+								),
+								_react3.default.createElement(
+									'li',
+									null,
+									_react3.default.createElement(
+										'div',
+										{ 'class': 'content' },
+										'3'
+									)
+								),
+								_react3.default.createElement(
+									'li',
+									null,
+									_react3.default.createElement(
+										'div',
+										{ 'class': 'content' },
+										'4'
+									)
+								),
+								_react3.default.createElement(
+									'li',
+									null,
+									_react3.default.createElement(
+										'div',
+										{ 'class': 'content' },
+										'5'
+									)
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return MenuTraining;
+}(_react3.default.Component));
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -40543,6 +40980,31 @@ if(false) {}
 
 // load the styles
 var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/postcss-loader/lib??ref--6-2!./styleMenu.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleMenu.css");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/css/styleMenuBegin.css":
+/*!************************************!*\
+  !*** ./src/css/styleMenuBegin.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/postcss-loader/lib??ref--6-2!./styleMenuBegin.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleMenuBegin.css");
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -40852,15 +41314,16 @@ __webpack_require__(/*! ./css/subMenu.css */ "./src/css/subMenu.css");
 
 __webpack_require__(/*! ./css/styleMenu.css */ "./src/css/styleMenu.css");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+__webpack_require__(/*! ./css/styleMenuBegin.css */ "./src/css/styleMenuBegin.css");
 
-(0, _reactDom.render)(_react2.default.createElement(_Root2.default, null), document.getElementById('react-container'));
-//render(<CSelect />, document.getElementById('react-container'))
-//render(<Store />, document.getElementById('react-container'))
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 //import store from './store'
 
 //import CSelect from './TestSelect'
+(0, _reactDom.render)(_react2.default.createElement(_Root2.default, null), document.getElementById('react-container'));
+//render(<CSelect />, document.getElementById('react-container'))
+//render(<Store />, document.getElementById('react-container'))
 
 /***/ }),
 
