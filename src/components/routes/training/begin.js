@@ -3,17 +3,6 @@ import {lessons} from '../../../JSONFiles/Lessons';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
-const LinkItem = (lesson, i) => {
-  //if (i > 1) {
-  <LinkContainer to={`/Training/begin/${lesson.id}`} className="navbarborder">
-    <NavItem className="navbarborder">
-      {lesson.title}
-      {i}
-    </NavItem>
-  </LinkContainer>;
-  //	}
-};
-
 export class MenuTraining extends React.Component {
   render () {
     return (
@@ -32,30 +21,17 @@ export class MenuTraining extends React.Component {
                 <Navbar.Collapse>
                   <div id="beginMenu">
                     <Nav>
-                      {lessons.map ((lesson, i) => {
-                        if (i == 0) {
-                          return (
-                            <LinkContainer
-                              to={`/Training/begin/${lesson.id}`}
-                              className="navbarborder"
-                            >
-                              <NavItem>
-                                {lesson.title}{i}
-                              </NavItem>
-                            </LinkContainer>
-                          );
-                        } else {
-                          return (
-                            <LinkContainer
-                              to={`/Training/begin/${lesson.id}`}
-                              className="navbarborder"
-                            >
-                              <NavItem>
-                                {lesson.title}{i}
-                              </NavItem>
-                            </LinkContainer>
-                          );
-                        }
+                      {lessons.map (lesson => {
+                        return (
+                          <LinkContainer
+                            to={`/Training/begin/${lesson.id}`}
+                            className="navbarborder"
+                          >
+                            <NavItem>
+                              {lesson.title}
+                            </NavItem>
+                          </LinkContainer>
+                        );
                       })}
                     </Nav>
                   </div>
