@@ -1,0 +1,113 @@
+{
+    "titleLessons":  [
+        {
+            "id": "Mathematics",
+            "title": "Математика"
+        },
+        {
+            "id": "Russian",
+            "title": "Русский язык"
+        },
+        {
+            "id": "English",
+            "title": "Английский язык"
+        },
+        {
+            "id": "World",
+            "title": "Окружающий мир"
+        }
+    ],
+    "Mathematics":  
+    {
+            "id": "1",
+            "question": "\"Подтащи\" названия животных к картинкам",
+            "type": "dragAndDrop",
+            "answer": [
+                {
+                  "image": "turtle.png",
+                  "sign": "Черепаха"
+                },
+                {
+                  "image": "squirrel.png",
+                  "sign": "Белка"
+                },
+                {
+                  "image": "koala.png",
+                  "sign": "Коала"
+                },
+                {
+                  "image": "kangaroo.png",
+                  "sign": "Кенгуру"
+                },
+                {
+                  "image": "elephant.png",
+                  "sign": "Слон"
+                },
+                {
+                  "image": "tiger.png",
+                  "sign": "Тигр"
+                }
+            ],
+            "types": [
+                {
+                  "answer": [
+                    {
+                      "image": "turtle.png",
+                      "sign": "Черепаха"
+                    },
+                    {
+                      "image": "squirrel.png",
+                      "sign": "Белка"
+                    }
+                  ]
+                },
+                {
+                  "answer": [
+                    {
+                      "image": "turtle.png",
+                      "sign": "Черепаха"
+                    },
+                    {
+                      "image": "squirrel.png",
+                      "sign": "Белка"
+                    },
+                    {
+                      "image": "koala.png",
+                      "sign": "Коала"
+                    },
+                    {
+                      "image": "kangaroo.png",
+                      "sign": "Кенгуру"
+                    },
+                    {
+                      "image": "elephant.png",
+                      "sign": "Слон"
+                    },
+                    {
+                      "image": "tiger.png",
+                      "sign": "Тигр"
+                    }
+                  ]
+                }
+              ]
+        
+    },
+    "Russian":  
+    {
+        "id": "2",
+        "question": "Раздел не заполнен",
+        "type": "test"
+    },
+    "English":  
+    {
+        "id": "3",
+        "question": "Раздел не заполнен",
+        "type": "test"
+    },
+    "World":  
+    {
+        "id": "4",
+        "question": "Раздел не заполнен",
+        "type": "test"
+    }
+}

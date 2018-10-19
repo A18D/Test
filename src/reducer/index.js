@@ -1,8 +1,10 @@
-import counterReducer from './counter'
-import { combineReducers } from 'redux'
-import { routerReducer } from 'react-router-redux'
+import counterReducer from './counter';
+import dataLessons from './initState';
+import {combineReducers} from 'redux';
+import {routerReducer} from 'react-router-redux';
 
-export default combineReducers({
-    routing: routerReducer,
-    count: counterReducer
-})
+export default combineReducers ({
+  routing: routerReducer,
+  count: counterReducer,
+  dataLessons: dataLessons
+});

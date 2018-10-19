@@ -1,0 +1,20 @@
+{
+    "lessons":  [
+        {
+            "id": "Mathematics",
+            "title": "Математика"
+        },
+        {
+            "id": "Russian",
+            "title": "Русский язык"
+        },
+        {
+            "id": "English",
+            "title": "Английский язык"
+        },
+        {
+            "id": "World",
+            "title": "Окружающий мир"
+        }
+    ]
+}

@@ -26,7 +26,7 @@ import "./css/subMenu.css"
 //import store from './store'
 import "./css/styleMenu.css"
 import "./css/styleMenuBegin.css"
-
+import "./css/styleRightLessonTemplates.css"
 
 render(<Root />, document.getElementById('react-container'))
 //render(<CSelect />, document.getElementById('react-container'))

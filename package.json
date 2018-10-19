@@ -21,7 +21,7 @@
     "passing",
     "props"
   ],
-  "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
+  "author": "Burukhin AP <a18d@bk.ru>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",

@@ -1,10 +1,13 @@
 import React, {PureComponent} from 'react';
-import {lessons} from '../../../JSONFiles/Lessons';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
+import store from '../../../store'
 
 export class MenuTraining extends React.Component {
   render () {
+    let stateStore = store.getState();
+    let lessons = stateStore.dataLessons.titleLessons; 
+
     return (
       <div>
         <div>

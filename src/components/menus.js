@@ -1,9 +1,7 @@
 import React, { PureComponent } from 'react'
 import HomeIcon from 'react-icons/lib/fa/home'
 import { NavLink } from 'react-router-dom'
-//import { default as Navbar, MenuElementKind } from 'react-navbar'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
-//import './stylesheets/menus.scss'
 import { LinkContainer } from 'react-router-bootstrap'
 
 export const MainMenu = () =>

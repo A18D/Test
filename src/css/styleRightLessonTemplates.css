@@ -1,107 +1,3 @@
-#beginMenu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    float: left;
-    font: 14px Arial, Helvetica, sans-serif;
-    height: 40px
-}
-
-#beginMenu ul li {
-    position: relative;
-    left: -50%;
-    float: left;
-    margin: 0 10px;
-    height: 40px
-}
-
-#beginMenu ul li a {
-    color: rgb(199, 38, 38);
-    display: block;
-    text-decoration: none;
-    padding: 0 15px;
-    line-height: 40px;
-}
-
-#beginMenu ul li a:hover {
-    background-color: #666;
-}
-
-.navbar-Begin1>ul {
-    overflow: hidden;
-}
-
-.navbar-Begin1>ul li.one {
-    float: left;
-}
-
-.navbar-Begin1>ul li.two {
-    overflow: hidden;
-    float: none;
-}
-
-.navbar-Begin1>ul li.two li {
-    width: 25%;
-    text-align: right;
-    float: left;
-    /* Лекарство для IE6-7*/
-    //width: 24.9%;
-}
-
-.navbar-Begin1>ul li .content {
-    background: #E76D13;
-    width: 98px;
-    height: 98px;
-    display: inline-block;
-    text-align: left;
-    border: 1px solid #000;
-    /* эмуляция inline-block для IE6-7*/
-    //display : inline;
-    //zoom : 1;
-}
-
-#beginMenu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    float: left;
-    height: 40px;
-}
-
-#beginMenu ul li {
-    position: relative;
-    left: -50%;
-    float: left;
-    margin: 0 10px;
-    height: 40px;
-    background-color: #3a9b8b;
-    /* Цвет фона под текстом параграфа */
-    border: 4px solid #3a9b8b;
-    /* Параметры границы */
-    color: white;
-    /* Цвет текста */
-}
-
-#beginMenu ul li a {
-    display: block;
-    text-decoration: none;
-    padding: 0 15px;
-    line-height: 40px;
-    color: #ffffff;
-}
-
-#beginMenu ul li a:hover, #beginMenu ul li a:focus {
-    background-color: #0d3d35;
-    /* Цвет фона под текстом параграфа */
-    color: white;
-    /* Цвет текста */
-}
-
-
 .style-Hint {
     margin:0px;
 
@@ -150,7 +46,7 @@
 }
 
 .style-Hint > li.coins  {
-    margin-top:240px;
+    margin-top:120px;
 }
 
 .style-Hint > li.coins > p {
