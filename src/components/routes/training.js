@@ -26,6 +26,7 @@ export const Training = ({match}) => (
       })}
 
     </section>
-    <p>Hello</p>
+    <p>Раздел обучение</p>
+    <button></button>
   </PageTemplate>
 );

@@ -22,6 +22,8 @@ import {Provider} from 'react-redux';
 import {syncHistoryWithStore} from 'react-router-redux';
 import store from '../store';
 
+import DevTools from './DevTools';
+
 class App extends Component {
   static propTypes = {};
 
@@ -34,6 +36,7 @@ class App extends Component {
       <Provider store={store}>
         <HashRouter history={phistory}>
           <div>
+
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/Training" component={Training} />
@@ -53,9 +56,12 @@ class App extends Component {
               <Route path="/Search" component={Search} />
               <Route component={Whoops404} />
             </Switch>
-          </div>
-        </HashRouter>
-      </Provider>
+
+            <DevTools />
+        </div>
+      </HashRouter>
+    </Provider>
+
     );
   }
 }

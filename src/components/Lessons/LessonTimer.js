@@ -10,7 +10,6 @@ export class LessonTimer extends React.Component {
   }
 
   GetTimer = () => {
-    console.log ('GetTimer');
     let t = this.state.timer;
     if (t == 0) return;
     let dtime = (new Date ().getTime () - t) / 1000;

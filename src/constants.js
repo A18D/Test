@@ -1,5 +1,4 @@
-const constants = {
-    GET_LESSONS: "GET_LESSONS"
-}
 
-export default constants
+export const LOAD_TTITLE_LESSONS = 'LOAD_TTITLE_LESSONS'
+export const LOAD_TASK_FOR_LESSON = 'LOAD_TASK_FOR_LESSON'
+
