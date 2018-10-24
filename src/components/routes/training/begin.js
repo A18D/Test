@@ -1,13 +1,19 @@
 import React, {PureComponent} from 'react';
+import PropTypes from 'prop-types';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
-import store from '../../../store'
+import {connect} from 'react-redux';
 
-export class MenuTraining extends React.Component {
+class MenuTraining extends PureComponent {
+  static propTypes = {
+    lessons: PropTypes.array.isRequired,
+    lessons: PropTypes.shape ({
+      id: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired
+    }).isRequired,
+  };
+
   render () {
-    let stateStore = store.getState();
-    let lessons = stateStore.dataLessons.titleLessons; 
-
     return (
       <div>
         <div>
@@ -18,13 +24,11 @@ export class MenuTraining extends React.Component {
 
             <li className="centerMenu">
               <Navbar fluid className="navbar-Begin">
-
                 <Navbar.Toggle />
-
                 <Navbar.Collapse>
                   <div id="beginMenu">
                     <Nav>
-                      {lessons.map (lesson => {
+                      {this.props.lessons.map (lesson => {
                         return (
                           <LinkContainer
                             to={`/Training/begin/${lesson.id}`}
@@ -40,18 +44,22 @@ export class MenuTraining extends React.Component {
                   </div>
                 </Navbar.Collapse>
               </Navbar>
-
             </li>
 
             <li className="leftRightImg">
               <img src="/src/images/rightImageBegin.png" alt="логотип" />
             </li>
-
           </ul>
-
         </div>
-
       </div>
     );
   }
 }
+
+let mapStateToProps = state => {
+  return {
+    lessons: state.dataLessons.titleLessons,
+  };
+};
+
+export default connect (mapStateToProps) (MenuTraining);

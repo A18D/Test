@@ -52177,7 +52177,13 @@ var _react2 = _interopRequireDefault(_react);
 
 var _begin = __webpack_require__(/*! ../routes/training/begin */ "./src/components/routes/training/begin.js");
 
+var _begin2 = _interopRequireDefault(_begin);
+
 var _LessonTimer = __webpack_require__(/*! ./LessonTimer */ "./src/components/Lessons/LessonTimer.js");
+
+var _test = __webpack_require__(/*! ../test */ "./src/components/test.js");
+
+var _test2 = _interopRequireDefault(_test);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -52186,7 +52192,8 @@ var lessonTemplate = exports.lessonTemplate = function lessonTemplate(_ref) {
   return _react2.default.createElement(
     'p',
     null,
-    _react2.default.createElement(_begin.MenuTraining, null),
+    _react2.default.createElement(_begin2.default, null),
+    _react2.default.createElement(_test2.default, null),
     _react2.default.createElement(
       'ul',
       { 'class': 'style-Hint' },
@@ -52908,6 +52915,8 @@ var _menus = __webpack_require__(/*! ../menus */ "./src/components/menus.js");
 
 var _begin = __webpack_require__(/*! ./training/begin */ "./src/components/routes/training/begin.js");
 
+var _begin2 = _interopRequireDefault(_begin);
+
 var _rewards = __webpack_require__(/*! ./training/rewards */ "./src/components/routes/training/rewards.js");
 
 var _LessonTemplate = __webpack_require__(/*! ../Lessons/LessonTemplate */ "./src/components/Lessons/LessonTemplate.js");
@@ -52930,7 +52939,7 @@ var Training = exports.Training = function Training(_ref) {
       'section',
       null,
       _react2.default.createElement(_reactRouterDom.Route, { component: _menus.AboutMenu }),
-      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/Training/begin', component: _begin.MenuTraining }),
+      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/Training/begin', component: _begin2.default }),
       _react2.default.createElement(_reactRouterDom.Route, { path: '/Training/rewards', component: _rewards.Rewards }),
       lessons.map(function (lesson) {
         return _react2.default.createElement(_reactRouterDom.Route, {
@@ -52958,30 +52967,21 @@ var Training = exports.Training = function Training(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.MenuTraining = undefined;
-
-var _index = __webpack_require__(/*! ./node_modules/redbox-react/lib/index.js */ "./node_modules/redbox-react/lib/index.js");
-
-var _index2 = _interopRequireDefault(_index);
-
-var _index3 = __webpack_require__(/*! ./node_modules/react-transform-catch-errors/lib/index.js */ "./node_modules/react-transform-catch-errors/lib/index.js");
-
-var _index4 = _interopRequireDefault(_index3);
-
-var _react2 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react3 = _interopRequireDefault(_react2);
-
-var _index5 = __webpack_require__(/*! ./node_modules/react-transform-hmr/lib/index.js */ "./node_modules/react-transform-hmr/lib/index.js");
-
-var _index6 = _interopRequireDefault(_index5);
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _reactBootstrap = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 
@@ -52991,7 +52991,11 @@ var _store = __webpack_require__(/*! ../../../store */ "./src/store/index.js");
 
 var _store2 = _interopRequireDefault(_store);
 
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -52999,34 +53003,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var _components = {
-  MenuTraining: {
-    displayName: 'MenuTraining'
-  }
-};
-
-var _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformHmrLibIndexJs2 = (0, _index6.default)({
-  filename: 'D:/USR/www/s2.localhost/MyAppReact/color-organizer/src/components/routes/training/begin.js',
-  components: _components,
-  locals: [module],
-  imports: [_react3.default]
-});
-
-var _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformCatchErrorsLibIndexJs2 = (0, _index4.default)({
-  filename: 'D:/USR/www/s2.localhost/MyAppReact/color-organizer/src/components/routes/training/begin.js',
-  components: _components,
-  locals: [],
-  imports: [_react3.default, _index2.default]
-});
-
-function _wrapComponent(id) {
-  return function (Component) {
-    return _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformHmrLibIndexJs2(_DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);
-  };
-}
-
-var MenuTraining = exports.MenuTraining = _wrapComponent('MenuTraining')(function (_React$Component) {
-  _inherits(MenuTraining, _React$Component);
+var MenuTraining = function (_PureComponent) {
+  _inherits(MenuTraining, _PureComponent);
 
   function MenuTraining() {
     _classCallCheck(this, MenuTraining);
@@ -53037,47 +53015,44 @@ var MenuTraining = exports.MenuTraining = _wrapComponent('MenuTraining')(functio
   _createClass(MenuTraining, [{
     key: 'render',
     value: function render() {
-      var stateStore = _store2.default.getState();
-      var lessons = stateStore.dataLessons.titleLessons;
-
-      return _react3.default.createElement(
+      return _react2.default.createElement(
         'div',
         null,
-        _react3.default.createElement(
+        _react2.default.createElement(
           'div',
           null,
-          _react3.default.createElement(
+          _react2.default.createElement(
             'ul',
             { id: 'navbar-BeginContainer' },
-            _react3.default.createElement(
+            _react2.default.createElement(
               'li',
               { className: 'leftRightImg' },
-              _react3.default.createElement('img', { src: '/src/images/leftImageBegin.png', alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F' })
+              _react2.default.createElement('img', { src: '/src/images/leftImageBegin.png', alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F' })
             ),
-            _react3.default.createElement(
+            _react2.default.createElement(
               'li',
               { className: 'centerMenu' },
-              _react3.default.createElement(
+              _react2.default.createElement(
                 _reactBootstrap.Navbar,
                 { fluid: true, className: 'navbar-Begin' },
-                _react3.default.createElement(_reactBootstrap.Navbar.Toggle, null),
-                _react3.default.createElement(
+                _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null),
+                _react2.default.createElement(
                   _reactBootstrap.Navbar.Collapse,
                   null,
-                  _react3.default.createElement(
+                  _react2.default.createElement(
                     'div',
                     { id: 'beginMenu' },
-                    _react3.default.createElement(
+                    _react2.default.createElement(
                       _reactBootstrap.Nav,
                       null,
-                      lessons.map(function (lesson) {
-                        return _react3.default.createElement(
+                      this.props.lessons.map(function (lesson) {
+                        return _react2.default.createElement(
                           _reactRouterBootstrap.LinkContainer,
                           {
                             to: '/Training/begin/' + lesson.id,
                             className: 'navbarborder'
                           },
-                          _react3.default.createElement(
+                          _react2.default.createElement(
                             _reactBootstrap.NavItem,
                             null,
                             lesson.title
@@ -53089,10 +53064,10 @@ var MenuTraining = exports.MenuTraining = _wrapComponent('MenuTraining')(functio
                 )
               )
             ),
-            _react3.default.createElement(
+            _react2.default.createElement(
               'li',
               { className: 'leftRightImg' },
-              _react3.default.createElement('img', { src: '/src/images/rightImageBegin.png', alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F' })
+              _react2.default.createElement('img', { src: '/src/images/rightImageBegin.png', alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F' })
             )
           )
         )
@@ -53101,8 +53076,23 @@ var MenuTraining = exports.MenuTraining = _wrapComponent('MenuTraining')(functio
   }]);
 
   return MenuTraining;
-}(_react3.default.Component));
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+}(_react.PureComponent);
+
+MenuTraining.propTypes = _defineProperty({
+  lessons: _propTypes2.default.array.isRequired
+}, 'lessons', _propTypes2.default.shape({
+  id: _propTypes2.default.string.isRequired,
+  title: _propTypes2.default.string.isRequired
+}).isRequired);
+
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    lessons: state.dataLessons.titleLessons
+  };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps)(MenuTraining);
 
 /***/ }),
 
@@ -53231,6 +53221,75 @@ var Whoops404 = exports.Whoops404 = function Whoops404(_ref) {
 
 /***/ }),
 
+/***/ "./src/components/test.js":
+/*!********************************!*\
+  !*** ./src/components/test.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var CMenuTraining = function (_PureComponent) {
+  _inherits(CMenuTraining, _PureComponent);
+
+  function CMenuTraining() {
+    _classCallCheck(this, CMenuTraining);
+
+    return _possibleConstructorReturn(this, (CMenuTraining.__proto__ || Object.getPrototypeOf(CMenuTraining)).apply(this, arguments));
+  }
+
+  _createClass(CMenuTraining, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'p',
+        null,
+        '\u041F\u0440\u0438\u0432\u0435\u0442 \u0438\u0437 MenuTraining, ',
+        this.props.testStore1,
+        '!'
+      );
+    }
+  }]);
+
+  return CMenuTraining;
+}(_react.PureComponent);
+
+function mapStateToProps(state) {
+  return { testStore1: state.dataLessons.titleLessons[0].id };
+}
+
+var mapStateToProps3 = function mapStateToProps3(state) {
+  return {
+    testStore1: state.dataLessons.titleLessons[0].id
+  };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps)(CMenuTraining);
+
+/***/ }),
+
 /***/ "./src/constants.js":
 /*!**************************!*\
   !*** ./src/constants.js ***!
@@ -53242,13 +53301,10 @@ var Whoops404 = exports.Whoops404 = function Whoops404(_ref) {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-var constants = {
-    GET_LESSONS: "GET_LESSONS"
-};
-
-exports.default = constants;
+var LOAD_TTITLE_LESSONS = exports.LOAD_TTITLE_LESSONS = 'LOAD_TTITLE_LESSONS';
+var LOAD_TASK_FOR_LESSON = exports.LOAD_TASK_FOR_LESSON = 'LOAD_TASK_FOR_LESSON';
 
 /***/ }),
 
@@ -53892,8 +53948,6 @@ var _initialState2 = _interopRequireDefault(_initialState);
 
 var _constants = __webpack_require__(/*! ../constants */ "./src/constants.js");
 
-var _constants2 = _interopRequireDefault(_constants);
-
 var _store = __webpack_require__(/*! ./../store */ "./src/store/index.js");
 
 var _store2 = _interopRequireDefault(_store);
@@ -53902,7 +53956,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = function (action) {
   switch (action) {
-    case _constants2.default.GET_LESSONS:
+    case _constants.LOAD_TTITLE_LESSONS:
       {
         var stateStore = _store2.default.getState();
         var lessons = stateStore.dataLessons.titleLessons;

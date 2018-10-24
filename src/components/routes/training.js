@@ -1,16 +1,14 @@
-import React, {PureComponent} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {Route} from 'react-router-dom';
 import {PageTemplate} from './pageTemplate';
 import {AboutMenu} from '../menus';
-import {MenuTraining} from './training/begin';
+import MenuTraining from './training/begin';
 import {Rewards} from './training/rewards';
-import {lessonTemplate} from '../Lessons/LessonTemplate';  
-import store from '../../store';
+import {lessonTemplate} from '../Lessons/LessonTemplate';
+import {connect} from 'react-redux';
 
-const stateStore = store.getState ();
-const lessons = stateStore.dataLessons.titleLessons;
-
-export const Training = ({match}) => (
+let Training = ({lessons}) => (
   <PageTemplate>
     <section>
       <Route component={AboutMenu} />
@@ -24,9 +22,22 @@ export const Training = ({match}) => (
           />
         );
       })}
-
     </section>
-    <p>Раздел обучение</p>
-    <button></button>
   </PageTemplate>
 );
+
+Training.propTypes = {
+  lessons: PropTypes.array.isRequired,
+  lessons: PropTypes.shape ({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
+let mapStateToProps = state => {
+  return {
+    lessons: state.dataLessons.titleLessons,
+  };
+};
+
+export default connect (mapStateToProps) (Training);

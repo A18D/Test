@@ -1,10 +1,11 @@
 import stateData from '../data/initialState';
-import C from '../constants';
+
+import {LOAD_TTITLE_LESSONS} from '../constants';
 import store from './../store';
 
 export default action => {
   switch (action) {
-    case C.GET_LESSONS: {
+    case LOAD_TTITLE_LESSONS: {
       const stateStore = store.getState ();
       const lessons = stateStore.dataLessons.titleLessons;
 

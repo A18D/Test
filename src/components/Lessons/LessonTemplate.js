@@ -1,10 +1,11 @@
 import React, {PureComponent} from 'react';
-import {MenuTraining} from '../routes/training/begin';
+import MenuTraining from '../routes/training/begin';
 import {LessonTimer} from './LessonTimer';
 
-export const lessonTemplate = ({children}) => (
+export const lessonTemplate = () => (
   <p>
     <MenuTraining />
+
     <ul class="style-Hint">
       <li class="timer">
         <p data-tooltip="Время">
@@ -28,3 +29,4 @@ export const lessonTemplate = ({children}) => (
     </ul>
   </p>
 );
+
