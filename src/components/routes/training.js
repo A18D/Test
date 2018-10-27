@@ -5,7 +5,7 @@ import {PageTemplate} from './pageTemplate';
 import {AboutMenu} from '../menus';
 import MenuTraining from './training/begin';
 import {Rewards} from './training/rewards';
-import {lessonTemplate} from '../Lessons/LessonTemplate';
+import {LessonTemplate} from '../Lessons/LessonTemplate';
 import {connect} from 'react-redux';
 
 let Training = ({lessons}) => (
@@ -18,7 +18,7 @@ let Training = ({lessons}) => (
         return (
           <Route
             path={`/Training/begin/${lesson.id}`}
-            component={lessonTemplate}
+            component={LessonTemplate}
           />
         );
       })}
