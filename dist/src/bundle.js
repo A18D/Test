@@ -51060,77 +51060,6 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ "./node_modules/text-to-speech-js/lib/index.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/text-to-speech-js/lib/index.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-(function (window) {
-    var TextToSpeech = {
-        _key: "addf7ce48a11e371d6fa2a7b6075b9937ab=a6e2f7e1be80d86db2f56bd67953b0bb",
-        _lang: "en",
-        _voiceId: "en_gb_amy"
-
-        /**
-         * talk
-         * Convert the provided text into speech.
-         *
-         * @name talk
-         * @function
-         * @param {Object} options An object containing:
-         *
-         *   - text: a string that must be converted in speech
-         *   - notNow (default: false): don't play it now
-         *
-         * @param {Boolean} notNow Autoplay or not.
-         * @return {Audio} The `Audio` instance.
-         */
-        , talk: function talk(options, notNow) {
-
-            if (!options) {
-                throw new Error("Please provide options.");
-            }
-
-            // handle string values
-            if (typeof options === "string") {
-                options = {
-                    text: options
-                };
-            }
-
-            // encode text
-            options.text = btoa(options.text);
-
-            // convert to boolean
-            notNow = Boolean(notNow);
-
-            // set the tts url
-            var voiceId = btoa(options.voiceId || TextToSpeech._voiceId),
-                language = options.lang || TextToSpeech._lang,
-                key = options.key || TextToSpeech._key,
-                ttsUrl = "http://www.ivona.com/voicetest.php?rtr=1&t2r=" + options.text + "&v2r=" + voiceId + "&lang=" + language + "&" + key,
-                thisSpeech = new Audio(ttsUrl);
-
-            // if not now is false, play it
-            if (!notNow) {
-                thisSpeech.play();
-            }
-
-            // return audio object to the user
-            return thisSpeech;
-        }
-    };
-
-    window.TextToSpeech = TextToSpeech;
-})(window);
-
-/***/ }),
-
 /***/ "./node_modules/uncontrollable/index.js":
 /*!**********************************************!*\
   !*** ./node_modules/uncontrollable/index.js ***!
@@ -52229,8 +52158,6 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _textToSpeechJs = __webpack_require__(/*! text-to-speech-js */ "./node_modules/text-to-speech-js/lib/index.js");
-
 var _begin = __webpack_require__(/*! ../routes/training/begin */ "./src/components/routes/training/begin.js");
 
 var _begin2 = _interopRequireDefault(_begin);
@@ -52249,21 +52176,62 @@ var LessonTemplate = exports.LessonTemplate = function (_PureComponent) {
   _inherits(LessonTemplate, _PureComponent);
 
   function LessonTemplate() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
     _classCallCheck(this, LessonTemplate);
 
-    return _possibleConstructorReturn(this, (LessonTemplate.__proto__ || Object.getPrototypeOf(LessonTemplate)).apply(this, arguments));
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = LessonTemplate.__proto__ || Object.getPrototypeOf(LessonTemplate)).call.apply(_ref, [this].concat(args))), _this), _this.isKyr = function (str) {
+      return (/[а-яё]/i.test(str)
+      );
+    }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(LessonTemplate, [{
     key: 'speekTitleTask',
     value: function speekTitleTask() {
-      alert("I don't speak");
-      _textToSpeechJs.TextToSpeech.talk("Hello Beautiful World!");
+      var _this2 = this;
+
+      var elem = document.getElementById('titleText');
+      if (!elem) return;
+      var valueTitleText = elem.textContent;
+      if (!valueTitleText) return;
+
+      if (window.speechSynthesis && window.speechSynthesis != 'undefined') {
+        var mytimer = setInterval(function () {
+          var voices = speechSynthesis.getVoices();
+
+          if (voices.length !== 0) {
+            var msg = new SpeechSynthesisUtterance();
+
+            if (_this2.isKyr(valueTitleText)) {
+              var ruVoice = voices.filter(function (voice) {
+                return voice.lang == 'ru-RU';
+              });
+
+              if (ruVoice.length !== 0) {
+                msg.voice = ruVoice[0];
+                msg.voiceURI = ruVoice[0].voiceURI;
+              }
+            }
+
+            msg.text = valueTitleText;
+            speechSynthesis.speak(msg);
+          }
+
+          clearInterval(mytimer);
+        }, 1000);
+      }
     }
   }, {
     key: 'render',
     value: function render() {
-      var _this2 = this;
+      var _this3 = this;
 
       return _react2.default.createElement(
         'p',
@@ -52274,9 +52242,12 @@ var LessonTemplate = exports.LessonTemplate = function (_PureComponent) {
           { 'class': 'HorizontalContainer' },
           _react2.default.createElement(
             'button',
-            { 'class': 'HorizontalContainer_item_ButtonCircle', onClick: function onClick(e) {
-                return _this2.speekTitleTask(e);
-              } },
+            {
+              'class': 'HorizontalContainer_item_ButtonCircle',
+              onClick: function onClick(e) {
+                return _this3.speekTitleTask(e);
+              }
+            },
             _react2.default.createElement('img', {
               src: '/src/images/titleTask.jpg',
               alt: '\u041F\u0440\u043E\u0441\u043B\u0443\u0448\u0430\u0442\u044C \u0442\u0435\u043A\u0441\u0442',
@@ -52286,8 +52257,8 @@ var LessonTemplate = exports.LessonTemplate = function (_PureComponent) {
           ),
           _react2.default.createElement(
             'p',
-            { 'class': 'HorizontalContainer_item_p' },
-            '\u0422\u0435\u043A\u0441\u0442 \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442'
+            { id: 'titleText', 'class': 'HorizontalContainer_item_p' },
+            '\u0422\u0435\u043A\u0441\u0442 \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435 \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D. Text ne opredelen'
           )
         ),
         _react2.default.createElement(
