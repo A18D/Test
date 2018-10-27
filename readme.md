@@ -41,3 +41,11 @@ Updates
 We've updated this repo to use React 16. These updates include using the `prop-types` library
 and using an updater function when setting state. Refer to the [Chapter 6 Color Organizer Readme](https://github.com/MoonHighway/learning-react/tree/master/chapter-06/color-organizer)
 for details about these changes.
+
+Delete packet
+-------------
+local packet:
+npm uninstall http-server
+
+global packet:
+npm uninstall http-server -g

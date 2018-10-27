@@ -5813,6 +5813,63 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/LessonTemplate/styleMenuBegin.css":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--6-2!./src/css/LessonTemplate/styleMenuBegin.css ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".navbar-Begin {\r\n    background-color: #e8ecec;\r\n    border-color: #e8ecec;\r\n    color: #ffffff;\r\n    margin-bottom: 10px;\r\n    width: 100%;\r\n}\r\n\r\n#navbar-BeginContainer {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    padding: 0;\r\n    margin: 0;\r\n    /* Убираем отступы у списка */\r\n    list-style: none;\r\n    overflow: hidden;\r\n    border-top: 10px double white;\r\n    position: relative;\r\n    width: 100%; /* Ширина */\r\n}\r\n\r\n#navbar-BeginContainer li.centerMenu {\r\n    -webkit-box-flex: 1;\r\n        -ms-flex: 1;\r\n            flex: 1;\r\n}\r\n\r\n#navbar-BeginContainer li.leftRightImg {\r\n    padding-top: 7px;\r\n}\r\n\r\n#navbar-BeginContainer li.leftRightImg img {\r\n    height: 35px;\r\n}\r\n\r\n.navbar-Begin .navbar-nav>.active>a, .navbar-Begin .navbar-nav>.active>a:hover, .navbar-Begin .navbar-nav>.active>a:focus {\r\n    background-color: #3a9b8b;\r\n    /*border: 4px solid #3a9b8b; */\r\n    color: white;\r\n}\r\n\r\n#beginMenu ul {\r\n    list-style: none;\r\n    margin: 0;\r\n    padding: 0;\r\n    position: relative;\r\n    left: 50%;\r\n    float: left;\r\n    height: 40px\r\n}\r\n\r\n#beginMenu ul li {\r\n    position: relative;\r\n    left: -50%;\r\n    float: left;\r\n    margin: 0 10px;\r\n    height: 40px;\r\n    background-color: #e8ecec;\r\n    /* Цвет фона под текстом параграфа */\r\n    border: 4px solid #e8ecec;\r\n    /* Параметры границы */\r\n    color: white;\r\n    /* Цвет текста */\r\n}\r\n\r\n#beginMenu ul li a {\r\n    display: block;\r\n    text-decoration: none;\r\n    padding: 0 15px;\r\n    line-height: 40px;\r\n    color: #000000;\r\n}\r\n\r\n#beginMenu ul li a:hover, #beginMenu ul li a:focus {\r\n    background-color: #3a9b8b;\r\n    /* Цвет фона под текстом параграфа */\r\n    color: white;\r\n    /* Цвет текста */\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/LessonTemplate/styleRightLessonTemplates.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--6-2!./src/css/LessonTemplate/styleRightLessonTemplates.css ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".style-Hint {\r\n    margin:0px;\r\n    margin-bottom: 200px; \r\n    right: 15px;\r\n    position: absolute;\r\n    list-style-type: none; \r\n}\r\n\r\n.style-Hint > li.timer  {\r\n    margin-top:0px;\r\n}\r\n\r\n.style-Hint > li.timer > p {\r\n    /*цвет рамки для таймера*/\r\n    border: 1px solid rgb(65, 138, 233);\r\n}\r\n\r\n\r\n.style-Hint > li.timer > p:before {\r\n    /*цвет подсказки для таймера*/\r\n   background: rgb(65, 138, 233);\r\n}\r\n\r\n.style-Hint > li.timer > p:after {\r\n     /*цвет треугольника для таймера*/\r\n     border-top: 20px solid rgb(65, 138, 233); \r\n}\r\n\r\n.style-Hint > li.mark  {\r\n    margin-top:120px;\r\n}\r\n\r\n.style-Hint > li.mark > p {\r\n    /*цвет рамки для баллов*/\r\n    border: 1px solid rgb(29, 126, 4);\r\n}\r\n\r\n.style-Hint > li.mark > p:before {\r\n    /*цвет подсказки для баллов*/\r\n   background: rgb(29, 126, 4);\r\n}\r\n\r\n.style-Hint > li.mark > p:after {\r\n    /*цвет треугольника для баллов*/\r\n    border-top: 20px solid rgb(29, 126, 4); \r\n}\r\n\r\n.style-Hint > li.coins  {\r\n    margin-top:120px;\r\n}\r\n\r\n.style-Hint > li.coins > p {\r\n    /*цвет рамки для монет*/\r\n    border: 1px solid rgb(221, 134, 4);\r\n}\r\n\r\n.style-Hint > li.coins > p:before {\r\n    /*цвет подсказки для монет*/\r\n   background: rgb(221, 134, 4);\r\n}\r\n\r\n.style-Hint > li.coins > p:after {\r\n    /*цвет треугольника для монет*/\r\n    border-top: 20px solid rgb(221, 134, 4); \r\n}\r\n\r\n.style-Hint p {\r\n    text-decoration: none;\r\n    text-align: center;\r\n    position: absolute;\r\n    background: rgb(255, 255, 255);\r\n    display: block;\r\n    width: 200px;\r\n    height: 70px;\r\n    right: 15px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.style-Hint span {\r\n    position: absolute;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    line-height: 46px;\r\n    overflow: hidden;\r\n    padding-top: 25px;\r\n    color: black;\r\n}\r\n\r\n.style-Hint p:before {\r\n     /*подсказка*/\r\n    position: absolute;\r\n    content: attr(data-tooltip);\r\n    width: 180px;\r\n    height: 40px;\r\n    line-height: 40px;\r\n    bottom: 50px;\r\n    left: calc(40% - 70px);\r\n    color: white;\r\n}\r\n\r\n.style-Hint p:after {\r\n    /*треугольник*/\r\n    position: absolute;\r\n    content: \"\";\r\n    width: 0;\r\n    height: 0;\r\n    bottom: 38px;\r\n    left: calc(60% - 10px);\r\n    border-right: 20px solid transparent;\t\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/LessonTemplate/styleTitleTask.css":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--6-2!./src/css/LessonTemplate/styleTitleTask.css ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "\r\n.HorizontalContainer\r\n{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: horizontal;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: row;\r\n          flex-direction: row;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;     /*Центрирование по вертикали */\r\n}\r\n\r\n.HorizontalContainer_item_p\r\n{\r\n  padding: 10px;\r\n  margin-bottom: 0px;\r\n}\r\n\r\n.HorizontalContainer_item_ButtonCircle\r\n{\r\n    background: #c7a303;\r\n    color: #ffffff;\r\n    width: 40px;\r\n    height: 40px;\r\n    border: 1px solid #c7a303;\r\n    /* Параметры границы */\r\n    /* Firefox */\r\n    /* Safari 4 */\r\n    border-radius: 60px;\r\n    /* IE 9, Safari 5, Chrome */\r\n    outline: none;\r\n    box-shadow: 0.1em 0.1em 5px rgba(122,122,122,0.5);\r\n    padding: 10px;\r\n    margin-left: 50px;\r\n    margin-right: 15px;\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;  /*Центрирование по вертикали */\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;     /*Центрирование по вертикали */\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/bootstrap.css":
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--6-2!./src/css/bootstrap.css ***!
@@ -5883,44 +5940,6 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 // module
 exports.push([module.i, ".navbar-green {\r\n  background-color: #3a9b8b;\r\n  border-color: #3a9b8b;\r\n  color: #ffffff;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.navbar-green .navbar-nav > li > a {\r\n  color: #ffffff;\r\n}\r\n\r\n.navbar-green .navbar-nav > li > a:hover,\r\n.navbar-green .navbar-nav > li > a:focus {\r\n  color: #c3f8f5;\r\n  background-color: transparent;\r\n}\r\n\r\n.navbar-green .navbarborderReg{\r\n  background-color: #d8701b; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborderReg:hover,\r\n.navbar-green .navbarborderReg:focus{\r\n  background-color: #ecb53d; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder{\r\n  background-color: #3a9b8b; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder:hover,\r\n.navbar-green .navbarborder:focus{\r\n  background-color: #0d3d35; /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b; /* Параметры границы */\r\n  color: white; /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbar-nav  >  .active  > a,\r\n.navbar-green .navbar-nav  >  .active  > a:hover,\r\n.navbar-green .navbar-nav  >  .active  > a:focus\r\n{\r\n  background-color: #0d3d35; \r\n  /*border: 4px solid #3a9b8b; */\r\n  color: white;\r\n}\r\n\r\n\r\n.navbar-green form{\r\n  background: #3a9b8b;\r\n\r\n  padding: 9px 15px;\r\n  margin-top: 3px;\r\n  margin-bottom: 3px;\r\n  /*margin-left: -18px;*/\r\n\r\n}\r\n\r\n.navbar-MyBtn{\r\n  background: #3a9b8b;\r\n  color: #ffffff;\r\n  width: 37px;\r\n  border: 1px solid #ffffff; /* Параметры рамки */ /* Firefox */ /* Safari 4 */\r\n  border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n }\r\n\r\n.navbar-MyBtn:hover,\r\n.navbar-MyBtn:focus,\r\n.navbar-MyBtn:focus,\r\n.navbar-MyBtn:active:focus,\r\n.navbar-MyBtn.active:focus,\r\n.navbar-MyBtn.focus,\r\n.navbar-MyBtn:active.focus,\r\n.navbar-MyBtn.active.focus {\r\n  background: #0d3d35;\r\n  color: #c3f8f5;\r\n  width: 37px;\r\n  border: 1px solid #c3f8f5; /* Параметры границы */ /* Firefox */ /* Safari 4 */\r\n  border-radius:  60px; /* IE 9, Safari 5, Chrome */\r\n   outline: none;\r\n }\r\n\r\n\r\n.container-Logo {\r\n  background: #3a9b8b;\r\n  padding: 5px;\r\n  padding-right: 5px; \r\n  float: left;\r\n  list-style-type: none;\r\n}\r\n\r\n.linkLogo > a {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n\r\n.linkLogo > a:hover,\r\n.linkLogo > a:focus {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleMenuBegin.css":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--6-2!./src/css/styleMenuBegin.css ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".navbar-Begin {\r\n    background-color: #e8ecec;\r\n    border-color: #e8ecec;\r\n    color: #ffffff;\r\n    margin-bottom: 10px;\r\n    width: 100%;\r\n}\r\n\r\n#navbar-BeginContainer {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    padding: 0;\r\n    margin: 0;\r\n    /* Убираем отступы у списка */\r\n    list-style: none;\r\n    overflow: hidden;\r\n    border-top: 10px double white;\r\n    position: relative;\r\n    width: 100%; /* Ширина */\r\n}\r\n\r\n#navbar-BeginContainer li.centerMenu {\r\n    -webkit-box-flex: 1;\r\n        -ms-flex: 1;\r\n            flex: 1;\r\n}\r\n\r\n#navbar-BeginContainer li.leftRightImg {\r\n    padding-top: 7px;\r\n}\r\n\r\n#navbar-BeginContainer li.leftRightImg img {\r\n    height: 35px;\r\n}\r\n\r\n.navbar-Begin .navbar-nav>.active>a, .navbar-Begin .navbar-nav>.active>a:hover, .navbar-Begin .navbar-nav>.active>a:focus {\r\n    background-color: #3a9b8b;\r\n    /*border: 4px solid #3a9b8b; */\r\n    color: white;\r\n}\r\n\r\n#beginMenu ul {\r\n    list-style: none;\r\n    margin: 0;\r\n    padding: 0;\r\n    position: relative;\r\n    left: 50%;\r\n    float: left;\r\n    height: 40px\r\n}\r\n\r\n#beginMenu ul li {\r\n    position: relative;\r\n    left: -50%;\r\n    float: left;\r\n    margin: 0 10px;\r\n    height: 40px;\r\n    background-color: #e8ecec;\r\n    /* Цвет фона под текстом параграфа */\r\n    border: 4px solid #e8ecec;\r\n    /* Параметры границы */\r\n    color: white;\r\n    /* Цвет текста */\r\n}\r\n\r\n#beginMenu ul li a {\r\n    display: block;\r\n    text-decoration: none;\r\n    padding: 0 15px;\r\n    line-height: 40px;\r\n    color: #000000;\r\n}\r\n\r\n#beginMenu ul li a:hover, #beginMenu ul li a:focus {\r\n    background-color: #3a9b8b;\r\n    /* Цвет фона под текстом параграфа */\r\n    color: white;\r\n    /* Цвет текста */\r\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleRightLessonTemplates.css":
-/*!*********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--6-2!./src/css/styleRightLessonTemplates.css ***!
-  \*********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".style-Hint {\r\n    margin:0px;\r\n    margin-bottom: 200px; \r\n    right: 15px;\r\n    position: absolute;\r\n    list-style-type: none; \r\n}\r\n\r\n.style-Hint > li.timer  {\r\n    margin-top:0px;\r\n}\r\n\r\n.style-Hint > li.timer > p {\r\n    /*цвет рамки для таймера*/\r\n    border: 1px solid rgb(65, 138, 233);\r\n}\r\n\r\n\r\n.style-Hint > li.timer > p:before {\r\n    /*цвет подсказки для таймера*/\r\n   background: rgb(65, 138, 233);\r\n}\r\n\r\n.style-Hint > li.timer > p:after {\r\n     /*цвет треугольника для таймера*/\r\n     border-top: 20px solid rgb(65, 138, 233); \r\n}\r\n\r\n.style-Hint > li.mark  {\r\n    margin-top:120px;\r\n}\r\n\r\n.style-Hint > li.mark > p {\r\n    /*цвет рамки для баллов*/\r\n    border: 1px solid rgb(29, 126, 4);\r\n}\r\n\r\n.style-Hint > li.mark > p:before {\r\n    /*цвет подсказки для баллов*/\r\n   background: rgb(29, 126, 4);\r\n}\r\n\r\n.style-Hint > li.mark > p:after {\r\n    /*цвет треугольника для баллов*/\r\n    border-top: 20px solid rgb(29, 126, 4); \r\n}\r\n\r\n.style-Hint > li.coins  {\r\n    margin-top:120px;\r\n}\r\n\r\n.style-Hint > li.coins > p {\r\n    /*цвет рамки для монет*/\r\n    border: 1px solid rgb(221, 134, 4);\r\n}\r\n\r\n.style-Hint > li.coins > p:before {\r\n    /*цвет подсказки для монет*/\r\n   background: rgb(221, 134, 4);\r\n}\r\n\r\n.style-Hint > li.coins > p:after {\r\n    /*цвет треугольника для монет*/\r\n    border-top: 20px solid rgb(221, 134, 4); \r\n}\r\n\r\n.style-Hint p {\r\n    text-decoration: none;\r\n    text-align: center;\r\n    position: absolute;\r\n    background: rgb(255, 255, 255);\r\n    display: block;\r\n    width: 200px;\r\n    height: 70px;\r\n    right: 15px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.style-Hint span {\r\n    position: absolute;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    line-height: 46px;\r\n    overflow: hidden;\r\n    padding-top: 25px;\r\n    color: black;\r\n}\r\n\r\n.style-Hint p:before {\r\n     /*подсказка*/\r\n    position: absolute;\r\n    content: attr(data-tooltip);\r\n    width: 180px;\r\n    height: 40px;\r\n    line-height: 40px;\r\n    bottom: 50px;\r\n    left: calc(40% - 70px);\r\n    color: white;\r\n}\r\n\r\n.style-Hint p:after {\r\n    /*треугольник*/\r\n    position: absolute;\r\n    content: \"\";\r\n    width: 0;\r\n    height: 0;\r\n    bottom: 38px;\r\n    left: calc(60% - 10px);\r\n    border-right: 20px solid transparent;\t\r\n}", ""]);
 
 // exports
 
@@ -51041,6 +51060,77 @@ module.exports = function (css) {
 
 /***/ }),
 
+/***/ "./node_modules/text-to-speech-js/lib/index.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/text-to-speech-js/lib/index.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+(function (window) {
+    var TextToSpeech = {
+        _key: "addf7ce48a11e371d6fa2a7b6075b9937ab=a6e2f7e1be80d86db2f56bd67953b0bb",
+        _lang: "en",
+        _voiceId: "en_gb_amy"
+
+        /**
+         * talk
+         * Convert the provided text into speech.
+         *
+         * @name talk
+         * @function
+         * @param {Object} options An object containing:
+         *
+         *   - text: a string that must be converted in speech
+         *   - notNow (default: false): don't play it now
+         *
+         * @param {Boolean} notNow Autoplay or not.
+         * @return {Audio} The `Audio` instance.
+         */
+        , talk: function talk(options, notNow) {
+
+            if (!options) {
+                throw new Error("Please provide options.");
+            }
+
+            // handle string values
+            if (typeof options === "string") {
+                options = {
+                    text: options
+                };
+            }
+
+            // encode text
+            options.text = btoa(options.text);
+
+            // convert to boolean
+            notNow = Boolean(notNow);
+
+            // set the tts url
+            var voiceId = btoa(options.voiceId || TextToSpeech._voiceId),
+                language = options.lang || TextToSpeech._lang,
+                key = options.key || TextToSpeech._key,
+                ttsUrl = "http://www.ivona.com/voicetest.php?rtr=1&t2r=" + options.text + "&v2r=" + voiceId + "&lang=" + language + "&" + key,
+                thisSpeech = new Audio(ttsUrl);
+
+            // if not now is false, play it
+            if (!notNow) {
+                thisSpeech.play();
+            }
+
+            // return audio object to the user
+            return thisSpeech;
+        }
+    };
+
+    window.TextToSpeech = TextToSpeech;
+})(window);
+
+/***/ }),
+
 /***/ "./node_modules/uncontrollable/index.js":
 /*!**********************************************!*\
   !*** ./node_modules/uncontrollable/index.js ***!
@@ -51472,31 +51562,19 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _index = __webpack_require__(/*! ./node_modules/redbox-react/lib/index.js */ "./node_modules/redbox-react/lib/index.js");
-
-var _index2 = _interopRequireDefault(_index);
-
-var _index3 = __webpack_require__(/*! ./node_modules/react-transform-catch-errors/lib/index.js */ "./node_modules/react-transform-catch-errors/lib/index.js");
-
-var _index4 = _interopRequireDefault(_index3);
-
-var _react2 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react3 = _interopRequireDefault(_react2);
-
-var _index5 = __webpack_require__(/*! ./node_modules/react-transform-hmr/lib/index.js */ "./node_modules/react-transform-hmr/lib/index.js");
-
-var _index6 = _interopRequireDefault(_index5);
-
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _class, _temp;
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
 var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 
@@ -51514,6 +51592,8 @@ var _home = __webpack_require__(/*! ./routes/home */ "./src/components/routes/ho
 
 var _training = __webpack_require__(/*! ./routes/training */ "./src/components/routes/training.js");
 
+var _training2 = _interopRequireDefault(_training);
+
 var _search = __webpack_require__(/*! ./routes/search */ "./src/components/routes/search.js");
 
 var _blog = __webpack_require__(/*! ./routes/blog */ "./src/components/routes/blog.js");
@@ -51523,8 +51603,6 @@ var _aboutProject = __webpack_require__(/*! ./routes/aboutProject */ "./src/comp
 var _webinar = __webpack_require__(/*! ./routes/webinar */ "./src/components/routes/webinar.js");
 
 var _whoops = __webpack_require__(/*! ./routes/whoops404 */ "./src/components/routes/whoops404.js");
-
-var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
 var _store = __webpack_require__(/*! ../store */ "./src/store/index.js");
 
@@ -51542,34 +51620,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var _components = {
-  App: {
-    displayName: 'App'
-  }
-};
-
-var _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformHmrLibIndexJs2 = (0, _index6.default)({
-  filename: 'D:/USR/www/s2.localhost/MyAppReact/color-organizer/src/components/App.js',
-  components: _components,
-  locals: [module],
-  imports: [_react3.default]
-});
-
-var _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformCatchErrorsLibIndexJs2 = (0, _index4.default)({
-  filename: 'D:/USR/www/s2.localhost/MyAppReact/color-organizer/src/components/App.js',
-  components: _components,
-  locals: [],
-  imports: [_react3.default, _index2.default]
-});
-
-function _wrapComponent(id) {
-  return function (Component) {
-    return _DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformHmrLibIndexJs2(_DUSRWwwS2LocalhostMyAppReactColorOrganizerNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);
-  };
-}
-
-var App = _wrapComponent('App')((_temp = _class = function (_Component) {
-  _inherits(App, _Component);
+var App = function (_PureComponent) {
+  _inherits(App, _PureComponent);
 
   function App() {
     _classCallCheck(this, App);
@@ -51584,35 +51636,35 @@ var App = _wrapComponent('App')((_temp = _class = function (_Component) {
       var lessons = stateStore.dataLessons.titleLessons;
       var phistory = (0, _reactRouterRedux.syncHistoryWithStore)(_history2.default, _store2.default);
 
-      return _react3.default.createElement(
+      return _react2.default.createElement(
         _reactRedux.Provider,
         { store: _store2.default },
-        _react3.default.createElement(
+        _react2.default.createElement(
           _reactRouterDom.HashRouter,
           { history: phistory },
-          _react3.default.createElement(
+          _react2.default.createElement(
             'div',
             null,
-            _react3.default.createElement(
+            _react2.default.createElement(
               _reactRouterDom.Switch,
               null,
-              _react3.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _home.Home }),
-              _react3.default.createElement(_reactRouterDom.Route, { path: '/Training', component: _training.Training }),
-              _react3.default.createElement(_reactRouterDom.Redirect, { from: '/begin', to: '/Training/begin' }),
-              _react3.default.createElement(_reactRouterDom.Redirect, { from: '/rewards', to: '/Training/rewards' }),
+              _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _home.Home }),
+              _react2.default.createElement(_reactRouterDom.Route, { path: '/Training', component: _training2.default }),
+              _react2.default.createElement(_reactRouterDom.Redirect, { from: '/begin', to: '/Training/begin' }),
+              _react2.default.createElement(_reactRouterDom.Redirect, { from: '/rewards', to: '/Training/rewards' }),
               lessons.map(function (lesson) {
-                _react3.default.createElement(_reactRouterDom.Redirect, {
+                _react2.default.createElement(_reactRouterDom.Redirect, {
                   from: '/Training/begin',
                   to: '/Training/begin/' + lesson.id
                 });
               }),
-              _react3.default.createElement(_reactRouterDom.Route, { path: '/AboutProject', component: _aboutProject.AboutProject }),
-              _react3.default.createElement(_reactRouterDom.Route, { path: '/Blog', component: _blog.Blog }),
-              _react3.default.createElement(_reactRouterDom.Route, { path: '/Webinar', component: _webinar.Webinar }),
-              _react3.default.createElement(_reactRouterDom.Route, { path: '/Search', component: _search.Search }),
-              _react3.default.createElement(_reactRouterDom.Route, { component: _whoops.Whoops404 })
+              _react2.default.createElement(_reactRouterDom.Route, { path: '/AboutProject', component: _aboutProject.AboutProject }),
+              _react2.default.createElement(_reactRouterDom.Route, { path: '/Blog', component: _blog.Blog }),
+              _react2.default.createElement(_reactRouterDom.Route, { path: '/Webinar', component: _webinar.Webinar }),
+              _react2.default.createElement(_reactRouterDom.Route, { path: '/Search', component: _search.Search }),
+              _react2.default.createElement(_reactRouterDom.Route, { component: _whoops.Whoops404 })
             ),
-            _react3.default.createElement(_DevTools2.default, null)
+            _react2.default.createElement(_DevTools2.default, null)
           )
         )
       );
@@ -51620,10 +51672,10 @@ var App = _wrapComponent('App')((_temp = _class = function (_Component) {
   }]);
 
   return App;
-}(_react2.Component), _class.propTypes = {}, _temp));
+}(_react.PureComponent);
 
+App.propTypes = {};
 exports.default = App;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -52169,11 +52221,15 @@ var FooterPage = exports.FooterPage = _wrapComponent('FooterPage')(function (_Re
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.lessonTemplate = undefined;
+exports.LessonTemplate = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _textToSpeechJs = __webpack_require__(/*! text-to-speech-js */ "./node_modules/text-to-speech-js/lib/index.js");
 
 var _begin = __webpack_require__(/*! ../routes/training/begin */ "./src/components/routes/training/begin.js");
 
@@ -52181,60 +52237,104 @@ var _begin2 = _interopRequireDefault(_begin);
 
 var _LessonTimer = __webpack_require__(/*! ./LessonTimer */ "./src/components/Lessons/LessonTimer.js");
 
-var _test = __webpack_require__(/*! ../test */ "./src/components/test.js");
-
-var _test2 = _interopRequireDefault(_test);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var lessonTemplate = exports.lessonTemplate = function lessonTemplate(_ref) {
-  var children = _ref.children;
-  return _react2.default.createElement(
-    'p',
-    null,
-    _react2.default.createElement(_begin2.default, null),
-    _react2.default.createElement(_test2.default, null),
-    _react2.default.createElement(
-      'ul',
-      { 'class': 'style-Hint' },
-      _react2.default.createElement(
-        'li',
-        { 'class': 'timer' },
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var LessonTemplate = exports.LessonTemplate = function (_PureComponent) {
+  _inherits(LessonTemplate, _PureComponent);
+
+  function LessonTemplate() {
+    _classCallCheck(this, LessonTemplate);
+
+    return _possibleConstructorReturn(this, (LessonTemplate.__proto__ || Object.getPrototypeOf(LessonTemplate)).apply(this, arguments));
+  }
+
+  _createClass(LessonTemplate, [{
+    key: 'speekTitleTask',
+    value: function speekTitleTask() {
+      alert("I don't speak");
+      _textToSpeechJs.TextToSpeech.talk("Hello Beautiful World!");
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      return _react2.default.createElement(
+        'p',
+        null,
+        _react2.default.createElement(_begin2.default, null),
         _react2.default.createElement(
-          'p',
-          { 'data-tooltip': '\u0412\u0440\u0435\u043C\u044F' },
-          _react2.default.createElement(_LessonTimer.LessonTimer, null)
-        )
-      ),
-      _react2.default.createElement(
-        'li',
-        { 'class': 'mark' },
-        _react2.default.createElement(
-          'p',
-          { 'data-tooltip': '\u041A\u043E\u043B-\u0432\u043E \u0431\u0430\u043B\u043B\u043E\u0432' },
+          'div',
+          { 'class': 'HorizontalContainer' },
           _react2.default.createElement(
-            'span',
-            null,
-            '15(25%)'
+            'button',
+            { 'class': 'HorizontalContainer_item_ButtonCircle', onClick: function onClick(e) {
+                return _this2.speekTitleTask(e);
+              } },
+            _react2.default.createElement('img', {
+              src: '/src/images/titleTask.jpg',
+              alt: '\u041F\u0440\u043E\u0441\u043B\u0443\u0448\u0430\u0442\u044C \u0442\u0435\u043A\u0441\u0442',
+              width: '18',
+              height: '18'
+            })
+          ),
+          _react2.default.createElement(
+            'p',
+            { 'class': 'HorizontalContainer_item_p' },
+            '\u0422\u0435\u043A\u0441\u0442 \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442'
+          )
+        ),
+        _react2.default.createElement(
+          'ul',
+          { 'class': 'style-Hint' },
+          _react2.default.createElement(
+            'li',
+            { 'class': 'timer' },
+            _react2.default.createElement(
+              'p',
+              { 'data-tooltip': '\u0412\u0440\u0435\u043C\u044F' },
+              _react2.default.createElement(_LessonTimer.LessonTimer, null)
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { 'class': 'mark' },
+            _react2.default.createElement(
+              'p',
+              { 'data-tooltip': '\u041A\u043E\u043B-\u0432\u043E \u0431\u0430\u043B\u043B\u043E\u0432' },
+              _react2.default.createElement(
+                'span',
+                null,
+                '15(25%)'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { 'class': 'coins' },
+            _react2.default.createElement(
+              'p',
+              { 'data-tooltip': '\u041A\u043E\u043B-\u0432\u043E \u043C\u043E\u043D\u0435\u0442' },
+              _react2.default.createElement(
+                'span',
+                null,
+                '5(50%)'
+              )
+            )
           )
         )
-      ),
-      _react2.default.createElement(
-        'li',
-        { 'class': 'coins' },
-        _react2.default.createElement(
-          'p',
-          { 'data-tooltip': '\u041A\u043E\u043B-\u0432\u043E \u043C\u043E\u043D\u0435\u0442' },
-          _react2.default.createElement(
-            'span',
-            null,
-            '5(50%)'
-          )
-        )
-      )
-    )
-  );
-};
+      );
+    }
+  }]);
+
+  return LessonTemplate;
+}(_react.PureComponent);
 
 /***/ }),
 
@@ -52901,11 +53001,14 @@ var Search = exports.Search = _wrapComponent('Search')(function (_React$Componen
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Training = undefined;
 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
 
@@ -52921,17 +53024,14 @@ var _rewards = __webpack_require__(/*! ./training/rewards */ "./src/components/r
 
 var _LessonTemplate = __webpack_require__(/*! ../Lessons/LessonTemplate */ "./src/components/Lessons/LessonTemplate.js");
 
-var _store = __webpack_require__(/*! ../../store */ "./src/store/index.js");
-
-var _store2 = _interopRequireDefault(_store);
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var stateStore = _store2.default.getState();
-var lessons = stateStore.dataLessons.titleLessons;
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var Training = exports.Training = function Training(_ref) {
-  var match = _ref.match;
+var Training = function Training(_ref) {
+  var lessons = _ref.lessons;
   return _react2.default.createElement(
     _pageTemplate.PageTemplate,
     null,
@@ -52944,18 +53044,27 @@ var Training = exports.Training = function Training(_ref) {
       lessons.map(function (lesson) {
         return _react2.default.createElement(_reactRouterDom.Route, {
           path: '/Training/begin/' + lesson.id,
-          component: _LessonTemplate.lessonTemplate
+          component: _LessonTemplate.LessonTemplate
         });
       })
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      '\u0420\u0430\u0437\u0434\u0435\u043B \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435'
-    ),
-    _react2.default.createElement('button', null)
+    )
   );
 };
+
+Training.propTypes = _defineProperty({
+  lessons: _propTypes2.default.array.isRequired
+}, 'lessons', _propTypes2.default.shape({
+  id: _propTypes2.default.string.isRequired,
+  title: _propTypes2.default.string.isRequired
+}).isRequired);
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    lessons: state.dataLessons.titleLessons
+  };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps)(Training);
 
 /***/ }),
 
@@ -52986,10 +53095,6 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 var _reactBootstrap = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 
 var _reactRouterBootstrap = __webpack_require__(/*! react-router-bootstrap */ "./node_modules/react-router-bootstrap/lib/index.js");
-
-var _store = __webpack_require__(/*! ../../../store */ "./src/store/index.js");
-
-var _store2 = _interopRequireDefault(_store);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
@@ -53221,75 +53326,6 @@ var Whoops404 = exports.Whoops404 = function Whoops404(_ref) {
 
 /***/ }),
 
-/***/ "./src/components/test.js":
-/*!********************************!*\
-  !*** ./src/components/test.js ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var CMenuTraining = function (_PureComponent) {
-  _inherits(CMenuTraining, _PureComponent);
-
-  function CMenuTraining() {
-    _classCallCheck(this, CMenuTraining);
-
-    return _possibleConstructorReturn(this, (CMenuTraining.__proto__ || Object.getPrototypeOf(CMenuTraining)).apply(this, arguments));
-  }
-
-  _createClass(CMenuTraining, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'p',
-        null,
-        '\u041F\u0440\u0438\u0432\u0435\u0442 \u0438\u0437 MenuTraining, ',
-        this.props.testStore1,
-        '!'
-      );
-    }
-  }]);
-
-  return CMenuTraining;
-}(_react.PureComponent);
-
-function mapStateToProps(state) {
-  return { testStore1: state.dataLessons.titleLessons[0].id };
-}
-
-var mapStateToProps3 = function mapStateToProps3(state) {
-  return {
-    testStore1: state.dataLessons.titleLessons[0].id
-  };
-};
-
-exports.default = (0, _reactRedux.connect)(mapStateToProps)(CMenuTraining);
-
-/***/ }),
-
 /***/ "./src/constants.js":
 /*!**************************!*\
   !*** ./src/constants.js ***!
@@ -53305,6 +53341,81 @@ Object.defineProperty(exports, "__esModule", {
 });
 var LOAD_TTITLE_LESSONS = exports.LOAD_TTITLE_LESSONS = 'LOAD_TTITLE_LESSONS';
 var LOAD_TASK_FOR_LESSON = exports.LOAD_TASK_FOR_LESSON = 'LOAD_TASK_FOR_LESSON';
+
+/***/ }),
+
+/***/ "./src/css/LessonTemplate/styleMenuBegin.css":
+/*!***************************************************!*\
+  !*** ./src/css/LessonTemplate/styleMenuBegin.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/postcss-loader/lib??ref--6-2!./styleMenuBegin.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/LessonTemplate/styleMenuBegin.css");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/css/LessonTemplate/styleRightLessonTemplates.css":
+/*!**************************************************************!*\
+  !*** ./src/css/LessonTemplate/styleRightLessonTemplates.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/postcss-loader/lib??ref--6-2!./styleRightLessonTemplates.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/LessonTemplate/styleRightLessonTemplates.css");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/css/LessonTemplate/styleTitleTask.css":
+/*!***************************************************!*\
+  !*** ./src/css/LessonTemplate/styleTitleTask.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/postcss-loader/lib??ref--6-2!./styleTitleTask.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/LessonTemplate/styleTitleTask.css");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {}
 
 /***/ }),
 
@@ -53394,56 +53505,6 @@ if(false) {}
 
 // load the styles
 var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/postcss-loader/lib??ref--6-2!./styleMenu.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleMenu.css");
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {}
-
-/***/ }),
-
-/***/ "./src/css/styleMenuBegin.css":
-/*!************************************!*\
-  !*** ./src/css/styleMenuBegin.css ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/postcss-loader/lib??ref--6-2!./styleMenuBegin.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleMenuBegin.css");
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {}
-
-/***/ }),
-
-/***/ "./src/css/styleRightLessonTemplates.css":
-/*!***********************************************!*\
-  !*** ./src/css/styleRightLessonTemplates.css ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/postcss-loader/lib??ref--6-2!./styleRightLessonTemplates.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleRightLessonTemplates.css");
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -53764,19 +53825,20 @@ __webpack_require__(/*! ./css/subMenu.css */ "./src/css/subMenu.css");
 
 __webpack_require__(/*! ./css/styleMenu.css */ "./src/css/styleMenu.css");
 
-__webpack_require__(/*! ./css/styleMenuBegin.css */ "./src/css/styleMenuBegin.css");
+__webpack_require__(/*! ./css/LessonTemplate/styleMenuBegin.css */ "./src/css/LessonTemplate/styleMenuBegin.css");
 
-__webpack_require__(/*! ./css/styleRightLessonTemplates.css */ "./src/css/styleRightLessonTemplates.css");
+__webpack_require__(/*! ./css/LessonTemplate/styleRightLessonTemplates.css */ "./src/css/LessonTemplate/styleRightLessonTemplates.css");
+
+__webpack_require__(/*! ./css/LessonTemplate/styleTitleTask.css */ "./src/css/LessonTemplate/styleTitleTask.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-(0, _reactDom.render)(_react2.default.createElement(_Root2.default, null), document.getElementById('react-container'));
-//render(<CSelect />, document.getElementById('react-container'))
-//render(<Store />, document.getElementById('react-container'))
 
 //import store from './store'
 
 //import CSelect from './TestSelect'
+(0, _reactDom.render)(_react2.default.createElement(_Root2.default, null), document.getElementById('react-container'));
+//render(<CSelect />, document.getElementById('react-container'))
+//render(<Store />, document.getElementById('react-container'))
 
 /***/ }),
 
