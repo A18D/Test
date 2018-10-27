@@ -1,0 +1,111 @@
+.style-Hint {
+    margin:0px;
+    margin-bottom: 200px; 
+    right: 15px;
+    position: absolute;
+    list-style-type: none; 
+}
+
+.style-Hint > li.timer  {
+    margin-top:0px;
+}
+
+.style-Hint > li.timer > p {
+    /*цвет рамки для таймера*/
+    border: 1px solid rgb(65, 138, 233);
+}
+
+
+.style-Hint > li.timer > p:before {
+    /*цвет подсказки для таймера*/
+   background: rgb(65, 138, 233);
+}
+
+.style-Hint > li.timer > p:after {
+     /*цвет треугольника для таймера*/
+     border-top: 20px solid rgb(65, 138, 233); 
+}
+
+.style-Hint > li.mark  {
+    margin-top:120px;
+}
+
+.style-Hint > li.mark > p {
+    /*цвет рамки для баллов*/
+    border: 1px solid rgb(29, 126, 4);
+}
+
+.style-Hint > li.mark > p:before {
+    /*цвет подсказки для баллов*/
+   background: rgb(29, 126, 4);
+}
+
+.style-Hint > li.mark > p:after {
+    /*цвет треугольника для баллов*/
+    border-top: 20px solid rgb(29, 126, 4); 
+}
+
+.style-Hint > li.coins  {
+    margin-top:120px;
+}
+
+.style-Hint > li.coins > p {
+    /*цвет рамки для монет*/
+    border: 1px solid rgb(221, 134, 4);
+}
+
+.style-Hint > li.coins > p:before {
+    /*цвет подсказки для монет*/
+   background: rgb(221, 134, 4);
+}
+
+.style-Hint > li.coins > p:after {
+    /*цвет треугольника для монет*/
+    border-top: 20px solid rgb(221, 134, 4); 
+}
+
+.style-Hint p {
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    display: block;
+    width: 200px;
+    height: 70px;
+    right: 15px;
+    margin-top: 20px;
+}
+
+.style-Hint span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 46px;
+    overflow: hidden;
+    padding-top: 25px;
+    color: black;
+}
+
+.style-Hint p:before {
+     /*подсказка*/
+    position: absolute;
+    content: attr(data-tooltip);
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    bottom: 50px;
+    left: calc(40% - 70px);
+    color: white;
+}
+
+.style-Hint p:after {
+    /*треугольник*/
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 38px;
+    left: calc(60% - 10px);
+    border-right: 20px solid transparent;	
+}
