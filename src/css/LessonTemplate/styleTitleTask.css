@@ -35,3 +35,9 @@
     display: flex;  /*Центрирование по вертикали */
     align-items: center;     /*Центрирование по вертикали */
 }
+
+.HorizontalContainer_item_ButtonCircle:active
+{
+  position: relative;
+  top: 1px;
+}

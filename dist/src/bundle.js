@@ -53724,7 +53724,7 @@ module.exports = __webpack_require__.p + "src/fonts/glyphicons-halflings-regular
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _createBrowserHistory = __webpack_require__(/*! history/createBrowserHistory */ "./node_modules/history/createBrowserHistory.js");
@@ -53735,8 +53735,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var history = (0, _createBrowserHistory2.default)();
 history.listen(function (location, action) {
-    console.log('The current URL is ' + location.pathname + location.search + location.hash);
-    console.log('The last navigation action was ' + action);
+  if (false) {}
 });
 window.routerHistory = history;
 
@@ -53829,13 +53828,7 @@ Object.defineProperty(exports, "__esModule", {
 var logger = exports.logger = function logger(store) {
   return function (next) {
     return function (action) {
-      console.group(action.type);
-      console.log('---', 'state before: ', store.getState());
-      console.info('dispatching', action);
-      var result = next(action);
-      console.log('next state', store.getState());
-      console.groupEnd(action.type);
-      return result;
+      if (false) { var result; } else return null;
     };
   };
 };

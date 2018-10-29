@@ -1,8 +1,21 @@
 import React, {PureComponent} from 'react';
+import PropTypes from 'prop-types';
+import {connect} from 'react-redux';
 import MenuTraining from '../routes/training/begin';
 import {LessonTimer} from './LessonTimer';
+import {incrementCounter, initCounter} from '../../actions';
 
-export class LessonTemplate extends PureComponent {
+class LessonTemplate extends PureComponent {
+  static propTypes = {
+    text: PropTypes.string.isRequired,
+    answers: PropTypes.array.isRequired,
+    type: PropTypes.string.isRequired,
+    currentTask: PropTypes.number.isRequired,
+    Count: PropTypes.number.isRequired,
+    incrementCounter: PropTypes.func.isRequired,
+    initCounter: PropTypes.func.isRequired,
+  };
+
   isKyr = str => {
     return /[а-яё]/i.test (str);
   };
@@ -40,6 +53,13 @@ export class LessonTemplate extends PureComponent {
     }
   }
 
+  handleIncrement = () => {
+    const {incrementCounter, initCounter} = this.props;
+
+    if (this.props.currentTask < this.props.Count - 1) incrementCounter ();
+    else initCounter ();
+  };
+
   render () {
     return (
       <p>
@@ -57,9 +77,13 @@ export class LessonTemplate extends PureComponent {
             />
           </button>
           <p id="titleText" class="HorizontalContainer_item_p">
-            Текст задания не определен. Text ne opredelen
+            {this.props.text}
           </p>
         </div>
+
+        <button class="buttonGreen" onClick={this.handleIncrement}>
+          Подтвердить
+        </button>
 
         <ul class="style-Hint">
           <li class="timer">
@@ -86,3 +110,40 @@ export class LessonTemplate extends PureComponent {
     );
   }
 }
+
+let mapStateToProps = state => {
+  let questions = state.dataLessons.Mathematics.questions;
+  let currentTask = state.currentTask;
+  let text = 'Задание не определено';
+  let type = '';
+  let answers = [];
+  let Count = 0;
+
+  if (
+    Array.isArray (questions) &&
+    questions.length > 0 &&
+    typeof currentTask == 'number'
+  ) {
+    let question = questions[currentTask];
+    text = question.text;
+    type = question.type;
+    answers = question.answers;
+    Count = questions.length;
+  }
+
+  return {
+    text: text,
+    type: type,
+    answers: answers,
+    currentTask: currentTask,
+    Count: Count,
+  };
+};
+
+// Объект с генераторами действий
+const mapDispatchToProps = {
+  incrementCounter: incrementCounter,
+  initCounter: initCounter,
+};
+
+export default connect (mapStateToProps, mapDispatchToProps) (LessonTemplate);

@@ -1,11 +1,15 @@
 export const logger = store => next => action => {
-  console.group (action.type);
-  console.log ('---', 'state before: ', store.getState ());
-  console.info ('dispatching', action);
-  let result = next (action);
-  console.log ('next state', store.getState ());
-  console.groupEnd (action.type);
-  return result;
+  if (__DEV__) {
+    console.group (action.type);
+    console.log ('---', 'state before: ', store.getState ());
+    console.info ('dispatching', action);
+    let result = next (action);
+    console.log ('next state', store.getState ());
+    console.groupEnd (action.type);
+    return result;
+  } else {
+    return next (action);
+  }
 };
 
 /**
@@ -19,7 +23,7 @@ export const crashReporter = store => next => action => {
     Raven.captureException (err, {
       extra: {
         action,
-        state: store.getState(),
+        state: store.getState (),
       },
     });
     throw err;

@@ -5,7 +5,7 @@ import {PageTemplate} from './pageTemplate';
 import {AboutMenu} from '../menus';
 import MenuTraining from './training/begin';
 import {Rewards} from './training/rewards';
-import {LessonTemplate} from '../Lessons/LessonTemplate';
+import LessonTemplate from '../Lessons/LessonTemplate';
 import {connect} from 'react-redux';
 
 let Training = ({lessons}) => (
