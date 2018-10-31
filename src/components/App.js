@@ -43,7 +43,7 @@ class App extends PureComponent {
               {lessons.map (lesson => {
                 <Redirect
                   from="/Training/begin"
-                  to={`/Training/begin/${lesson.id}`}
+                  to={`/Training/begin/lesson=${lesson.id}`}
                 />;
               })}
               <Route path="/AboutProject" component={AboutProject} />

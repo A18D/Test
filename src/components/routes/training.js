@@ -17,7 +17,7 @@ let Training = ({lessons}) => (
       {lessons.map (lesson => {
         return (
           <Route
-            path={`/Training/begin/${lesson.id}`}
+            path={`/Training/begin/lesson=${lesson.id}`}
             component={LessonTemplate}
           />
         );

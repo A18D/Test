@@ -31,7 +31,7 @@ class MenuTraining extends PureComponent {
                       {this.props.lessons.map (lesson => {
                         return (
                           <LinkContainer
-                            to={`/Training/begin/${lesson.id}`}
+                            to={`/Training/begin/lesson=${lesson.id}`}
                             className="navbarborder"
                           >
                             <NavItem>

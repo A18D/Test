@@ -112,7 +112,19 @@ class LessonTemplate extends PureComponent {
 }
 
 let mapStateToProps = state => {
-  let questions = state.dataLessons.Mathematics.questions;
+  let lesson = '';
+  let questions = [];
+
+  if (typeof location.hash == 'string') {
+    let Mlesson = location.hash.match (/(?<=lesson=)([\s\S]*?)(?=(\/|$))/gi);
+
+    if (Array.isArray (Mlesson)) {
+      lesson = Mlesson[0];
+    }
+
+    if (lesson.length > 1) questions = state.dataLessons[lesson].questions;
+  }
+
   let currentTask = state.currentTask;
   let text = 'Задание не определено';
   let type = '';
