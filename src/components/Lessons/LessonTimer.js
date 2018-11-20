@@ -1,6 +1,6 @@
 import React, {PureComponent} from 'react';
 
-export class LessonTimer extends React.Component {
+export class LessonTimer extends PureComponent {
   constructor (props) {
     super (props);
     this.state = {
@@ -19,7 +19,7 @@ export class LessonTimer extends React.Component {
     let dm = Math.floor (m - h * 60);
     let ds = Math.floor (dt - (h * 3600 + dm * 60));
 
-    document.getElementById ('timer').innerHTML =
+    document.getElementById ('timer').textContent = //innerHTML =
       h.toString ().padStart (2, 0) +
       ':' +
       dm.toString ().padStart (2, 0) +

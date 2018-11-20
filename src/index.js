@@ -29,6 +29,8 @@ import "./css/LessonTemplate/styleMenuBegin.css"
 import "./css/LessonTemplate/styleRightLessonTemplates.css"
 import "./css/LessonTemplate/styleTitleTask.css"
 import "./css/LessonTemplate/styleTask.css"
+import "./css/LessonTemplate/styleCenterLessonTemplate.css"
+import "./css/LessonTemplate/styleTabTip.css"  
 
 render(<Root />, document.getElementById('react-container'))
 //render(<CSelect />, document.getElementById('react-container'))

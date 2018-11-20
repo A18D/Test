@@ -50,7 +50,7 @@
         ],
         "tips": [
           {
-            "answer": [
+            "answers": [
               {
                 "image": "turtle.png",
                 "sign": "Черепаха"
@@ -62,7 +62,7 @@
             ]
           },
           {
-            "answer": [
+            "answers": [
               {
                 "image": "turtle.png",
                 "sign": "Черепаха"
@@ -94,7 +94,7 @@
       {
         "text": "Найди дятла на картинке",
         "type": "choice",
-        "answer": [
+        "answers": [
           {
             "image": "owl.png",
             "right": false
@@ -145,7 +145,7 @@
       {
         "text": "Преобразуй единицы",
         "type": "input",
-        "answer": [
+        "answers": [
           "10",
           "4"
         ],

@@ -112,7 +112,7 @@ module.exports = {
       title: 'Test react app',
       myPageHeader: 'Automatically generated',
       filename: 'index.html', //relative to root of the application
-    }), //,
+    }),
     // new ExtractTextWebpackPlugin('bundle.css')
     devFlagPlugin
   ],
