@@ -51,6 +51,7 @@ class LessonDragDrop extends PureComponent {
                     type="text"
                     class="droppable"
                     name="inputDroppable"
+                    disabled
                   />
                 </div>
               </div>

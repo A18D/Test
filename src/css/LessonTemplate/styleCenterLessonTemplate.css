@@ -22,6 +22,21 @@
   width: 100px
 }
 
+.tipDroppableImg{
+  margin-bottom: 10px;
+  width: 100px;
+  color: #930; /* Цвет текста */
+}
+
+.tipDroppableInput{
+  margin-bottom: 10px;
+  width: 100px;
+  background-color: #02396d;
+  color: white; /* Цвет текста */
+  outline: 0 !important;
+  text-align: center;
+}
+
 .space45 {
   margin-left: 45px;
 }

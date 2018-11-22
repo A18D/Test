@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import MenuTraining from '../routes/training/begin';
 import {LessonTimer} from './LessonTimer';
-import {LessonTip} from './LessonTip';
+import LessonTip from './LessonTip';
 import {
   incrementCurrentTask,
   initCurrentTask,
@@ -43,6 +43,7 @@ class LessonTemplate extends PureComponent {
     this.state = {
       stage: 'lesson', //lesson, success, failed, tip1, tip2, tip3
       numberTip: 0,
+      noEvaluation: false,
     };
   }
 
@@ -58,23 +59,37 @@ class LessonTemplate extends PureComponent {
     } = this.props;
     initCountRightAnswers ();
 
+    let noEvaluation = this.state.noEvaluation;
+
     if (this.props.countRightAnswers == 2) {
       //this.props.countAnswers)
+
       if (this.props.currentTask < this.props.countTasks - 1) {
         incrementCurrentTask ();
-        incrementCountPoints ();
-        incrementCountCoins ();
+
+        if (!noEvaluation) {
+          incrementCountPoints ();
+          incrementCountCoins ();
+        }
       } else {
         initCurrentTask ();
         initCountPoints ();
         initCountCoins ();
       }
 
-      this.setState ({stage: 'success', numberTip: 0});
+      this.setState ({
+        stage: 'success',
+        numberTip: 0,
+        noEvaluation: noEvaluation,
+      });
     } else {
       let numberTip = this.state.numberTip;
       numberTip++;
-      this.setState ({stage: 'failed', numberTip: numberTip});
+      this.setState ({
+        stage: 'failed',
+        numberTip: numberTip,
+        noEvaluation: noEvaluation,
+      });
     }
 
     setTimeout (() => {
@@ -85,7 +100,11 @@ class LessonTemplate extends PureComponent {
   incNumberTip = () => {
     let numberTip = this.state.numberTip;
     numberTip++;
-    this.setState ({stage: 'lesson', numberTip: numberTip}); 
+    this.setState ({stage: 'lesson', numberTip: numberTip, noEvaluation: true});
+  };
+
+  setNoEvaluation = () => {
+    this.setState ({noEvaluation: true});
   };
 
   componentDidMount () {
@@ -163,7 +182,13 @@ class LessonTemplate extends PureComponent {
             </ul>
           </div>
         </p>
-        <p><LessonTip incNumberTip={this.incNumberTip} numberTip={this.state.numberTip} /></p>
+        <p>
+          <LessonTip
+            incNumberTip={this.incNumberTip}
+            setNoEvaluation={this.setNoEvaluation}
+            numberTip={this.state.numberTip}
+          />
+        </p>
       </p>
     );
   }

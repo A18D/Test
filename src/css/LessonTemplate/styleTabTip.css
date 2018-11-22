@@ -15,10 +15,10 @@
 }
 
 .HorizontalContainer_item_ContentTip {
-  /*padding: 10px;*/
   background: rgb(224, 220, 220);
-  padding: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 40px;
   color: #000000;
+  width: 100%
 }
 
 .HorizontalContainer_item_ContentTip a {
