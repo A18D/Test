@@ -2,6 +2,7 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import {getNameLesson} from '../../../lib/str';
+import {getParentDiv} from '../../../lib/DOM';
 import {incrementCountRightAnswers, initCountRightAnswers} from '../../../actions';
 
 class LessonDragDrop extends PureComponent {
@@ -80,7 +81,7 @@ class LessonDragDrop extends PureComponent {
       dragObject.elem.style.display = 'none';
       dropElem.classList.add ('computer-smile');
 
-      let parentDiv = this.getParentDiv (dropElem);
+      let parentDiv = getParentDiv (dropElem);
 
       if (parentDiv) {
         let CtagsDroppable = parentDiv.getElementsByClassName ('droppable');
@@ -174,12 +175,6 @@ class LessonDragDrop extends PureComponent {
     // перенос либо не начинался, либо завершился
     // в любом случае очистим "состояние переноса" dragObject
     this.dragObject = {};
-  };
-
-  getParentDiv = dropElem => {
-    if (!dropElem.parentNode) return null;
-    else if (dropElem.tagName == 'DIV') return dropElem;
-    else return this.getParentDiv (dropElem.parentNode);
   };
 
   finishDrag = e => {

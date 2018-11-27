@@ -2,6 +2,9 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import {getNameLesson, isEmptyStr} from '../../lib/str';
+import TipNoteImage from './LessonsType/Tips/NoteImage';
+import TemplateTip from './LessonsType/Tips/TemplateTip';
+import TipCollectionNoteImage from './LessonsType/Tips/CollectionNoteImage';
 
 class LessonTip extends PureComponent {
   static propTypes = {
@@ -12,6 +15,8 @@ class LessonTip extends PureComponent {
     firstTip: PropTypes.string.isRequired,
     secondTipDragAndDrop: PropTypes.array.isRequired,
     thirdTipDragAndDrop: PropTypes.array.isRequired,
+    secondTipText: PropTypes.string.isRequired,
+    secondTipImage: PropTypes.string.isRequired,
   };
 
   constructor (props) {
@@ -50,118 +55,55 @@ class LessonTip extends PureComponent {
         <div>
           {this.props.numberTip == 1 &&
             this.state.showTip &&
-            <div class="HorizontalContainerTabTip Top40">
-              <div class="HorizontalContainer_item_TabTip BlueBackground">
-                <div class="VerticalText">
-                  Подсказка {this.props.numberTip}
-                </div>
-              </div>
-              <div class="HorizontalContainer_item_ContentTip">
-                {this.props.firstTip}
-                <br />
-                <br />
-                <a onClick={this.props.incNumberTip}>Еще одна подсказка ∨</a>
-              </div>
-            </div>}
+            <TemplateTip
+              numberTip={this.props.numberTip}
+              incNumberTip={this.props.incNumberTip}
+              isAnswer={false}
+            >
+              {this.props.firstTip}
+            </TemplateTip>}
           {this.props.numberTip == 2 &&
             this.state.showTip &&
             <div>
               {this.props.type == 'dragAndDrop' &&
-                <div class="HorizontalContainerTabTip Top40">
-                  <div class="HorizontalContainer_item_TabTip BlueBackground">
-                    <div class="VerticalText">
-                      Подсказка {this.props.numberTip}
-                    </div>
-                  </div>
-                  <div class="HorizontalContainer_item_ContentTip">
-                    <div class="row">
-                      {this.props.secondTipDragAndDrop.map (answer => {
-                        return (
-                          <div
-                            key={answer.sign}
-                            class="col-lg-3 col-md-4 col-6 thumb"
-                          >
-                            <div key={answer.sign} class="VerticalContainer">
-                              <a
-                                key={answer.sign}
-                                data-fancybox="gallery"
-                                href={`/src/images/${answer.image}`}
-                                target="_blank"
-                              >
-                                <img
-                                  key={answer.sign}
-                                  class="tipDroppableImg"
-                                  src={`/src/images/${answer.image}`}
-                                  alt="изображение"
-                                  height="100px"
-                                />
-                              </a>
-                              <input
-                                key={answer.sign}
-                                type="text"
-                                class="tipDroppableInput"
-                                name="inputDroppable"
-                                value={answer.sign}
-                              />
-                            </div>
-                          </div>
-                        );
-                      })}
-                    </div>
+                <TemplateTip
+                  numberTip={this.props.numberTip}
+                  incNumberTip={this.props.incNumberTip}
+                  isAnswer={false}
+                >
+                  <TipCollectionNoteImage
+                    ArrData={this.props.secondTipDragAndDrop}
+                  />
+                </TemplateTip>}
 
-                    <br />
-                    <br />
-                    <a onClick={this.props.incNumberTip}>Получить ответ ∨</a>
-                  </div>
-                </div>}
+              {this.props.type == 'choice' &&
+                <TemplateTip
+                  numberTip={this.props.numberTip}
+                  incNumberTip={this.props.incNumberTip}
+                  isAnswer={false}
+                >
+                  <TipNoteImage
+                    numberTip={this.props.numberTip}
+                    note={this.props.secondTipText}
+                    image={this.props.secondTipImage}
+                    addClassTab="BlueBackground"
+                  />
+                </TemplateTip>}
+
             </div>}
           {this.props.numberTip >= 3 &&
             this.state.showTip &&
             <div>
               {this.props.type == 'dragAndDrop' &&
-                <div class="HorizontalContainerTabTip Top40">
-                  <div class="HorizontalContainer_item_TabTip GreenBackground">
-                    <div class="VerticalText">Ответ</div>
-                  </div>
-                  <div class="HorizontalContainer_item_ContentTip">
-
-                    <div class="row">
-                      {this.props.thirdTipDragAndDrop.map (answer => {
-                        return (
-                          <div
-                            key={answer.sign}
-                            class="col-lg-3 col-md-4 col-6 thumb"
-                          >
-                            <div key={answer.sign} class="VerticalContainer">
-                              <a
-                                key={answer.sign}
-                                data-fancybox="gallery"
-                                href={`/src/images/${answer.image}`}
-                                target="_blank"
-                              >
-                                <img
-                                  key={answer.sign}
-                                  class="tipDroppableImg"
-                                  src={`/src/images/${answer.image}`}
-                                  alt="изображение"
-                                  height="100px"
-                                />
-                              </a>
-                              <input
-                                key={answer.sign}
-                                type="text"
-                                class="tipDroppableInput"
-                                name="inputDroppable"
-                                value={answer.sign}
-                              />
-                            </div>
-                          </div>
-                        );
-                      })}
-                    </div>
-
-                  </div>
-                </div>}
+                <TemplateTip
+                  numberTip={this.props.numberTip}
+                  incNumberTip={this.props.incNumberTip}
+                  isAnswer={true}
+                >
+                  <TipCollectionNoteImage
+                    ArrData={this.props.thirdTipDragAndDrop}
+                  />
+                </TemplateTip>}
             </div>}
         </div>
       </p>
@@ -180,6 +122,8 @@ let mapStateToProps = state => {
   let firstTip = '';
   let secondTipDragAndDrop = [];
   let thirdTipDragAndDrop = [];
+  let secondTipText = '';
+  let secondTipImage = '';
 
   if (
     Array.isArray (questions) &&
@@ -211,6 +155,9 @@ let mapStateToProps = state => {
             thirdTipDragAndDrop.length == 0
           )
             thirdTipDragAndDrop = [];
+        } else if (type == 'choice') {
+          secondTipText = tips[1].text;
+          secondTipImage = tips[1].image;
         }
       }
     }
@@ -221,6 +168,8 @@ let mapStateToProps = state => {
     firstTip: firstTip,
     secondTipDragAndDrop: secondTipDragAndDrop,
     thirdTipDragAndDrop: thirdTipDragAndDrop,
+    secondTipText: secondTipText,
+    secondTipImage: secondTipImage,
   };
 };
 

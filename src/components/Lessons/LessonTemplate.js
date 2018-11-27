@@ -16,6 +16,7 @@ import {
 import {getNameLesson} from '../../lib/str';
 import {speakTitleTask} from '../../lib/speak';
 import LessonDragDrop from './LessonsType/DragDrop';
+import LessonChoice from './LessonsType/Choice';
 import ResultTask from './LessonsType/ResultTask';
 
 class LessonTemplate extends PureComponent {
@@ -61,7 +62,7 @@ class LessonTemplate extends PureComponent {
 
     let noEvaluation = this.state.noEvaluation;
 
-    if (this.props.countRightAnswers == 2) {
+    if (this.props.countRightAnswers == 1) {
       //this.props.countAnswers)
 
       if (this.props.currentTask < this.props.countTasks - 1) {
@@ -80,7 +81,7 @@ class LessonTemplate extends PureComponent {
       this.setState ({
         stage: 'success',
         numberTip: 0,
-        noEvaluation: noEvaluation,
+        noEvaluation: false,
       });
     } else {
       let numberTip = this.state.numberTip;
@@ -114,7 +115,7 @@ class LessonTemplate extends PureComponent {
       initCountPoints,
       initCountCoins,
     } = this.props;
-
+    
     initCountRightAnswers ();
     initCurrentTask ();
     initCountPoints ();
@@ -148,6 +149,10 @@ class LessonTemplate extends PureComponent {
               {this.props.type == 'dragAndDrop' &&
                 this.state.stage == 'lesson' &&
                 <LessonDragDrop />}
+
+              {this.props.type == 'choice' &&
+                this.state.stage == 'lesson' &&
+                <LessonChoice />}
 
               {(this.state.stage == 'success' ||
                 this.state.stage == 'failed') &&
@@ -218,8 +223,10 @@ let mapStateToProps = state => {
 
     let answers = questions[currentTask].answers;
 
-    if (Array.isArray (answers) && answers.length > 0)
-      countAnswers = answers.length;
+    if (Array.isArray (answers) && answers.length > 0) {
+      if (type == 'dragAndDrop') countAnswers = answers.length;
+      else countAnswers = 1;
+    }
   }
 
   let pct = countTasks == 0

@@ -100,19 +100,19 @@
         "answers": [
           {
             "image": "owl.png",
-            "right": false
+            "right": "false"
           },
           {
             "image": "duck.png",
-            "right": false
+            "right": "false"
           },
           {
             "image": "chick.png",
-            "right": false
+            "right": "false"
           },
           {
             "image": "toucan.png",
-            "right": true
+            "right": "true"
           }
         ],
         "tips": [
@@ -124,7 +124,7 @@
             "image": "toucan.png"
           },
           {
-            "answer": [
+            "answers": [
               {
                 "image": "owl.png",
                 "right": false
