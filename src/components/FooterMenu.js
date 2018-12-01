@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react';
 import history from '../history';
 
-export class FooterPage extends React.Component {
+export class FooterPage extends PureComponent {
   pushTrainingToPath (e) {
     history.push ('/#/Training');
     history.go ();
