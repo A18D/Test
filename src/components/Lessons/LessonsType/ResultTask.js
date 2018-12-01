@@ -9,7 +9,7 @@ export default class LessonSuccess extends PureComponent {
   render () {
     return (
       <img
-        src={`/src/images/${this.props.result}.png`}
+        src={`./src/images/${this.props.result}.png`}
         alt="Результат выполнения задания"
         class="taskResult"
       />

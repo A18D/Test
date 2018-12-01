@@ -54,7 +54,7 @@ class LessonChoice extends PureComponent {
               <a key={answer.image} data-fancybox="gallery">
                 <img
                   key={answer.image}
-                  src={`/src/images/${answer.image}`}
+                  src={`./src/images/${answer.image}`}
                   id={answer.image}
                   alt="изображение"
                   class="tipDroppableImg"

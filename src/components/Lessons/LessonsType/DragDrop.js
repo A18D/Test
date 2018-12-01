@@ -36,13 +36,13 @@ class LessonDragDrop extends PureComponent {
                   <a
                     key={answer.sign}
                     data-fancybox="gallery"
-                    href={`/src/images/${answer.image}`}
+                    href={`./src/images/${answer.image}`}
                     target="_blank"
                   >
                     <img
                       key={answer.sign}
                       class="droppable"
-                      src={`/src/images/${answer.image}`}
+                      src={`./src/images/${answer.image}`}
                       alt="изображение"
                       height="100px"
                     />

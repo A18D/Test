@@ -12,7 +12,7 @@ export const MainMenu = () =>
 
                     <LinkContainer to="/" className="container-Logo">
                         <NavItem className="linkLogo">
-                            <img src="/src/images/imgLogo.jpg"
+                            <img src="./src/images/imgLogo.jpg"
                                 alt="логотип" width="40" height="40" /> iSMART
                         </NavItem>
                     </LinkContainer>

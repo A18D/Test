@@ -142,7 +142,7 @@ class LessonTemplate extends PureComponent {
                   onClick={e => speakTitleTask ('titleText')}
                 >
                   <img
-                    src="/src/images/titleTask.jpg"
+                    src="./src/images/titleTask.jpg"
                     alt="Прослушать текст"
                     width="18"
                     height="18"

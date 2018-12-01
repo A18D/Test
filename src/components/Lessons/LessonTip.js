@@ -138,7 +138,7 @@ class LessonTip extends PureComponent {
                             {!isTrue (Element.right) &&
                               <img
                                 key={Element.image}
-                                src={`/src/images/${Element.image}`}
+                                src={`./src/images/${Element.image}`}
                                 alt="изображение"
                                 class="tipDroppableImg"
                                 height="100px"
@@ -147,7 +147,7 @@ class LessonTip extends PureComponent {
                             {isTrue (Element.right) &&
                               <img
                                 key={Element.image}
-                                src={`/src/images/${Element.image}`}
+                                src={`./src/images/${Element.image}`}
                                 alt="изображение"
                                 class="tipDroppableImg RightTipDroppableImg"
                                 height="100px"

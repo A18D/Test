@@ -3,32 +3,32 @@ import history from '../history';
 
 export class FooterPage extends PureComponent {
   pushTrainingToPath (e) {
-    history.push ('/#/Training');
+    history.push ('./#/Training');
     history.go ();
   }
 
   pushAboutProjecToPath (e) {
-    history.push ('/#/AboutProject');
+    history.push ('./#/AboutProject');
     history.go ();
   }
 
   pushBlogToPath (e) {
-    history.push ('/#/Blog');
+    history.push ('./#/Blog');
     history.go ();
   }
 
   pushWebinarToPath (e) {
-    history.push ('/#/Webinar');
+    history.push ('./#/Webinar');
     history.go ();
   }
 
   pushRewardsToPath (e) {
-    history.push ('/#/Training/rewards');
+    history.push ('./#/Training/rewards');
     history.go ();
   }
 
   pushBeginToPath (e) {
-    history.push ('/#/Training/begin');
+    history.push ('./#/Training/begin');
     history.go ();
   }
 
@@ -42,7 +42,7 @@ export class FooterPage extends PureComponent {
               <p class="SpaceContainer">
                 <a href="/" target="_blank">
                   <img
-                    src="/src/images/iSmart.png"
+                    src="./src/images/iSmart.png"
                     alt="логотип"
                     width="40"
                     height="40"
@@ -89,7 +89,7 @@ export class FooterPage extends PureComponent {
                 <span />
                 <a href="https://www.instagram.com" target="_blank">
                   <img
-                    src="/src/images/imgInstagram.jpg"
+                    src="./src/images/imgInstagram.jpg"
                     alt="логотип"
                     width="20"
                     height="20"

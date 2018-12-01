@@ -19,7 +19,7 @@ class MenuTraining extends PureComponent {
         <div>
           <ul id="navbar-BeginContainer">
             <li className="leftRightImg">
-              <img src="/src/images/leftImageBegin.png" alt="логотип" />
+              <img src="./src/images/leftImageBegin.png" alt="логотип" />
             </li>
 
             <li className="centerMenu">
@@ -47,7 +47,7 @@ class MenuTraining extends PureComponent {
             </li>
 
             <li className="leftRightImg">
-              <img src="/src/images/rightImageBegin.png" alt="логотип" />
+              <img src="./src/images/rightImageBegin.png" alt="логотип" />
             </li>
           </ul>
         </div>

@@ -20,13 +20,13 @@ export default class TipCollectionNoteImage extends PureComponent {
                 <a
                   key={data.sign}
                   data-fancybox="gallery"
-                  href={`/src/images/${data.image}`}
+                  href={`./src/images/${data.image}`}
                   target="_blank"
                 >
                   <img
                     key={data.sign}
                     class="tipDroppableImg"
-                    src={`/src/images/${data.image}`}
+                    src={`./src/images/${data.image}`}
                     alt="изображение"
                     height="100px"
                   />

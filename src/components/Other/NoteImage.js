@@ -14,11 +14,11 @@ export default class TipNoteImage extends PureComponent {
         <p align="center">{this.props.note}</p>
         <a
           data-fancybox="gallery"
-          href={`/src/images/${this.props.image}`}
+          href={`./src/images/${this.props.image}`}
           target="_blank"
         >
           <img
-            src={`/src/images/${this.props.image}`}
+            src={`./src/images/${this.props.image}`}
             alt="изображение"
             class="tipDroppableImg"
             height="100px"
