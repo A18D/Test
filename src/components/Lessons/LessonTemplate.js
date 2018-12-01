@@ -17,7 +17,9 @@ import {getNameLesson} from '../../lib/str';
 import {speakTitleTask} from '../../lib/speak';
 import LessonDragDrop from './LessonsType/DragDrop';
 import LessonChoice from './LessonsType/Choice';
+import LessonInput from './LessonsType/Input';
 import ResultTask from './LessonsType/ResultTask';
+import {disableTip} from '../../actions';
 
 class LessonTemplate extends PureComponent {
   static propTypes = {
@@ -36,6 +38,7 @@ class LessonTemplate extends PureComponent {
     initCountPoints: PropTypes.func.isRequired,
     incrementCountCoins: PropTypes.func.isRequired,
     initCountCoins: PropTypes.func.isRequired,
+    disableTip: PropTypes.func.isRequired,
   };
 
   constructor (props) {
@@ -57,8 +60,10 @@ class LessonTemplate extends PureComponent {
       initCountCoins,
       incrementCountPoints,
       incrementCountCoins,
+      disableTip,
     } = this.props;
     initCountRightAnswers ();
+    disableTip ();
 
     let noEvaluation = this.state.noEvaluation;
 
@@ -76,6 +81,8 @@ class LessonTemplate extends PureComponent {
         initCurrentTask ();
         initCountPoints ();
         initCountCoins ();
+        this.childTimer.handleStopTimer ();
+        this.childTimer.handleStartTimer ();
       }
 
       this.setState ({
@@ -115,7 +122,7 @@ class LessonTemplate extends PureComponent {
       initCountPoints,
       initCountCoins,
     } = this.props;
-    
+
     initCountRightAnswers ();
     initCurrentTask ();
     initCountPoints ();
@@ -154,6 +161,10 @@ class LessonTemplate extends PureComponent {
                 this.state.stage == 'lesson' &&
                 <LessonChoice />}
 
+              {this.props.type == 'input' &&
+                this.state.stage == 'lesson' &&
+                <LessonInput />}
+
               {(this.state.stage == 'success' ||
                 this.state.stage == 'failed') &&
                 <ResultTask result={this.state.stage} />}
@@ -167,7 +178,9 @@ class LessonTemplate extends PureComponent {
             <ul class="style-Hint">
               <li class="timer">
                 <p data-tooltip="Время">
-                  <LessonTimer />
+                  <LessonTimer
+                    ref={component => (this.childTimer = component)}
+                  />
                 </p>
               </li>
               <li class="mark">
@@ -256,6 +269,7 @@ const mapDispatchToProps = {
   initCountPoints: initCountPoints,
   incrementCountCoins: incrementCountCoins,
   initCountCoins: initCountCoins,
+  disableTip: disableTip,
 };
 
 export default connect (mapStateToProps, mapDispatchToProps) (LessonTemplate);

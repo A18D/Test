@@ -1,36 +1,38 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
-import {getNameLesson, isEmptyStr} from '../../lib/str';
-import TipNoteImage from './LessonsType/Tips/NoteImage';
-import TemplateTip from './LessonsType/Tips/TemplateTip';
-import TipCollectionNoteImage from './LessonsType/Tips/CollectionNoteImage';
+import {getNameLesson, isEmptyStr, isTrue} from '../../lib/str';
+import TipNoteImage from '../Other/NoteImage';
+import TemplateTip from './LessonsType/TemplateTip';
+import TipCollectionNoteImage from '../Other/CollectionNoteImage';
+import {disableTip, enableTip} from '../../actions';
+import TemplateInput from './LessonsType/TemplateInput';
 
 class LessonTip extends PureComponent {
   static propTypes = {
+    ABshowTip: PropTypes.bool.isRequired,
     numberTip: PropTypes.number.isRequired,
+    disableTip: PropTypes.func.isRequired,
+    enableTip: PropTypes.func.isRequired,
     setNoEvaluation: PropTypes.func.isRequired,
     incNumberTip: PropTypes.func.isRequired,
     type: PropTypes.string.isRequired,
     firstTip: PropTypes.string.isRequired,
     secondTipDragAndDrop: PropTypes.array.isRequired,
     thirdTipDragAndDrop: PropTypes.array.isRequired,
+    thirdTipChoice: PropTypes.array.isRequired,
     secondTipText: PropTypes.string.isRequired,
     secondTipImage: PropTypes.string.isRequired,
+    secondTipInputArrTemplate: PropTypes.array.isRequired,
+    secondTipArrAnswerInput: PropTypes.array.isRequired,
+    thirdTipInputArrTemplate: PropTypes.array.isRequired,
+    thirdTipArrAnswerInput: PropTypes.array.isRequired,
   };
-
-  constructor (props) {
-    super (props);
-
-    this.state = {
-      showTip: false,
-    };
-  }
 
   handleTip = () => {
     if (this.props.numberTip > 0) {
-      let pShowTip = !this.state.showTip;
-      this.setState ({showTip: pShowTip}); //, numberTip: numberTip
+      if (this.props.ABshowTip) this.props.disableTip ();
+      else this.props.enableTip ();
 
       if (this.props.numberTip == 1 && isEmptyStr (this.props.firstTip)) {
         this.props.incNumberTip ();
@@ -54,7 +56,7 @@ class LessonTip extends PureComponent {
         </div>
         <div>
           {this.props.numberTip == 1 &&
-            this.state.showTip &&
+            this.props.ABshowTip &&
             <TemplateTip
               numberTip={this.props.numberTip}
               incNumberTip={this.props.incNumberTip}
@@ -63,7 +65,7 @@ class LessonTip extends PureComponent {
               {this.props.firstTip}
             </TemplateTip>}
           {this.props.numberTip == 2 &&
-            this.state.showTip &&
+            this.props.ABshowTip &&
             <div>
               {this.props.type == 'dragAndDrop' &&
                 <TemplateTip
@@ -90,9 +92,23 @@ class LessonTip extends PureComponent {
                   />
                 </TemplateTip>}
 
+              {this.props.type == 'input' &&
+                <TemplateTip
+                  numberTip={this.props.numberTip}
+                  incNumberTip={this.props.incNumberTip}
+                  isAnswer={false}
+                >
+                  <TemplateInput
+                    arrTemplate={this.props.secondTipInputArrTemplate}
+                    answers={this.props.secondTipArrAnswerInput}
+                    prefixIdInput="tipIDAnswer"
+                    idForm="tipFormLessonInput"
+                    inputClass="InputAnswer backgroundGrey"
+                  />
+                </TemplateTip>}
             </div>}
           {this.props.numberTip >= 3 &&
-            this.state.showTip &&
+            this.props.ABshowTip &&
             <div>
               {this.props.type == 'dragAndDrop' &&
                 <TemplateTip
@@ -102,6 +118,59 @@ class LessonTip extends PureComponent {
                 >
                   <TipCollectionNoteImage
                     ArrData={this.props.thirdTipDragAndDrop}
+                  />
+                </TemplateTip>}
+
+              {this.props.type == 'choice' &&
+                <TemplateTip
+                  numberTip={this.props.numberTip}
+                  incNumberTip={this.props.incNumberTip}
+                  isAnswer={true}
+                >
+                  <div class="row space45 ">
+                    {this.props.thirdTipChoice.map (Element => {
+                      return (
+                        <div
+                          key={Element.image}
+                          class="col-lg-3 col-md-4 col-6 thumb"
+                        >
+                          <a key={Element.image} data-fancybox="gallery">
+                            {!isTrue (Element.right) &&
+                              <img
+                                key={Element.image}
+                                src={`/src/images/${Element.image}`}
+                                alt="изображение"
+                                class="tipDroppableImg"
+                                height="100px"
+                              />}
+
+                            {isTrue (Element.right) &&
+                              <img
+                                key={Element.image}
+                                src={`/src/images/${Element.image}`}
+                                alt="изображение"
+                                class="tipDroppableImg RightTipDroppableImg"
+                                height="100px"
+                              />}
+                          </a>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </TemplateTip>}
+
+              {this.props.type == 'input' &&
+                <TemplateTip
+                  numberTip={this.props.numberTip}
+                  incNumberTip={this.props.incNumberTip}
+                  isAnswer={true}
+                >
+                  <TemplateInput
+                    arrTemplate={this.props.thirdTipInputArrTemplate}
+                    answers={this.props.thirdTipArrAnswerInput}
+                    prefixIdInput="tipIDAnswer"
+                    idForm="tipFormLessonInput"
+                    inputClass="InputAnswer backgroundGrey borderGreenSolid"
                   />
                 </TemplateTip>}
             </div>}
@@ -116,14 +185,22 @@ let mapStateToProps = state => {
   let lesson = getNameLesson (location.hash);
   if (lesson.length > 1) questions = state.dataLessons[lesson].questions;
 
+  let ABshowTip = state.valueShowTip;
   let currentTask = state.currentTask;
   let type = '';
   let countTips = 0;
   let firstTip = '';
   let secondTipDragAndDrop = [];
   let thirdTipDragAndDrop = [];
+  let thirdTipChoice = [];
   let secondTipText = '';
   let secondTipImage = '';
+
+  //tip for "input" lesson
+  let secondTipInputArrTemplate = [];
+  let secondTipArrAnswerInput = [];
+  let thirdTipInputArrTemplate = [];
+  let thirdTipArrAnswerInput = [];
 
   if (
     Array.isArray (questions) &&
@@ -158,6 +235,21 @@ let mapStateToProps = state => {
         } else if (type == 'choice') {
           secondTipText = tips[1].text;
           secondTipImage = tips[1].image;
+          thirdTipChoice = tips[2].answers;
+        } else if (type == 'input') {
+          let TipInputTemplate = tips[1].template;
+
+          if (!isEmptyStr (TipInputTemplate))
+            secondTipInputArrTemplate = TipInputTemplate.split (':?');
+
+          secondTipArrAnswerInput = tips[1].answer;
+
+          TipInputTemplate = tips[2].template;
+
+          if (!isEmptyStr (TipInputTemplate))
+            thirdTipInputArrTemplate = TipInputTemplate.split (':?');
+
+          thirdTipArrAnswerInput = tips[2].answer;
         }
       }
     }
@@ -170,7 +262,19 @@ let mapStateToProps = state => {
     thirdTipDragAndDrop: thirdTipDragAndDrop,
     secondTipText: secondTipText,
     secondTipImage: secondTipImage,
+    thirdTipChoice: thirdTipChoice,
+    ABshowTip: ABshowTip,
+    secondTipInputArrTemplate: secondTipInputArrTemplate,
+    secondTipArrAnswerInput: secondTipArrAnswerInput,
+    thirdTipInputArrTemplate: thirdTipInputArrTemplate,
+    thirdTipArrAnswerInput: thirdTipArrAnswerInput,
   };
 };
 
-export default connect (mapStateToProps) (LessonTip);
+// Объект с генераторами действий
+const mapDispatchToProps = {
+  enableTip: enableTip,
+  disableTip: disableTip,
+};
+
+export default connect (mapStateToProps, mapDispatchToProps) (LessonTip);

@@ -22,6 +22,31 @@
   width: 100px
 }
 
+.InputAnswer {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  border: 1px solid red;
+  outline: 0 !important;
+  text-align: center;
+}
+
+.borderGreenSolid {
+  border: 1px solid rgb(29, 126, 4);
+}
+
+.backgroundGrey {
+  background: rgb(224, 220, 220);
+}
+
+.bottom0{
+  margin-bottom: 0px;
+}
+
+.colorRed{
+  color: red;
+}
+
 .tipDroppableImg {
   margin-bottom: 10px;
   width: 100px;
@@ -35,18 +60,31 @@
   height: 110px;
 }
 
+.RightTipDroppableImg {
+  border: 4px double #3a9b8b;
+  width: 110px;
+  height: 110px;
+}
+
 .tipDroppableInput {
   margin-bottom: 10px;
   width: 100px;
   background-color: #02396d;
   color: white;
-  /* Цвет текста */
   outline: 0 !important;
   text-align: center;
 }
 
 .space45 {
   margin-left: 45px;
+}
+
+.bottom45 {
+  margin-bottom: 45px;
+}
+
+.sizebig {
+  font-size: 2em;
 }
 
 .Width170Pr {

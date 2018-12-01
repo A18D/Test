@@ -1,6 +1,11 @@
 import React, {PureComponent} from 'react';
+import PropTypes from 'prop-types';
 
 export class LessonTimer extends PureComponent {
+  static propTypes = {
+    updateTimer: PropTypes.bool.isRequired,
+  };
+
   constructor (props) {
     super (props);
     this.state = {
@@ -11,7 +16,9 @@ export class LessonTimer extends PureComponent {
 
   GetTimer = () => {
     let t = this.state.timer;
+
     if (t == 0) return;
+
     let dtime = (new Date ().getTime () - t) / 1000;
     let dt = dtime;
     let m = dt / 60;
@@ -19,7 +26,7 @@ export class LessonTimer extends PureComponent {
     let dm = Math.floor (m - h * 60);
     let ds = Math.floor (dt - (h * 3600 + dm * 60));
 
-    document.getElementById ('timer').textContent = //innerHTML =
+    document.getElementById ('timer').textContent = 
       h.toString ().padStart (2, 0) +
       ':' +
       dm.toString ().padStart (2, 0) +
