@@ -8,7 +8,7 @@ export class Search extends React.Component {
         history.goBack();
     }
     pushWebinarToPath() {
-        history.push("/#/Webinar")
+        history.push("./#/Webinar")
         history.go()
     }
 

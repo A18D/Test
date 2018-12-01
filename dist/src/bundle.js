@@ -49417,7 +49417,7 @@ var Search = exports.Search = function (_React$Component) {
     }, {
         key: 'pushWebinarToPath',
         value: function pushWebinarToPath() {
-            _history2.default.push("/#/Webinar");
+            _history2.default.push("./#/Webinar");
             _history2.default.go();
         }
     }, {
