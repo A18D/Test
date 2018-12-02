@@ -90,6 +90,10 @@
   margin-left: 45px;
 }
 
+.spaceRight45 {
+  margin-right: 45px;
+}
+
 .bottom45 {
   margin-bottom: 45px;
 }
@@ -136,4 +140,9 @@
   margin-top: 65px;
   width: 100px;
   height: 100px
+}
+
+.preWrap {
+  white-space: pre-wrap;
+  word-break: break-all;
 }

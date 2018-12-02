@@ -5825,7 +5825,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".draggable {\r\n  opacity: 0.9;\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n  padding-top: 5px;\r\n  padding-bottom: 5px;\r\n  margin-bottom: 5px;\r\n  background: #02396d;\r\n  color: white;\r\n  text-align: center;\r\n  cursor: pointer;\r\n  -moz-transition: all 0.1s ease;\r\n  -o-transition: all 0.1 ease;\r\n  -webkit-transition: all 0.1s ease;\r\n}\r\n\r\n.draggable:hover {\r\n  opacity: 1;\r\n  -webkit-transform: scale(1.2);\r\n  -moz-transform: scale(1.2);\r\n  -o-transform: scale(1.2);\r\n}\r\n\r\n.draggableBlock {\r\n  padding: 0px;\r\n  margin-bottom: 0px;\r\n  position: absolute;\r\n  right: 250px;\r\n}\r\n\r\n.droppable {\r\n  margin-bottom: 10px;\r\n  width: 100px\r\n}\r\n\r\n.InputAnswer {\r\n  margin-left: 10px;\r\n  margin-right: 10px;\r\n  width: 50px;\r\n  border: 1px solid red;\r\n  outline: 0 !important;\r\n  text-align: center;\r\n}\r\n\r\n.borderGreenSolid {\r\n  border: 1px solid rgb(29, 126, 4);\r\n}\r\n\r\n.backgroundGrey {\r\n  background: rgb(224, 220, 220);\r\n}\r\n\r\n.bottom0 {\r\n  margin-bottom: 0px;\r\n}\r\n\r\n.colorRed {\r\n  color: red;\r\n}\r\n\r\n.tipDroppableImg {\r\n  margin-bottom: 10px;\r\n  width: 100px;\r\n  height: 100px;\r\n  cursor: pointer;\r\n}\r\n\r\n.ActiveTipDroppableImg {\r\n  border: 4px double #3a9b8b;\r\n  width: 110px;\r\n  height: 110px;\r\n}\r\n\r\n.RightTipDroppableImg {\r\n  border: 4px double #3a9b8b;\r\n  width: 110px;\r\n  height: 110px;\r\n}\r\n\r\n.tipDroppableInput {\r\n  margin-bottom: 10px;\r\n  width: 100px;\r\n  background-color: #02396d;\r\n  color: white;\r\n  outline: 0 !important;\r\n  text-align: center;\r\n}\r\n\r\n.space45 {\r\n  margin-left: 45px;\r\n}\r\n\r\n.bottom45 {\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.sizebig {\r\n  font-size: 2em;\r\n}\r\n\r\n.Width170Pr {\r\n  width: 170%;\r\n}\r\n\r\n.VerticalContainer {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  margin-bottom: 40px;\r\n  margin-right: 0px;\r\n  width: 100px\r\n}\r\n\r\n.thumb img {\r\n  opacity: 0.6;\r\n  box-shadow: inset 5px 6px 3px rgba(203, 255, 144, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(223, 152, 0, 0.7), 0 0 20px 3px Yellow;\r\n  -moz-transition: all 1.5s ease;\r\n  -o-transition: all 1.5s ease;\r\n  -webkit-transition: all 1.5s ease;\r\n}\r\n\r\n.thumb img:hover {\r\n  opacity: 1;\r\n  -webkit-transform: scale(1.2);\r\n  -moz-transform: scale(1.2);\r\n  -o-transform: scale(1.2);\r\n}\r\n\r\n.thumb {\r\n  padding: 5px;\r\n}\r\n\r\n.taskResult {\r\n  position: absolute;\r\n  margin-left: 50%;\r\n  margin-top: 65px;\r\n  width: 100px;\r\n  height: 100px\r\n}", ""]);
+exports.push([module.i, ".draggable {\r\n  opacity: 0.9;\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n  padding-top: 5px;\r\n  padding-bottom: 5px;\r\n  margin-bottom: 5px;\r\n  background: #02396d;\r\n  color: white;\r\n  text-align: center;\r\n  cursor: pointer;\r\n  -moz-transition: all 0.1s ease;\r\n  -o-transition: all 0.1 ease;\r\n  -webkit-transition: all 0.1s ease;\r\n}\r\n\r\n.draggable:hover {\r\n  opacity: 1;\r\n  -webkit-transform: scale(1.2);\r\n  -moz-transform: scale(1.2);\r\n  -o-transform: scale(1.2);\r\n}\r\n\r\n.draggableBlock {\r\n  padding: 0px;\r\n  margin-bottom: 0px;\r\n  position: absolute;\r\n  right: 250px;\r\n}\r\n\r\n.droppable {\r\n  margin-bottom: 10px;\r\n  width: 100px\r\n}\r\n\r\n.InputAnswer {\r\n  margin-left: 10px;\r\n  margin-right: 10px;\r\n  width: 50px;\r\n  border: 1px solid red;\r\n  outline: 0 !important;\r\n  text-align: center;\r\n}\r\n\r\n.borderGreenSolid {\r\n  border: 1px solid rgb(29, 126, 4);\r\n}\r\n\r\n.backgroundGrey {\r\n  background: rgb(224, 220, 220);\r\n}\r\n\r\n.bottom0 {\r\n  margin-bottom: 0px;\r\n}\r\n\r\n.colorRed {\r\n  color: red;\r\n}\r\n\r\n.tipDroppableImg {\r\n  margin-bottom: 10px;\r\n  width: 100px;\r\n  height: 100px;\r\n  cursor: pointer;\r\n}\r\n\r\n.ActiveTipDroppableImg {\r\n  border: 4px double #3a9b8b;\r\n  width: 110px;\r\n  height: 110px;\r\n}\r\n\r\n.RightTipDroppableImg {\r\n  border: 4px double #3a9b8b;\r\n  width: 110px;\r\n  height: 110px;\r\n}\r\n\r\n.tipDroppableInput {\r\n  margin-bottom: 10px;\r\n  width: 100px;\r\n  background-color: #02396d;\r\n  color: white;\r\n  outline: 0 !important;\r\n  text-align: center;\r\n}\r\n\r\n.space45 {\r\n  margin-left: 45px;\r\n}\r\n\r\n.spaceRight45 {\r\n  margin-right: 45px;\r\n}\r\n\r\n.bottom45 {\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.sizebig {\r\n  font-size: 2em;\r\n}\r\n\r\n.Width170Pr {\r\n  width: 170%;\r\n}\r\n\r\n.VerticalContainer {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  margin-bottom: 40px;\r\n  margin-right: 0px;\r\n  width: 100px\r\n}\r\n\r\n.thumb img {\r\n  opacity: 0.6;\r\n  box-shadow: inset 5px 6px 3px rgba(203, 255, 144, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(223, 152, 0, 0.7), 0 0 20px 3px Yellow;\r\n  -moz-transition: all 1.5s ease;\r\n  -o-transition: all 1.5s ease;\r\n  -webkit-transition: all 1.5s ease;\r\n}\r\n\r\n.thumb img:hover {\r\n  opacity: 1;\r\n  -webkit-transform: scale(1.2);\r\n  -moz-transform: scale(1.2);\r\n  -o-transform: scale(1.2);\r\n}\r\n\r\n.thumb {\r\n  padding: 5px;\r\n}\r\n\r\n.taskResult {\r\n  position: absolute;\r\n  margin-left: 50%;\r\n  margin-top: 65px;\r\n  width: 100px;\r\n  height: 100px\r\n}\r\n\r\n.preWrap {\r\n  white-space: pre-wrap;\r\n  word-break: break-all;\r\n}", ""]);
 
 // exports
 
@@ -47189,8 +47189,8 @@ var LessonTemplate = function (_PureComponent) {
 
       var noEvaluation = _this.state.noEvaluation;
 
-      if (_this.props.countRightAnswers == 1) {
-        //this.props.countAnswers)
+      if (_this.props.countRightAnswers == _this.props.countAnswers) {
+        //)
 
         if (_this.props.currentTask < _this.props.countTasks - 1) {
           incrementCurrentTask();
@@ -49234,7 +49234,7 @@ var AboutMenu = exports.AboutMenu = function AboutMenu(_ref) {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.AboutProject = undefined;
 
@@ -49247,19 +49247,151 @@ var _pageTemplate = __webpack_require__(/*! ./pageTemplate */ "./src/components/
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var AboutProject = exports.AboutProject = function AboutProject() {
-    return _react2.default.createElement(
-        _pageTemplate.PageTemplate,
+  return _react2.default.createElement(
+    _pageTemplate.PageTemplate,
+    null,
+    _react2.default.createElement(
+      'section',
+      { 'class': 'space45 spaceRight45' },
+      _react2.default.createElement(
+        'h1',
+        null,
+        '\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0430'
+      ),
+      _react2.default.createElement(
+        'p',
+        { 'class': 'bottom0' },
+        '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!'
+      ),
+      _react2.default.createElement(
+        'p',
+        { 'class': 'bottom0' },
+        '\u041F\u0440\u043E\u0435\u043A\u0442 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0441\u043E\u0431\u043E\u0439 \u0442\u0435\u0441\u0442\u043E\u0432\u043E\u0435 SPA \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435,  \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043D\u043E\u0435 \u0432 \u0440\u0430\u043C\u043A\u0430\u0445 \u0441\u0430\u043C\u043E\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u0441 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u043C \u0442\u0430\u043A\u0438\u0445 \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A JavaScript, \u043A\u0430\u043A: react, redux, bootrstrap.'
+      ),
+      _react2.default.createElement(
+        'p',
+        { 'class': 'bottom0' },
+        '\u0414\u043B\u044F \u0440\u0430\u0431\u043E\u0442\u044B \u0441 \u0441\u0435\u0440\u0432\u0438\u0441\u0430\u043C\u0438 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u043F\u0435\u0440\u0435\u0439\u0434\u0435\u043C \u0432 \u0440\u0430\u0437\u0434\u0435\u043B "\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435" -> "\u0421 \u0447\u0435\u0433\u043E \u043D\u0430\u0447\u0430\u0442\u044C". \u0421\u0443\u0442\u044C \u0441\u0435\u0440\u0432\u0438\u0441\u043E\u0432 \u0437\u0430\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0441\u044F \u0432 \u0440\u0435\u0448\u0435\u043D\u0438\u0438 \u0437\u0430\u0434\u0430\u0447 \u0442\u0440\u0435\u0445 \u0442\u0438\u043F\u043E\u0432. \u041F\u0440\u0438 \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0435 \u0432 \u0440\u0430\u0437\u0434\u0435\u043B \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u0430 "\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430" \u0437\u0430\u043F\u0443\u0441\u043A\u0430\u0435\u0442\u0441\u044F \u043F\u0440\u043E\u0446\u0435\u0441\u0441 \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0437\u0430\u0434\u0430\u0447. \u0414\u043B\u044F \u0434\u0440\u0443\u0433\u0438\u0445 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432 \u0437\u0430\u0434\u0430\u0447\u0438 \u043D\u0430\u0445\u043E\u0434\u044F\u0442\u0441\u044F \u0432 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0435.'
+      ),
+      _react2.default.createElement(
+        'h4',
+        null,
+        '\u0414\u043B\u044F \u043A\u0430\u0436\u0434\u043E\u0439 \u0437\u0430\u0434\u0430\u0447\u0438 \u0435\u0441\u0442\u044C \u0430\u043A\u0442\u0438\u0432\u043D\u044B\u0435 \u200B\u200B\u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u200B\u200B\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F:'
+      ),
+      _react2.default.createElement(
+        'ul',
         null,
         _react2.default.createElement(
-            'section',
+          'li',
+          null,
+          '\u041A\u043E\u043D\u0442\u0435\u0439\u043D\u0435\u0440 \u201C\u0412\u0440\u0435\u043C\u044F\u201D - \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0435\u0442 \u0432\u0440\u0435\u043C\u044F \u043F\u043E\u0442\u0440\u0430\u0447\u0435\u043D\u043D\u043E\u0435 \u043D\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F, \u043F\u0440\u043E\u0441\u0442\u043E\u0439 \u0445\u0440\u043E\u043D\u043E\u043C\u0435\u0442\u0440 \u200B\u0441\u200B \u200B\u200B\u043E\u0442\u0441\u0447\u0435\u0442\u043E\u043C \u200B\u200B\u043F\u043E \u200B\u200B\u0432\u043E\u0437\u0440\u0430\u0441\u0442\u0430\u043D\u0438\u044E, \u200B\u200B\u043D\u0430\u0447\u0438\u043D\u0430\u044F \u200B\u0441\u200B \u200B\u200B00:00:00.'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          '\u041A\u043E\u043D\u0442\u0435\u0439\u043D\u0435\u0440 \u201C\u041A\u043E\u043B-\u0432\u043E \u0431\u0430\u043B\u043B\u043E\u0432\u201D - \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u043D\u0430 \u0447\u0438\u0441\u043B\u043E 10, \u0435\u0441\u043B\u0438 \u0434\u0430\u043D \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442.'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          '\u041A\u043E\u043D\u0442\u0435\u0439\u043D\u0435\u0440 \u201C\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043C\u043E\u043D\u0435\u0442\u201D - \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u043D\u0430 \u0447\u0438\u0441\u043B\u043E 1, \u0437\u0430 \u043A\u0430\u0436\u0434\u044B\u0435 \u043D\u0430\u0431\u0440\u0430\u043D\u043D\u044B\u0435 10 \u0431\u0430\u043B\u043B\u043E\u0432.'
+        )
+      ),
+      _react2.default.createElement(
+        'h4',
+        null,
+        '\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u044B \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435 \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0441\u0435\u0440\u0432\u0438\u0441\u043E\u043C:'
+      ),
+      _react2.default.createElement(
+        'ul',
+        null,
+        _react2.default.createElement(
+          'li',
+          null,
+          '\u041A\u043D\u043E\u043F\u043A\u0430  \u201C\u041F\u043E\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044C\u201D. \u041F\u0440\u0438 \u043A\u043B\u0438\u043A\u0435 \u043F\u043E \u043A\u043D\u043F\u043E\u043A\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0430\u043D\u0430\u043B\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0437\u0430\u0434\u0430\u0447\u0438.  \u0412\u044B\u0432\u043E\u0434\u0438\u0442  \u043D\u0430  \u044D\u043A\u0440\u0430\u043D  \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E\u0449\u0443\u044E \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u0443 \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0437\u0430\u0434\u0430\u0447\u0438 \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0443. \u0412 \u0441\u043B\u0443\u0447\u0430\u0435 \u200B\u200B\u043D\u0435\u0432\u0435\u0440\u043D\u043E\u0433\u043E \u200B\u200B\u043E\u0442\u0432\u0435\u0442\u0430 \u043A\u043E\u043D\u0442\u0435\u0439\u043D\u0435\u0440\u044B \u201C\u041A\u043E\u043B-\u0432\u043E \u0431\u0430\u043B\u043B\u043E\u0432\u201D \u0438 \u201C\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043C\u043E\u043D\u0435\u0442\u201D \u200B\u200B\u043E\u0441\u0442\u0430\u044E\u0442\u0441\u044F \u200B\u200B\u043D\u0435\u0438\u0437\u043C\u0435\u043D\u043D\u044B\u043C\u0438.'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          '\u041A\u043D\u043E\u043F\u043A\u0430  \u201C\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430\u201D  \u0432\u044B\u0434\u0430\u0435\u0442  \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438  \u0442\u0440\u0435\u0445  \u0443\u0440\u043E\u0432\u043D\u0435\u0439.',
+          _react2.default.createElement(
+            'ul',
             null,
             _react2.default.createElement(
-                'h1',
-                null,
-                'About project'
+              'li',
+              null,
+              '\u041F\u0435\u0440\u0432\u044B\u0439  \u0443\u0440\u043E\u0432\u0435\u043D\u044C  - \u044D\u0442\u043E \u043F\u0440\u0430\u0432\u0438\u043B\u043E.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              '\u0412\u0442\u043E\u0440\u043E\u0439  \u0443\u0440\u043E\u0432\u0435\u043D\u044C  -  \u044D\u0442\u043E  \u043F\u043E\u0434\u043E\u0431\u043D\u0430\u044F  \u0437\u0430\u0434\u0430\u0447\u0430  \u0441  \u0433\u043E\u0442\u043E\u0432\u044B\u043C  \u0440\u0435\u0448\u0435\u043D\u0438\u0435\u043C.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              '\u0422\u0440\u0435\u0442\u0438\u0439  \u0443\u0440\u043E\u0432\u0435\u043D\u044C -  \u044D\u0442\u043E \u043E\u0442\u0432\u0435\u0442  \u043D\u0430  \u0442\u0435\u043A\u0443\u0449\u0443\u044E  \u0437\u0430\u0434\u0430\u0447\u0443.'
             )
+          )
         )
-    );
+      ),
+      _react2.default.createElement('p', null),
+      _react2.default.createElement(
+        'p',
+        { 'class': 'bottom0' },
+        ' ',
+        '\u041F\u0440\u0438  \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0438  \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438  \u0431\u0430\u043B\u043B\u044B \u0438 \u043C\u043E\u043D\u0435\u0442\u044B \u043D\u0435  \u043D\u0430\u0447\u0438\u0441\u043B\u044F\u044E\u0442\u0441\u044F. \u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438 \u0432\u044B\u0432\u043E\u0434\u044F\u0442\u0441\u044F \u043D\u0438\u0436\u0435 \u043A\u043D\u043E\u043F\u043A\u0438 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430. \u0415\u0441\u043B\u0438 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C \u043E\u0448\u0438\u0431\u0441\u044F \u043F\u0435\u0440\u0432\u044B\u0439 \u0440\u0430\u0437,',
+        ' ',
+        '\u0442\u043E \u043F\u043E \u043A\u043D\u043E\u043F\u043A\u0435 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u0435\u043C\u0443 \u0432\u044B\u0434\u0430\u0435\u0442\u0441\u044F \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u043F\u0435\u0440\u0432\u043E\u0433\u043E \u0443\u0440\u043E\u0432\u043D\u044F, \u0432\u0442\u043E\u0440\u043E\u0439 \u0440\u0430\u0437 - \u0432\u0442\u043E\u0440\u0430\u044F, \u0430 \u043F\u0440\u0438 \u043E\u0448\u0438\u0431\u043A\u0435 \u0442\u0440\u0435\u0442\u0438\u0439 \u0440\u0430\u0437 - \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u0442\u0440\u0435\u0442\u044C\u0435\u0433\u043E \u0443\u0440\u043E\u0432\u043D\u044F.',
+        ' ',
+        '\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438 \u0442\u0440\u0435\u0445 \u0443\u0440\u043E\u0432\u043D\u0435\u0439 \u0435\u0441\u0442\u044C \u043D\u0435 \u0434\u043B\u044F \u200B\u200B\u0432\u0441\u0435\u0445 \u200B\u0437\u200B\u0430\u0434\u0430\u0447. \u200B\u200B\u0414\u043B\u044F \u200B\u200B\u043F\u0435\u0440\u0432\u043E\u0439 \u200B\u0437\u200B\u0430\u0434\u0430\u0447\u0438 \u200B\u0442\u200B\u043E\u043B\u044C\u043A\u043E \u200B\u200B\u0434\u0432\u0435 \u200B\u200B\u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438: \u043F\u043E\u0434  \u0441\u0430\u043C\u0438\u043C\u0438  \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430\u043C\u0438  \u0435\u0441\u0442\u044C  \u0441\u0441\u044B\u043B\u043A\u0430  \u201C\u0415\u0449\u0435  \u043E\u0434\u043D\u0430  \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430\u201D,',
+        ' ',
+        '\u043F\u043E  \u043A\u043E\u0442\u043E\u0440\u043E\u0439  \u0441\u0440\u0430\u0437\u0443 \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0435\u0442\u0441\u044F  \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430  \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0433\u043E  \u0443\u0440\u043E\u0432\u043D\u044F.  \u0412  \u0442\u0430\u043A\u043E\u043C  \u0441\u043B\u0443\u0447\u0430\u0435,  \u0435\u0441\u043B\u0438, \u043A  \u043F\u0440\u0438\u043C\u0435\u0440\u0443, \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C \u0440\u0435\u0448\u0430\u043B \u0437\u0430\u0434\u0430\u0447\u0443 \u0438 \u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0432\u0448\u0438\u0441\u044C',
+        ' ',
+        '\u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u043E\u0439 \u043F\u0435\u0440\u0432\u043E\u0433\u043E \u0443\u0440\u043E\u0432\u043D\u044F, \u043D\u0435 \u0434\u0430\u0432\u0430\u044F \u043E\u0442\u0432\u0435\u0442\u0430, \u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043B\u0441\u044F \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u043E\u0439 \u0432\u0442\u043E\u0440\u043E\u0433\u043E \u0443\u0440\u043E\u0432\u043D\u044F, \u0430 \u043F\u043E\u0441\u043B\u0435 \u044D\u0442\u043E\u0433\u043E \u0434\u0430\u043B \u043D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442, \u0442\u043E  \u043F\u0440\u0438 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u043F\u043E\u043F\u044B\u0442\u043A\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F',
+        ' ',
+        '\u0437\u0430\u0434\u0430\u0447\u0438 \u043F\u043E  \u043D\u0430\u0436\u0430\u0442\u0438\u044E  \u043D\u0430  \u043A\u043D\u043E\u043F\u043A\u0443  \u201C\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430\u201D  \u0434\u043E\u043B\u0436\u043D\u0430  \u043E\u0442\u043E\u0431\u0440\u0430\u0437\u0438\u0442\u044C\u0441\u044F \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u200B\u0442\u200B\u0440\u0435\u0442\u044C\u0435\u0433\u043E \u200B\u0443\u200B\u0440\u043E\u0432\u043D\u044F.'
+      ),
+      _react2.default.createElement(
+        'p',
+        { 'class': 'bottom0' },
+        '\u0412  \u0442\u0435\u0441\u0442\u043E\u0432\u043E\u043C  \u0437\u0430\u0434\u0430\u043D\u0438\u0438  \u043D\u0435  \u043F\u0440\u0435\u0434\u043F\u043E\u043B\u0430\u0433\u0430\u0435\u0442\u0441\u044F  \u043D\u0430\u043B\u0438\u0447\u0438\u0435  \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u043E\u0439 \u0431\u0430\u0437\u044B  \u0434\u0430\u043D\u043D\u044B\u0445,  \u0432\u044B\u0432\u043E\u0434  \u0437\u0430\u0434\u0430\u0447  \u0437\u0430\u0446\u0438\u043A\u043B\u0435\u043D  \u0434\u043E  \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u044F  \u0432\u0435\u0440\u043D\u043E\u0433\u043E  \u043E\u0442\u0432\u0435\u0442\u0430, \u0442.\u0435.',
+        ' ',
+        '\u0435\u0441\u043B\u0438  \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C  \u0434\u0430\u043B  \u043D\u0435\u0432\u0435\u0440\u043D\u044B\u0439  \u043E\u0442\u0432\u0435\u0442,  \u0442\u043E  \u0435\u043C\u0443  \u043E\u043F\u044F\u0442\u044C  \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442\u0441\u044F  \u0440\u0435\u0448\u0438\u0442\u044C  \u0442\u0443  \u0436\u0435',
+        ' ',
+        '\u0441\u0430\u043C\u0443\u044E \u0437\u0430\u0434\u0430\u0447\u0443.'
+      ),
+      _react2.default.createElement(
+        'h4',
+        null,
+        '\u041F\u0440\u0435\u0434\u043F\u043E\u043B\u0430\u0433\u0430\u0435\u0442\u0441\u044F \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u0447 \u0442\u0440\u0435\u0445 \u0442\u0438\u043F\u043E\u0432:'
+      ),
+      _react2.default.createElement(
+        'ul',
+        null,
+        _react2.default.createElement(
+          'li',
+          null,
+          'drag&drop. \u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044E  \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442\u0441\u044F  \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043F\u043E\u0434 \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u043E\u0439 \u043D\u0443\u0436\u043D\u044B\u0435 \u0441\u043B\u043E\u0432\u0430, \u043E\u0431\u043E\u0437\u043D\u0430\u0447\u0430\u044E\u0449\u0438\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0432\u0438\u0434\u0430 \u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0433\u043E.'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          'choice. \u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044E \u200B\u200B\u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442\u0441\u044F \u200B\u200B\u0432\u044B\u0431\u0440\u0430\u0442\u044C \u200B\u200B\u043D\u0443\u0436\u043D\u0443\u044E \u200B\u043A\u200B\u0430\u0440\u0442\u0438\u043D\u043A\u0443. \u0414\u043B\u044F \u044D\u0442\u043E\u0433\u043E \u0442\u0438\u043F\u0430 \u0432\u043E\u043F\u0440\u043E\u0441\u0430 \u200B\u200B\u0435\u0441\u0442\u044C \u200B\u0442\u200B\u0440\u0438 \u200B\u200B\u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438.'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          'input. \u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044E \u200B\u200B\u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442\u0441\u044F \u200B\u200B\u0432\u043F\u0438\u0441\u0430\u0442\u044C \u200B\u200B\u043D\u0443\u0436\u043D\u043E\u0435 \u200B\u0437\u200B\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u200B\u200B\u0432 \u200B\u200B\u043F\u043E\u043B\u0435. \u0422\u0430\u043A\u0436\u0435 \u043F\u0440\u0435\u0434\u043F\u043E\u043B\u0430\u0433\u0430\u0435\u0442\u0441\u044F \u043D\u0430\u043B\u0438\u0447\u0438\u0435 \u0442\u0440\u0435\u0445 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043E\u043A.'
+        )
+      ),
+      _react2.default.createElement(
+        'p',
+        { 'class': 'bottom0' },
+        '\u041F\u043E\u0441\u043B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0432\u0441\u0435\u0445 \u0442\u0440\u0435\u0445 \u0437\u0430\u0434\u0430\u0447 \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u043D\u0430\u0447\u043D\u0435\u0442 \u043F\u043E\u0432\u0442\u043E\u0440\u043D\u043E\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435.'
+      )
+    )
+  );
 };
 
 /***/ }),
