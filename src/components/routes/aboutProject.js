@@ -6,10 +6,6 @@ export const AboutProject = () => (
     <section class="space45 spaceRight45">
       <h1>Описание проекта</h1>
       <p class="bottom0">
-        Здравствуйте!
-      </p>
-
-      <p class="bottom0">
         Проект представляет собой тестовое SPA приложение,  разработанное в рамках самообучения с использованием таких библиотек JavaScript, как: react, redux, bootrstrap.
       </p>
 
