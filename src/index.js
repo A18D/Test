@@ -26,5 +26,7 @@ import "./css/LessonTemplate/styleTitleTask.css"
 import "./css/LessonTemplate/styleTask.css"
 import "./css/LessonTemplate/styleCenterLessonTemplate.css"
 import "./css/LessonTemplate/styleTabTip.css"  
+import "./css/styleMessage.css"  
+
 
 render(<Root />, document.getElementById('react-container'))

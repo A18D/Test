@@ -67,8 +67,8 @@ class LessonTemplate extends PureComponent {
 
     let noEvaluation = this.state.noEvaluation;
 
-    if (this.props.countRightAnswers == this.props.countAnswers) {
-      //)
+    if (this.props.countRightAnswers == 1) {
+      //this.props.countAnswers)
 
       if (this.props.currentTask < this.props.countTasks - 1) {
         incrementCurrentTask ();

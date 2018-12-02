@@ -5825,7 +5825,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".draggable {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n  padding-top: 5px;\r\n  padding-bottom: 5px;\r\n  margin-bottom: 5px;\r\n  background: #02396d;\r\n  color: white;\r\n  text-align: center;\r\n  cursor: pointer;\r\n}\r\n\r\n.draggableBlock {\r\n  padding: 0px;\r\n  margin-bottom: 0px;\r\n  position: absolute;\r\n  right: 250px;\r\n}\r\n\r\n.droppable {\r\n  margin-bottom: 10px;\r\n  width: 100px\r\n}\r\n\r\n.InputAnswer {\r\n  margin-left: 10px;\r\n  margin-right: 10px;\r\n  width: 50px;\r\n  border: 1px solid red;\r\n  outline: 0 !important;\r\n  text-align: center;\r\n}\r\n\r\n.borderGreenSolid {\r\n  border: 1px solid rgb(29, 126, 4);\r\n}\r\n\r\n.backgroundGrey {\r\n  background: rgb(224, 220, 220);\r\n}\r\n\r\n.bottom0{\r\n  margin-bottom: 0px;\r\n}\r\n\r\n.colorRed{\r\n  color: red;\r\n}\r\n\r\n.tipDroppableImg {\r\n  margin-bottom: 10px;\r\n  width: 100px;\r\n  height: 100px;\r\n  cursor: pointer;\r\n}\r\n\r\n.ActiveTipDroppableImg {\r\n  border: 4px double #3a9b8b;\r\n  width: 110px;\r\n  height: 110px;\r\n}\r\n\r\n.RightTipDroppableImg {\r\n  border: 4px double #3a9b8b;\r\n  width: 110px;\r\n  height: 110px;\r\n}\r\n\r\n.tipDroppableInput {\r\n  margin-bottom: 10px;\r\n  width: 100px;\r\n  background-color: #02396d;\r\n  color: white;\r\n  outline: 0 !important;\r\n  text-align: center;\r\n}\r\n\r\n.space45 {\r\n  margin-left: 45px;\r\n}\r\n\r\n.bottom45 {\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.sizebig {\r\n  font-size: 2em;\r\n}\r\n\r\n.Width170Pr {\r\n  width: 170%;\r\n}\r\n\r\n.VerticalContainer {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  margin-bottom: 40px;\r\n  margin-right: 0px;\r\n  width: 100px\r\n}\r\n\r\n.thumb img {\r\n  -webkit-filter: grayscale(0);\r\n  filter: none;\r\n  border-radius: 5px;\r\n  background-color: #fff;\r\n  /*border: 1px solid #ddd;*/\r\n  padding: 5px;\r\n  background-color: #a6acab;\r\n}\r\n\r\n.thumb img:hover {\r\n  -webkit-filter: grayscale(1);\r\n  filter: grayscale(1);\r\n}\r\n\r\n.thumb {\r\n  padding: 5px;\r\n}\r\n\r\n.taskResult {\r\n  position: absolute;\r\n  margin-left: 50%;\r\n  margin-top: 65px;\r\n  width: 100px;\r\n  height: 100px\r\n}", ""]);
+exports.push([module.i, ".draggable {\r\n  opacity: 0.9;\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n  padding-top: 5px;\r\n  padding-bottom: 5px;\r\n  margin-bottom: 5px;\r\n  background: #02396d;\r\n  color: white;\r\n  text-align: center;\r\n  cursor: pointer;\r\n  -moz-transition: all 0.1s ease;\r\n  -o-transition: all 0.1 ease;\r\n  -webkit-transition: all 0.1s ease;\r\n}\r\n\r\n.draggable:hover {\r\n  opacity: 1;\r\n  -webkit-transform: scale(1.2);\r\n  -moz-transform: scale(1.2);\r\n  -o-transform: scale(1.2);\r\n}\r\n\r\n.draggableBlock {\r\n  padding: 0px;\r\n  margin-bottom: 0px;\r\n  position: absolute;\r\n  right: 250px;\r\n}\r\n\r\n.droppable {\r\n  margin-bottom: 10px;\r\n  width: 100px\r\n}\r\n\r\n.InputAnswer {\r\n  margin-left: 10px;\r\n  margin-right: 10px;\r\n  width: 50px;\r\n  border: 1px solid red;\r\n  outline: 0 !important;\r\n  text-align: center;\r\n}\r\n\r\n.borderGreenSolid {\r\n  border: 1px solid rgb(29, 126, 4);\r\n}\r\n\r\n.backgroundGrey {\r\n  background: rgb(224, 220, 220);\r\n}\r\n\r\n.bottom0 {\r\n  margin-bottom: 0px;\r\n}\r\n\r\n.colorRed {\r\n  color: red;\r\n}\r\n\r\n.tipDroppableImg {\r\n  margin-bottom: 10px;\r\n  width: 100px;\r\n  height: 100px;\r\n  cursor: pointer;\r\n}\r\n\r\n.ActiveTipDroppableImg {\r\n  border: 4px double #3a9b8b;\r\n  width: 110px;\r\n  height: 110px;\r\n}\r\n\r\n.RightTipDroppableImg {\r\n  border: 4px double #3a9b8b;\r\n  width: 110px;\r\n  height: 110px;\r\n}\r\n\r\n.tipDroppableInput {\r\n  margin-bottom: 10px;\r\n  width: 100px;\r\n  background-color: #02396d;\r\n  color: white;\r\n  outline: 0 !important;\r\n  text-align: center;\r\n}\r\n\r\n.space45 {\r\n  margin-left: 45px;\r\n}\r\n\r\n.bottom45 {\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.sizebig {\r\n  font-size: 2em;\r\n}\r\n\r\n.Width170Pr {\r\n  width: 170%;\r\n}\r\n\r\n.VerticalContainer {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  margin-bottom: 40px;\r\n  margin-right: 0px;\r\n  width: 100px\r\n}\r\n\r\n.thumb img {\r\n  opacity: 0.6;\r\n  box-shadow: inset 5px 6px 3px rgba(203, 255, 144, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(223, 152, 0, 0.7), 0 0 20px 3px Yellow;\r\n  -moz-transition: all 1.5s ease;\r\n  -o-transition: all 1.5s ease;\r\n  -webkit-transition: all 1.5s ease;\r\n}\r\n\r\n.thumb img:hover {\r\n  opacity: 1;\r\n  -webkit-transform: scale(1.2);\r\n  -moz-transform: scale(1.2);\r\n  -o-transform: scale(1.2);\r\n}\r\n\r\n.thumb {\r\n  padding: 5px;\r\n}\r\n\r\n.taskResult {\r\n  position: absolute;\r\n  margin-left: 50%;\r\n  margin-top: 65px;\r\n  width: 100px;\r\n  height: 100px\r\n}", ""]);
 
 // exports
 
@@ -5997,6 +5997,25 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 // module
 exports.push([module.i, "\r\n.navbar-green {\r\n  background-color: #3a9b8b;\r\n  border-color: #3a9b8b;\r\n  color: #ffffff;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.navbar-green .navbar-nav>li>a {\r\n  color: #ffffff;\r\n}\r\n\r\n.navbar-green .navbar-nav>li>a:hover, .navbar-green .navbar-nav>li>a:focus {\r\n  color: #c3f8f5;\r\n  background-color: transparent;\r\n}\r\n\r\n.navbar-green .navbarborderReg {\r\n  background-color: #d8701b;\r\n  /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b;\r\n  /* Параметры границы */\r\n  color: white;\r\n  /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborderReg:hover, .navbar-green .navbarborderReg:focus {\r\n  background-color: #ecb53d;\r\n  /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b;\r\n  /* Параметры границы */\r\n  color: white;\r\n  /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder {\r\n  background-color: #3a9b8b;\r\n  /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b;\r\n  /* Параметры границы */\r\n  color: white;\r\n  /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbarborder:hover, .navbar-green .navbarborder:focus {\r\n  background-color: #0d3d35;\r\n  /* Цвет фона под текстом параграфа */\r\n  border: 4px solid #3a9b8b;\r\n  /* Параметры границы */\r\n  color: white;\r\n  /* Цвет текста */\r\n}\r\n\r\n.navbar-green .navbar-nav>.active>a, .navbar-green .navbar-nav>.active>a:hover, .navbar-green .navbar-nav>.active>a:focus {\r\n  background-color: #0d3d35;\r\n  /*border: 4px solid #3a9b8b; */\r\n  color: white;\r\n}\r\n\r\n.navbar-green form {\r\n  background: #3a9b8b;\r\n  padding: 9px 15px;\r\n  margin-top: 3px;\r\n  margin-bottom: 3px;\r\n  /*margin-left: -18px;*/\r\n}\r\n\r\n.navbar-MyBtn {\r\n  background: #3a9b8b;\r\n  color: #ffffff;\r\n  width: 37px;\r\n  border: 1px solid #ffffff;\r\n  /* Параметры рамки */\r\n  /* Firefox */\r\n  /* Safari 4 */\r\n  border-radius: 60px;\r\n  /* IE 9, Safari 5, Chrome */\r\n}\r\n\r\n.navbar-MyBtn:hover, .navbar-MyBtn:focus, .navbar-MyBtn:focus, .navbar-MyBtn:active:focus, .navbar-MyBtn.active:focus, .navbar-MyBtn.focus, .navbar-MyBtn:active.focus, .navbar-MyBtn.active.focus {\r\n  background: #0d3d35;\r\n  color: #c3f8f5;\r\n  width: 37px;\r\n  border: 1px solid #c3f8f5;\r\n  /* Параметры границы */\r\n  /* Firefox */\r\n  /* Safari 4 */\r\n  border-radius: 60px;\r\n  /* IE 9, Safari 5, Chrome */\r\n  outline: none;\r\n}\r\n\r\n.container-Logo {\r\n  background: #3a9b8b;\r\n  padding: 5px;\r\n  padding-right: 5px;\r\n  float: left;\r\n  list-style-type: none;\r\n}\r\n\r\n.linkLogo>a {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}\r\n\r\n.linkLogo>a:hover, .linkLogo>a:focus {\r\n  color: #ffffff;\r\n  text-decoration: none;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleMessage.css":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--6-2!./src/css/styleMessage.css ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".error {\r\n    width: 350px;\r\n    height: 50px;\r\n    margin: auto;\r\n    border: 4px ridge Orange;\r\n    padding: 10px 0 10px;\r\n    text-align: center;\r\n    font-size: 14px;\r\n    background-color: #FFBABA;\r\n    color: Black;\r\n    -moz-transition: border 1s ease, color 1.5s ease, font 1.5s ease, background-color 2s ease;\r\n    -o-transition: border 1s ease, color 1.5s ease, font 1.5s ease, background-color 2s ease;\r\n    -webkit-transition: border 1s ease, color 1.5s ease, font 1.5s ease, background-color 2s ease;\r\n}\r\n\r\n.error:hover {\r\n    background-color: #D0D941;\r\n    color: Red;\r\n    font: italic 16px COMIC SANS MS;\r\n    border: 4px ridge rgb(255, 0, 0);\r\n}", ""]);
 
 // exports
 
@@ -47170,8 +47189,8 @@ var LessonTemplate = function (_PureComponent) {
 
       var noEvaluation = _this.state.noEvaluation;
 
-      if (_this.props.countRightAnswers == _this.props.countAnswers) {
-        //)
+      if (_this.props.countRightAnswers == 1) {
+        //this.props.countAnswers)
 
         if (_this.props.currentTask < _this.props.countTasks - 1) {
           incrementCurrentTask();
@@ -48448,6 +48467,7 @@ var LessonInput = function (_PureComponent) {
       var errorTag = document.getElementById('textError');
       var iRightAnswer = 0;
       errorTag.innerHTML = '';
+      errorTag.className = '';
 
       if (event.target && event.target.id && event.target.className == 'InputAnswer') {
         _this.props.arrTemplate.forEach(function (item, i) {
@@ -48459,6 +48479,7 @@ var LessonInput = function (_PureComponent) {
             tagInput.value = '';
 
             // показать ошибку
+            errorTag.className = 'error';
             errorTag.innerHTML = 'Вы ввели не число. Введите число, пожалуйста.';
           } else if (tagInput.value == _this.props.answers[i - 1]) iRightAnswer++;
         });
@@ -50083,6 +50104,31 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./src/css/styleMessage.css":
+/*!**********************************!*\
+  !*** ./src/css/styleMessage.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/postcss-loader/lib??ref--6-2!./styleMessage.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--6-2!./src/css/styleMessage.css");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
 /***/ "./src/css/subMenu.css":
 /*!*****************************!*\
   !*** ./src/css/subMenu.css ***!
@@ -50399,6 +50445,8 @@ __webpack_require__(/*! ./css/LessonTemplate/styleTask.css */ "./src/css/LessonT
 __webpack_require__(/*! ./css/LessonTemplate/styleCenterLessonTemplate.css */ "./src/css/LessonTemplate/styleCenterLessonTemplate.css");
 
 __webpack_require__(/*! ./css/LessonTemplate/styleTabTip.css */ "./src/css/LessonTemplate/styleTabTip.css");
+
+__webpack_require__(/*! ./css/styleMessage.css */ "./src/css/styleMessage.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

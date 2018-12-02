@@ -1,4 +1,5 @@
 .draggable {
+  opacity: 0.9;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
@@ -8,6 +9,16 @@
   color: white;
   text-align: center;
   cursor: pointer;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1 ease;
+  -webkit-transition: all 0.1s ease;
+}
+
+.draggable:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 .draggableBlock {
@@ -39,11 +50,11 @@
   background: rgb(224, 220, 220);
 }
 
-.bottom0{
+.bottom0 {
   margin-bottom: 0px;
 }
 
-.colorRed{
+.colorRed {
   color: red;
 }
 
@@ -101,18 +112,18 @@
 }
 
 .thumb img {
-  -webkit-filter: grayscale(0);
-  filter: none;
-  border-radius: 5px;
-  background-color: #fff;
-  /*border: 1px solid #ddd;*/
-  padding: 5px;
-  background-color: #a6acab;
+  opacity: 0.6;
+  box-shadow: inset 5px 6px 3px rgba(203, 255, 144, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(223, 152, 0, 0.7), 0 0 20px 3px Yellow;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
 }
 
 .thumb img:hover {
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 .thumb {

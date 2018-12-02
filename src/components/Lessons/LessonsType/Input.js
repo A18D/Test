@@ -22,6 +22,7 @@ class LessonInput extends PureComponent {
     let errorTag = document.getElementById ('textError');
     let iRightAnswer = 0;
     errorTag.innerHTML = '';
+    errorTag.className = '';
 
     if (
       event.target &&
@@ -38,6 +39,7 @@ class LessonInput extends PureComponent {
             tagInput.value = '';
 
             // показать ошибку
+            errorTag.className = 'error';
             errorTag.innerHTML =
               'Вы ввели не число. Введите число, пожалуйста.';
           } else if (tagInput.value == this.props.answers[i - 1])
