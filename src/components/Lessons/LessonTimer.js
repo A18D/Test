@@ -1,11 +1,6 @@
 import React, {PureComponent} from 'react';
-import PropTypes from 'prop-types';
 
 export class LessonTimer extends PureComponent {
-  static propTypes = {
-    updateTimer: PropTypes.bool.isRequired,
-  };
-
   constructor (props) {
     super (props);
     this.state = {
@@ -26,7 +21,7 @@ export class LessonTimer extends PureComponent {
     let dm = Math.floor (m - h * 60);
     let ds = Math.floor (dt - (h * 3600 + dm * 60));
 
-    document.getElementById ('timer').textContent = 
+    document.getElementById ('timer').textContent =
       h.toString ().padStart (2, 0) +
       ':' +
       dm.toString ().padStart (2, 0) +

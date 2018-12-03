@@ -7,6 +7,8 @@ import {
   initCountRightAnswers,
 } from '../../../actions';
 import TemplateInput from './TemplateInput';
+import jss from 'jss';
+import preset from 'jss-preset-default';
 
 class LessonInput extends PureComponent {
   static propTypes = {
@@ -38,8 +40,38 @@ class LessonInput extends PureComponent {
             // введено не число
             tagInput.value = '';
 
+            jss.setup (preset ());
+
+            // Create your style.
+            let style = {
+              error: {
+                width: 350,
+                height: 50,
+                margin: 'auto',
+                border: '4px ridge Orange',
+                padding: '10px 0 10px',
+                textAlign: 'center',
+                fontSize: 14,
+                backgroundColor: '#FFBABA',
+                color: 'Black',
+                transition: 'border 1s ease, color 1.5s ease, font 1.5s ease, background-color 2s ease',
+                '&:hover': {
+                  backgroundColor: '#D0D941',
+                  color: 'Red',
+                  font: 'italic 16px COMIC SANS MS',
+                  border: '4px ridge rgb(255, 0, 0)',
+                },
+              },
+            };
+
+            // Compile styles, apply plugins.
+            let sheet = jss.createStyleSheet (style);
+
+            // If you want to render on the client, insert it into DOM.
+            let {classes} = sheet.attach ();
+
             // показать ошибку
-            errorTag.className = 'error';
+            errorTag.className = classes.error;//'error';
             errorTag.innerHTML =
               'Вы ввели не число. Введите число, пожалуйста.';
           } else if (tagInput.value == this.props.answers[i - 1])
