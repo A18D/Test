@@ -20,6 +20,10 @@ import LessonChoice from './LessonsType/Choice';
 import LessonInput from './LessonsType/Input';
 import ResultTask from './LessonsType/ResultTask';
 import {disableTip} from '../../actions';
+import jss from 'jss';
+import preset from 'jss-preset-default';
+import styleRightLessonTemplates
+  from './../../css/LessonTemplate/styleRightLessonTemplates';
 
 class LessonTemplate extends PureComponent {
   static propTypes = {
@@ -130,6 +134,14 @@ class LessonTemplate extends PureComponent {
   }
 
   render () {
+    jss.setup (preset ());
+
+    // Compile styles, apply plugins.
+    let sheet = jss.createStyleSheet (styleRightLessonTemplates);
+
+    // If you want to render on the client, insert it into DOM.
+    let {classes} = sheet.attach ();
+
     return (
       <p>
         <p>
@@ -175,7 +187,7 @@ class LessonTemplate extends PureComponent {
                 </button>}
             </div>
 
-            <ul class="style-Hint">
+            <ul class={classes['style-Hint']}>
               <li class="timer">
                 <p data-tooltip="Время">
                   <LessonTimer
