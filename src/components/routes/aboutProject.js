@@ -89,6 +89,19 @@ export const AboutProject = () => (
       <p class="bottom0">
         После решения всех трех задач система начнет повторное тестирование.
       </p>
+
+      <p class="text-center">
+        <video
+          width="1020"
+          height="720"
+          controls="controls"
+          poster="video/duel.jpg"
+          src="./src/images/demodestspa.mp4"
+        >
+          Тег video не поддерживается вашим браузером.
+          <a href="./src/images/demodestspa.mp4">Скачайте видео</a>
+        </video>
+      </p>
     </section>
   </PageTemplate>
 );
