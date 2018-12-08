@@ -32,7 +32,7 @@ class LessonInput extends PureComponent {
       event.target.className == 'InputAnswer'
     ) {
       this.props.arrTemplate.forEach ((item, i) => {
-        let idTag = 'IDAnswer' + i;
+        const idTag = 'IDAnswer' + i;
         let tagInput = document.getElementById (idTag);
 
         if (tagInput)
@@ -43,7 +43,7 @@ class LessonInput extends PureComponent {
             jss.setup (preset ());
 
             // Create your style.
-            let style = {
+            const style = {
               error: {
                 width: 350,
                 height: 50,
@@ -68,10 +68,10 @@ class LessonInput extends PureComponent {
             let sheet = jss.createStyleSheet (style);
 
             // If you want to render on the client, insert it into DOM.
-            let {classes} = sheet.attach ();
+            const {classes} = sheet.attach ();
 
             // показать ошибку
-            errorTag.className = classes.error;//'error';
+            errorTag.className = classes.error;
             errorTag.innerHTML =
               'Вы ввели не число. Введите число, пожалуйста.';
           } else if (tagInput.value == this.props.answers[i - 1])

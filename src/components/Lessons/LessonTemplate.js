@@ -140,7 +140,7 @@ class LessonTemplate extends PureComponent {
     let sheet = jss.createStyleSheet (styleRightLessonTemplates);
 
     // If you want to render on the client, insert it into DOM.
-    let {classes} = sheet.attach ();
+    const {classes} = sheet.attach ();
 
     return (
       <p>
