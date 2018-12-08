@@ -10,7 +10,9 @@ Author: A18D
 
 Demo
 -------------
-[Demo](https://github.com/A18D/Test.git)
+[Demo](https://a18d.github.io/#/)
+
+[SRC](https://github.com/A18D/Test.git)
 
 
 #### Installation
