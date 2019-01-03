@@ -9,7 +9,6 @@ import {
 import TemplateInput from './TemplateInput';
 import jss from 'jss';
 import preset from 'jss-preset-default';
-
 class LessonInput extends PureComponent {
   static propTypes = {
     answers: PropTypes.array.isRequired,

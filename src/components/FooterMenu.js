@@ -1,5 +1,7 @@
 import React, {PureComponent} from 'react';
 import history from '../history';
+import iSmartPNG from 'img/iSmart.png'; 
+import imgInstagramJPG from 'img/imgInstagram.jpg'; 
 
 export class FooterPage extends PureComponent {
   pushTrainingToPath (e) {
@@ -42,7 +44,7 @@ export class FooterPage extends PureComponent {
               <p class="SpaceContainer">
                 <a href="/" target="_blank">
                   <img
-                    src="./src/images/iSmart.png"
+                    src={iSmartPNG}
                     alt="логотип"
                     width="40"
                     height="40"
@@ -89,7 +91,7 @@ export class FooterPage extends PureComponent {
                 <span />
                 <a href="https://www.instagram.com" target="_blank">
                   <img
-                    src="./src/images/imgInstagram.jpg"
+                    src={imgInstagramJPG}
                     alt="логотип"
                     width="20"
                     height="20"

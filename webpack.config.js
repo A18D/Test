@@ -1,3 +1,4 @@
+const path = require('path');
 var webpack = require ('webpack');
 var ExtractTextWebpackPlugin = require ('extract-text-webpack-plugin');
 const UglifyJsPlugin = require ('uglifyjs-webpack-plugin');
@@ -10,13 +11,26 @@ process.noDeprecation = true;
 
 module.exports = {
   mode: 'development',
+
   entry: './src/index.js',
+
   output: {
     path: __dirname + '/dist',
     filename: './src/bundle.js',
     sourceMapFilename: './src/bundle.map',
   },
+
   devtool: '#source-map',
+
+  resolve: {
+    alias: {
+      libs: path.resolve (__dirname, 'src/lib/'),
+      styles: path.resolve (__dirname, 'src/css/'),
+      img: path.resolve (__dirname, 'src/images/'),
+      fonts: path.resolve (__dirname, 'src/fonts/'),
+    },
+  },
+
   module: {
     rules: [
       {
@@ -88,6 +102,7 @@ module.exports = {
       },
     ],
   },
+
   optimization: {
     minimizer: [
       new UglifyJsPlugin ({
@@ -97,9 +112,11 @@ module.exports = {
       }),
     ],
   },
+
   devServer: {
     stats: 'errors-only',
   },
+
   plugins: [
     new webpack.DefinePlugin ({
       'process.env': {
@@ -114,6 +131,6 @@ module.exports = {
       filename: 'index.html', //relative to root of the application
     }),
     // new ExtractTextWebpackPlugin('bundle.css')
-    devFlagPlugin
+    devFlagPlugin,
   ],
 };

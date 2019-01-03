@@ -1,3 +1,5 @@
+'use strict';
+
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
@@ -23,7 +25,7 @@ import {disableTip} from '../../actions';
 import jss from 'jss';
 import preset from 'jss-preset-default';
 import styleRightLessonTemplates
-  from './../../css/LessonTemplate/styleRightLessonTemplates';
+  from 'styles/LessonTemplate/styleRightLessonTemplates';
 
 class LessonTemplate extends PureComponent {
   static propTypes = {

@@ -51637,6 +51637,14 @@ var _history = __webpack_require__(/*! ../history */ "./src/history.js");
 
 var _history2 = _interopRequireDefault(_history);
 
+var _iSmart = __webpack_require__(/*! img/iSmart.png */ "./src/images/iSmart.png");
+
+var _iSmart2 = _interopRequireDefault(_iSmart);
+
+var _imgInstagram = __webpack_require__(/*! img/imgInstagram.jpg */ "./src/images/imgInstagram.jpg");
+
+var _imgInstagram2 = _interopRequireDefault(_imgInstagram);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -51715,7 +51723,7 @@ var FooterPage = exports.FooterPage = function (_PureComponent) {
                   'a',
                   { href: '/', target: '_blank' },
                   _react2.default.createElement('img', {
-                    src: './src/images/iSmart.png',
+                    src: _iSmart2.default,
                     alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F',
                     width: '40',
                     height: '40'
@@ -51786,7 +51794,7 @@ var FooterPage = exports.FooterPage = function (_PureComponent) {
                   'a',
                   { href: 'https://www.instagram.com', target: '_blank' },
                   _react2.default.createElement('img', {
-                    src: './src/images/imgInstagram.jpg',
+                    src: _imgInstagram2.default,
                     alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F',
                     width: '20',
                     height: '20'
@@ -52102,7 +52110,7 @@ var _jssPresetDefault = __webpack_require__(/*! jss-preset-default */ "./node_mo
 
 var _jssPresetDefault2 = _interopRequireDefault(_jssPresetDefault);
 
-var _styleRightLessonTemplates = __webpack_require__(/*! ./../../css/LessonTemplate/styleRightLessonTemplates */ "./src/css/LessonTemplate/styleRightLessonTemplates.js");
+var _styleRightLessonTemplates = __webpack_require__(/*! styles/LessonTemplate/styleRightLessonTemplates */ "./src/css/LessonTemplate/styleRightLessonTemplates.js");
 
 var _styleRightLessonTemplates2 = _interopRequireDefault(_styleRightLessonTemplates);
 
@@ -53472,7 +53480,7 @@ var LessonInput = function (_PureComponent) {
             // показать ошибку
 
 
-            errorTag.className = classes.error; //'error';
+            errorTag.className = classes.error;
             errorTag.innerHTML = 'Вы ввели не число. Введите число, пожалуйста.';
           } else if (tagInput.value == _this.props.answers[i - 1]) iRightAnswer++;
         });
@@ -55592,6 +55600,28 @@ exports.default = history;
 
 /***/ }),
 
+/***/ "./src/images/iSmart.png":
+/*!*******************************!*\
+  !*** ./src/images/iSmart.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/images/iSmart.png";
+
+/***/ }),
+
+/***/ "./src/images/imgInstagram.jpg":
+/*!*************************************!*\
+  !*** ./src/images/imgInstagram.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/images/imgInstagram.jpg";
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -55612,47 +55642,47 @@ var _Root = __webpack_require__(/*! ./components/Root */ "./src/components/Root.
 
 var _Root2 = _interopRequireDefault(_Root);
 
-__webpack_require__(/*! ./fonts/glyphicons-halflings-regular.eot */ "./src/fonts/glyphicons-halflings-regular.eot");
+__webpack_require__(/*! fonts/glyphicons-halflings-regular.eot */ "./src/fonts/glyphicons-halflings-regular.eot");
 
-__webpack_require__(/*! ./fonts/glyphicons-halflings-regular.svg */ "./src/fonts/glyphicons-halflings-regular.svg");
+__webpack_require__(/*! fonts/glyphicons-halflings-regular.svg */ "./src/fonts/glyphicons-halflings-regular.svg");
 
-__webpack_require__(/*! ./fonts/glyphicons-halflings-regular.ttf */ "./src/fonts/glyphicons-halflings-regular.ttf");
+__webpack_require__(/*! fonts/glyphicons-halflings-regular.ttf */ "./src/fonts/glyphicons-halflings-regular.ttf");
 
-__webpack_require__(/*! ./fonts/glyphicons-halflings-regular.woff */ "./src/fonts/glyphicons-halflings-regular.woff");
+__webpack_require__(/*! fonts/glyphicons-halflings-regular.woff */ "./src/fonts/glyphicons-halflings-regular.woff");
 
-__webpack_require__(/*! ./fonts/glyphicons-halflings-regular.woff2 */ "./src/fonts/glyphicons-halflings-regular.woff2");
+__webpack_require__(/*! fonts/glyphicons-halflings-regular.woff2 */ "./src/fonts/glyphicons-halflings-regular.woff2");
 
-__webpack_require__(/*! ./fonts//font-awesome/fontawesome-webfont.eot */ "./src/fonts/font-awesome/fontawesome-webfont.eot");
+__webpack_require__(/*! fonts//font-awesome/fontawesome-webfont.eot */ "./src/fonts/font-awesome/fontawesome-webfont.eot");
 
-__webpack_require__(/*! ./fonts//font-awesome/fontawesome-webfont.svg */ "./src/fonts/font-awesome/fontawesome-webfont.svg");
+__webpack_require__(/*! fonts//font-awesome/fontawesome-webfont.svg */ "./src/fonts/font-awesome/fontawesome-webfont.svg");
 
-__webpack_require__(/*! ./fonts//font-awesome/fontawesome-webfont.ttf */ "./src/fonts/font-awesome/fontawesome-webfont.ttf");
+__webpack_require__(/*! fonts//font-awesome/fontawesome-webfont.ttf */ "./src/fonts/font-awesome/fontawesome-webfont.ttf");
 
-__webpack_require__(/*! ./fonts//font-awesome/fontawesome-webfont.woff */ "./src/fonts/font-awesome/fontawesome-webfont.woff");
+__webpack_require__(/*! fonts//font-awesome/fontawesome-webfont.woff */ "./src/fonts/font-awesome/fontawesome-webfont.woff");
 
-__webpack_require__(/*! ./fonts//font-awesome/fontawesome-webfont.woff2 */ "./src/fonts/font-awesome/fontawesome-webfont.woff2");
+__webpack_require__(/*! fonts//font-awesome/fontawesome-webfont.woff2 */ "./src/fonts/font-awesome/fontawesome-webfont.woff2");
 
-__webpack_require__(/*! ./fonts//font-awesome/FontAwesome.otf */ "./src/fonts/font-awesome/FontAwesome.otf");
+__webpack_require__(/*! fonts//font-awesome/FontAwesome.otf */ "./src/fonts/font-awesome/FontAwesome.otf");
 
-__webpack_require__(/*! ./css/bootstrap.css */ "./src/css/bootstrap.css");
+__webpack_require__(/*! styles/bootstrap.css */ "./src/css/bootstrap.css");
 
-__webpack_require__(/*! ./css/styleFooter.css */ "./src/css/styleFooter.css");
+__webpack_require__(/*! styles/styleFooter.css */ "./src/css/styleFooter.css");
 
-__webpack_require__(/*! ./css/font-awesome.css */ "./src/css/font-awesome.css");
+__webpack_require__(/*! styles/font-awesome.css */ "./src/css/font-awesome.css");
 
-__webpack_require__(/*! ./css/subMenu.css */ "./src/css/subMenu.css");
+__webpack_require__(/*! styles/subMenu.css */ "./src/css/subMenu.css");
 
-__webpack_require__(/*! ./css/styleMenu.css */ "./src/css/styleMenu.css");
+__webpack_require__(/*! styles/styleMenu.css */ "./src/css/styleMenu.css");
 
-__webpack_require__(/*! ./css/LessonTemplate/styleMenuBegin.css */ "./src/css/LessonTemplate/styleMenuBegin.css");
+__webpack_require__(/*! styles/LessonTemplate/styleMenuBegin.css */ "./src/css/LessonTemplate/styleMenuBegin.css");
 
-__webpack_require__(/*! ./css/LessonTemplate/styleTitleTask.css */ "./src/css/LessonTemplate/styleTitleTask.css");
+__webpack_require__(/*! styles/LessonTemplate/styleTitleTask.css */ "./src/css/LessonTemplate/styleTitleTask.css");
 
-__webpack_require__(/*! ./css/LessonTemplate/styleTask.css */ "./src/css/LessonTemplate/styleTask.css");
+__webpack_require__(/*! styles/LessonTemplate/styleTask.css */ "./src/css/LessonTemplate/styleTask.css");
 
-__webpack_require__(/*! ./css/LessonTemplate/styleCenterLessonTemplate.css */ "./src/css/LessonTemplate/styleCenterLessonTemplate.css");
+__webpack_require__(/*! styles/LessonTemplate/styleCenterLessonTemplate.css */ "./src/css/LessonTemplate/styleCenterLessonTemplate.css");
 
-__webpack_require__(/*! ./css/LessonTemplate/styleTabTip.css */ "./src/css/LessonTemplate/styleTabTip.css");
+__webpack_require__(/*! styles/LessonTemplate/styleTabTip.css */ "./src/css/LessonTemplate/styleTabTip.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
