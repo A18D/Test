@@ -55,32 +55,97 @@ export class Search extends React.Component {
     BubbleSort (num_array);
   }
 
-  handlerclosure(){
-    var co = this.makeCounter();
+  handlerclosure () {
+    var co = this.makeCounter ();
 
-    alert( co() ); // 1
-    alert( co() ); // 2
-    
+    alert (co ()); // 1
+    alert (co ()); // 2
   }
 
-  makeCounter() {
+  makeCounter () {
     var currentCount = 1;
-  
+
     // возвращаемся к функции
-    function counter() {
+    function counter () {
       return currentCount++;
     }
-  
+
     // ...и добавляем ей методы!
-    counter.set = function(value) {
+    counter.set = function (value) {
       currentCount = value;
     };
-  
-    counter.reset = function() {
+
+    counter.reset = function () {
       currentCount = 1;
     };
-  
+
     return counter;
+  }
+
+  isNumeric = el => {
+    return !isNaN (el) && isFinite (el);
+  };
+
+  test () {
+    var a = {}, b = {key: 'b'}, c = {key: 'c'};
+
+    a[b] = 123;
+    a[c] = 456;
+
+    console.log (a[b]);
+
+    var foo = {n: 1};
+    var bar = foo;
+    foo.x = foo = {n: 2};
+
+    let str = `Hello world`;
+    let arr = Array.prototype.slice.call (str);
+    arr.forEach ((item, i) => {
+      console.log (`Element № ${i} = ${item}`);
+    });
+
+    let Arr = [1, 8, 4, 9];
+    console.log (Arr[Math.floor (1.5)]);
+
+    let str2 = `Hello world2`;
+    for (let ch of str2) {
+      console.log (`Element2 = ${ch}`);
+    }
+
+    let arrPoint = [
+      `2.34.1`,
+      `3`,
+      `1.2`,
+      `1.2`,
+      `2.56.1`,
+      `8`,
+      `7.6`,
+      `1.3`,
+      `8.1`,
+    ];
+
+    arrPoint.sort ((a, b) => {
+      let aArr = a.split (`.`);
+      let bArr = b.split (`.`);
+      let result = 0;
+
+      aArr.some ((item, i) => {
+        let aNItem = new Number (item);
+        let bNItem = new Number (bArr[i]);
+
+        if (!this.isNumeric (aNItem) || aNItem < bNItem) {
+          result = -1;
+          return true;
+        } else if (!this.isNumeric (bNItem) || aNItem > bNItem) {
+          result = 1;
+          return true;
+        }
+      });
+
+      return result;
+    });
+
+    console.log (`arrPoint = ${arrPoint}`);
   }
 
   render () {
@@ -94,12 +159,15 @@ export class Search extends React.Component {
           <button onClick={e => this.handlerBubbleSort (e)}>Bubble sort</button>
           <button onClick={e => this.handlerFibonachi (e)}>Фибоначчи</button>
           <button onClick={e => this.goBackToPath (e)}>go back</button>
+
+          <button onClick={e => this.test (e)}>test</button>
+
           <button onClick={e => this.pushWebinarToPath (e)}>
             push webinar to path
           </button>
           <button onClick={e => this.handlerclosure (e)}>Closure</button>
 
-          <WriteLinkedList/>
+          <WriteLinkedList />
         </section>
       </PageTemplate>
     );

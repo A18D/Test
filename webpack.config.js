@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require ('path');
 var webpack = require ('webpack');
 var ExtractTextWebpackPlugin = require ('extract-text-webpack-plugin');
 const UglifyJsPlugin = require ('uglifyjs-webpack-plugin');
@@ -47,6 +47,14 @@ module.exports = {
         loader: 'babel-loader',
         query: {
           presets: ['env', 'stage-0', 'react'],
+        },
+      },
+      {
+        test: /\.pug$/,
+        loader: 'pug-loader',
+        //use: [ 'babel-loader', 'pug-as-jsx-loader' ],
+        options: {
+          pretty: true,
         },
       },
       {
@@ -100,6 +108,27 @@ module.exports = {
           },
         ],
       },
+
+      // Whatever other rules you have here...
+      {
+        test: /\.less$/,
+        use: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true,
+              modules: true,
+              localIdentName: '[local]___[hash:base64:5]',
+            },
+          },
+          {
+            loader: 'less-loader',
+          },
+        ],
+      },
     ],
   },
 
@@ -107,8 +136,8 @@ module.exports = {
     minimizer: [
       new UglifyJsPlugin ({
         sourceMap: true,
-        warnings: false,
-        mangle: false,
+        // warnings: false,
+        // mangle: false,
       }),
     ],
   },
@@ -125,7 +154,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin ({
       hash: true,
-      template: './src/index.html',
+      template: './src/index.pug',
       title: 'Test react app',
       myPageHeader: 'Automatically generated',
       filename: 'index.html', //relative to root of the application

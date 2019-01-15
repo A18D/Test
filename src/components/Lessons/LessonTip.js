@@ -1,4 +1,3 @@
-import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import {getNameLesson, isEmptyStr, isTrue} from '../../lib/str';
@@ -7,6 +6,7 @@ import TemplateTip from './LessonsType/TemplateTip';
 import TipCollectionNoteImage from '../Other/CollectionNoteImage';
 import {disableTip, enableTip} from '../../actions';
 import TemplateInput from './LessonsType/TemplateInput';
+import React, {PureComponent} from 'react';
 
 class LessonTip extends PureComponent {
   static propTypes = {

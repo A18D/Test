@@ -4,7 +4,7 @@ import {Route} from 'react-router-dom';
 import {PageTemplate} from './pageTemplate';
 import {AboutMenu} from '../menus';
 import MenuTraining from './training/begin';
-import {Rewards} from './training/rewards';
+import {Rewards} from './training/rewards.jsx';
 import LessonTemplate from '../Lessons/LessonTemplate';
 import {connect} from 'react-redux';
 

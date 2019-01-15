@@ -27,5 +27,4 @@ import "styles/LessonTemplate/styleTask.css"
 import "styles/LessonTemplate/styleCenterLessonTemplate.css"
 import "styles/LessonTemplate/styleTabTip.css"  
 
-
 render(<Root />, document.getElementById('react-container'))
