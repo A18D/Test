@@ -4,6 +4,7 @@ import {PageTemplate} from './pageTemplate';
 import history from '../../history';
 import {BubbleSort} from 'libs/sort.js';
 import {WriteLinkedList} from '../Other/WriteLinkedList';
+import {isNumber} from '../../lib/check';
 
 var timers = {};
 
@@ -130,13 +131,13 @@ export class Search extends React.Component {
       let result = 0;
 
       aArr.some ((item, i) => {
-        let aNItem = new Number (item);
-        let bNItem = new Number (bArr[i]);
+        let aNItem = Number (item);
+        let bNItem = Number (bArr[i]);
 
-        if (!this.isNumeric (aNItem) || aNItem < bNItem) {
+        if (!isNumber (aNItem) || aNItem < bNItem) {
           result = -1;
           return true;
-        } else if (!this.isNumeric (bNItem) || aNItem > bNItem) {
+        } else if (!isNumber (bNItem) || aNItem > bNItem) {
           result = 1;
           return true;
         }

@@ -1,4 +1,5 @@
 
+export const LOAD_ALL_LESSONS = 'LOAD_ALL_LESSONS'
 export const LOAD_TTITLE_LESSONS = 'LOAD_TTITLE_LESSONS'
 export const LOAD_TASK_FOR_LESSON = 'LOAD_TASK_FOR_LESSON'
 export const INCREMENT_CURRENT_TASK = 'INCREMENT_CURRENT_TASK'
@@ -14,3 +15,7 @@ export const INIT_COUNT_COINS = 'INIT_COUNT_COINS'
 
 export const ENABLE_TIP = 'ENABLE_TIP'
 export const DISABLE_TIP = 'DISABLE_TIP'
+
+export const START = '_START'
+export const SUCCESS = '_SUCCESS'
+export const FAIL = '_FAIL'

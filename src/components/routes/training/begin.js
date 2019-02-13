@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 import {connect} from 'react-redux';
+import {loadAllLesssons} from '../../../actions';
 
 class MenuTraining extends PureComponent {
   static propTypes = {
     lessons: PropTypes.array.isRequired,
     lessons: PropTypes.shape ({
       id: PropTypes.string.isRequired,
-      title: PropTypes.string.isRequired
+      title: PropTypes.string.isRequired,
     }).isRequired,
   };
 
@@ -54,12 +55,24 @@ class MenuTraining extends PureComponent {
       </div>
     );
   }
+
+  componentDidMount () {
+    let {lessons, loadAllLesssons} = this.props;
+
+    if (lessons.length == 0) {
+      loadAllLesssons ();
+    }
+  }
 }
 
 let mapStateToProps = state => {
+  let titleLessons = state.dataLessons.titleLessons;
+
+  if (!Array.isArray (titleLessons)) titleLessons = [];
+
   return {
-    lessons: state.dataLessons.titleLessons,
+    lessons: titleLessons,
   };
 };
 
-export default connect (mapStateToProps) (MenuTraining);
+export default connect (mapStateToProps, {loadAllLesssons}) (MenuTraining);

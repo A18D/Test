@@ -5,6 +5,7 @@ import {routerMiddleware} from 'react-router-redux';
 import history from '../history';
 import randomId from '../middlewares/randomId';
 import {logger, crashReporter} from '../middlewares/logger';
+import api from '../middlewares/api';
 
 import DevTools from '../components/DevTools';
 
@@ -12,6 +13,7 @@ const enhancer = applyMiddleware (
   thunk,
   routerMiddleware (history),
   randomId,
+  api,
   logger,
   crashReporter
 );
@@ -29,5 +31,5 @@ if (__DEV__) {
 }
 
 //dev only
-window.storeRedux = storeRedux;
+//window.storeRedux = storeRedux;
 export default storeRedux;

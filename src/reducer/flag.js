@@ -5,15 +5,13 @@ export const changeShowTipReducer = (val, action) => {
 
   switch (type) {
     case ENABLE_TIP: {
-      val = true;
-      return val;
+      return true;
     }
     case DISABLE_TIP: {
-      val = false;
-      return val;
+      return false;
     }
     default:
-      if (!val) val = false;
+      if (!val) return false;
   }
 
   return val;

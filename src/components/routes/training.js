@@ -35,8 +35,13 @@ Training.propTypes = {
 };
 
 let mapStateToProps = state => {
+  let titleLessons = state.dataLessons.titleLessons;
+
+  if(!Array.isArray(titleLessons))
+    titleLessons = [];
+
   return {
-    lessons: state.dataLessons.titleLessons,
+    lessons: titleLessons,
   };
 };
 

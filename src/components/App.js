@@ -29,6 +29,10 @@ class App extends PureComponent {
   render () {
     let stateStore = store.getState ();
     let lessons = stateStore.dataLessons.titleLessons;
+    if (!Array.isArray (lessons)) {
+      lessons = [];
+    }
+
     let phistory = syncHistoryWithStore (history, store);
 
     return (
