@@ -155,6 +155,8 @@ export class Search extends React.Component {
       <PageTemplate>
         <section>
           <h1>Search the information</h1>
+          <div class="space145">Test less</div>
+          <div class="space45">Test css</div>
           <div id="menu-training" />
 
           <button onClick={e => this.handlerBubbleSort (e)}>Bubble sort</button>

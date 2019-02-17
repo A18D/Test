@@ -1,0 +1,156 @@
+@pTab: 45px;
+.transition(@prop: all, @timing: 0.2s, @effect: ease) {
+    -moz-transition: @prop @timing @effect;
+    -o-transition: @prop @timing @effect;
+    -webkit-transition: @prop @timing @effect;
+}
+
+.opacityTransition(@pOpacity: 1, @prop: all, @timing: 0.2s, @effect: ease) {
+    opacity: @pOpacity;
+    .transition(@prop, @timing, @effect);
+}
+
+.transform(@pScale) {
+    -webkit-transform: scale(@pScale);
+    -moz-transform: scale(@pScale);
+    -o-transform: scale(@pScale);
+}
+
+.opacityTransform(@pOpacity: 1, @pScale: 1.2) {
+    opacity: @pOpacity;
+    .transform(@pScale);
+}
+
+.draggable {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background: #02396d;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    .opacityTransition(0.9, all, 0.1s, ease);
+    &:hover {
+        .opacityTransform(1, 1.2)
+    }
+}
+
+.draggableBlock {
+    padding: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    right: 250px;
+}
+
+.droppable {
+    margin-bottom: 10px;
+    width: 100px
+}
+
+.InputAnswer {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    border: 1px solid red;
+    outline: 0 !important;
+    text-align: center;
+}
+
+.DroppableAttribute(@mb: 10px, @w: 100px) {
+    margin-bottom: @mb;
+    width: @w;
+}
+
+.tipDroppableImg {
+    .DroppableAttribute();
+    height: 100px;
+    cursor: pointer;
+}
+
+.tipDroppableInput {
+    .DroppableAttribute();
+    background-color: #02396d;
+    color: white;
+    outline: 0 !important;
+    text-align: center;
+}
+
+.ActiveTipDroppableImg {
+    border: 4px double #3a9b8b;
+    width: 110px;
+    height: 110px;
+}
+
+.RightTipDroppableImg {
+    &:extend(.ActiveTipDroppableImg);
+}
+
+.VerticalContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    .DroppableAttribute(40px);
+}
+
+.thumb {
+    padding: 5px;
+    img {
+        .opacityTransition(0.6, all, 1.5s, ease);
+        box-shadow: inset 5px 6px 3px rgba(203, 255, 144, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(223, 152, 0, 0.7), 0 0 20px 3px Yellow;
+        &:hover {
+            .opacityTransform(1, 1.2)
+        }
+    }
+}
+
+.taskResult {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 65px;
+    width: 100px;
+    height: 100px
+}
+
+.preWrap {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.space45 {
+    margin-left: @pTab;
+}
+
+.spaceRight45 {
+    margin-right: @pTab;
+}
+
+.bottom45 {
+    margin-bottom: @pTab;
+}
+
+.sizebig {
+    font-size: 2em;
+}
+
+.Width170Pr {
+    width: 170%;
+}
+
+.borderGreenSolid {
+    border: 1px solid rgb(29, 126, 4);
+}
+
+.backgroundGrey {
+    background: rgb(224, 220, 220);
+}
+
+.bottom0 {
+    margin-bottom: 0px;
+}
+
+.colorRed {
+    color: red;
+}
