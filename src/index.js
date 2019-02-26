@@ -26,6 +26,7 @@ import "styles/LessonTemplate/styleTitleTask.css"
 import "styles/LessonTemplate/styleTask.css"
 import "styles/LessonTemplate/styleCenterLessonTemplate.css"
 import "styles/LessonTemplate/styleTabTip.css"  
+import "styles/styleAdaptiveDesign.css"  
 import "libs/less.min.js"
 
 render(<Root />, document.getElementById('react-container'))

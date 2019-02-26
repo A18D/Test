@@ -17,6 +17,9 @@ import {Search} from './routes/search';
 import {Blog} from './routes/blog';
 import {AboutProject} from './routes/aboutProject';
 import {Webinar} from './routes/webinar';
+
+import {AdaptiveDesign} from './routes/adaptiveDesign';
+
 import {Whoops404} from './routes/whoops404';
 import {Provider} from 'react-redux';
 import {syncHistoryWithStore} from 'react-router-redux';
@@ -52,6 +55,7 @@ class App extends PureComponent {
               })}
               <Route path="/AboutProject" component={AboutProject} />
               <Route path="/Blog" component={Blog} />
+              <Route path="/AdaptiveDesign" component={AdaptiveDesign} />
               <Route path="/Webinar" component={Webinar} />
               <Route path="/Search" component={Search} />
               <Route component={Whoops404} />
