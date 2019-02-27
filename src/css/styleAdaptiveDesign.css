@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 1000px) {
     .sad_panel {
-        margin-top: 40%;
+        top: 200px;
         flex-direction: column;
     }
     .sad_item.active {

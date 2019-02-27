@@ -195,10 +195,8 @@ export class AdaptiveDesign extends PureComponent {
       <div>
         <MainMenu />
         <div class="sad_block">
-
           <div class="sad_panel">
             <div id="mask_panel" />
-
             <div
               class="sad_item"
               id="Mobile"
