@@ -41,10 +41,18 @@
     min-height: 250px;
 }
 
+.sad_item:hover {
+    background: rgb(235, 234, 234);
+}
+
 .sad_item.active {
     position: relative;
     transform: translateY(40px);
     z-index: 1;
+}
+
+.sad_item.active:hover {
+    background: white;
 }
 
 .sad_item.hide {

@@ -7911,6 +7911,25 @@ exports.push([module.i, "/*!\n *  Font Awesome 4.7.0 by @davegandy - http://font
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--7-2!./src/css/styleAdaptiveDesign.css":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--7-2!./src/css/styleAdaptiveDesign.css ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".sad_total {\r\n    background-color: #a1beec;\r\n}\r\n\r\n.sad_close {\r\n    max-width: 15px;\r\n    max-height: 15px;\r\n    right: 5px;\r\n}\r\n\r\n.sad_block {\r\n    min-height: 100%;\r\n    min-width: 100%;\r\n    margin-top: -70px;\r\n    position: absolute;\r\n    margin: 20px 0;\r\n    padding: 10px;\r\n}\r\n\r\n.sad_panel {\r\n    border-radius: 0.25em;\r\n    background: white;\r\n    box-shadow: 0 7px 20px 3px rgba(70, 70, 70, 0.25);\r\n    position: absolute;\r\n    z-index: 1;\r\n    top: 30%;\r\n    left: 40%;\r\n    margin-right: -50%;\r\n    transform: translate(-40%, -25%);\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -ms-flex-direction: row;\r\n        flex-direction: row;\r\n    -ms-flex-wrap: wrap;\r\n        flex-wrap: wrap;\r\n}\r\n\r\n.sad_item {\r\n    border-radius: 0.25em;\r\n    background: white;\r\n    padding: 0.5em;\r\n    text-align: center;\r\n    min-width: 350px;\r\n    min-height: 250px;\r\n}\r\n\r\n.sad_item:hover {\r\n    background: rgb(235, 234, 234);\r\n}\r\n\r\n.sad_item.active {\r\n    position: relative;\r\n    transform: translateY(40px);\r\n    z-index: 1;\r\n}\r\n\r\n.sad_item.active:hover {\r\n    background: white;\r\n}\r\n\r\n.sad_item.hide {\r\n    display: none;\r\n}\r\n\r\n@media screen and (max-width: 1000px) {\r\n    .sad_panel {\r\n        top: 200px;\r\n        -ms-flex-direction: column;\r\n            flex-direction: column;\r\n    }\r\n    .sad_item.active {\r\n        transform: scale(1.2, 1.2);\r\n    }\r\n}\r\n\r\n.sad_img {\r\n    min-width: 50px;\r\n    min-height: 50px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.sad_title {\r\n    margin-top: 20px;\r\n    color: rgb(83, 117, 211);\r\n    font-weight: bold;\r\n}\r\n\r\n.sad_title big {\r\n    font-size: 220%;\r\n}\r\n\r\n.sad_title sup {\r\n    font-size: 100%;\r\n    vertical-align: text-top;\r\n    top: -.3em;\r\n}\r\n\r\n.sad_text {\r\n    color: rgb(141, 141, 141);\r\n    max-width: 220px;\r\n    margin: auto;\r\n    margin-top: 20px;\r\n}\r\n\r\n.sad_panelItem {\r\n    display: none;\r\n    -ms-flex-direction: row;\r\n        flex-direction: row;\r\n}\r\n\r\n.sad_panelItem.active {\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n}\r\n\r\n.sad_panelItemTitle {\r\n    margin: auto;\r\n    font-weight: bold;\r\n}\r\n\r\n.sad_button {\r\n    display: none;\r\n    background: rgb(31, 48, 197);\r\n    color: #ffffff;\r\n    width: 150px;\r\n    height: 30px;\r\n    border: 1px solid rgb(31, 48, 197);\r\n    outline: none;\r\n    box-shadow: 0.1em 0.1em 5px rgba(122, 122, 122, 0.5);\r\n    margin: auto;\r\n    margin-top: 20px;\r\n    transition: all 0.3s ease-out;\r\n}\r\n\r\n.sad_button.active {\r\n    display: block;\r\n}\r\n\r\n.sad_button:hover {\r\n    box-shadow: inset 0px 2px 2px rgba(255, 255, 255, 0.6), 0 2px 2px rgba(0, 0, 0, 0.1), 0 0 4px 1px rgba(0, 255, 255, 0.3);\r\n}\r\n\r\n.sad_button:active {\r\n    position: relative;\r\n    top: 1px;\r\n}\r\n\r\n.mask {\r\n    position: fixed;\r\n    left: 0;\r\n    top: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: rgba(0, 0, 0, 0.7);\r\n    opacity: 1;\r\n    transition: opacity 0.3s ease;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--7-2!./src/css/styleFooter.css":
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--7-2!./src/css/styleFooter.css ***!
@@ -53553,6 +53572,8 @@ var _aboutProject = __webpack_require__(/*! ./routes/aboutProject */ "./src/comp
 
 var _webinar = __webpack_require__(/*! ./routes/webinar */ "./src/components/routes/webinar.js");
 
+var _adaptiveDesign = __webpack_require__(/*! ./routes/adaptiveDesign */ "./src/components/routes/adaptiveDesign.js");
+
 var _whoops = __webpack_require__(/*! ./routes/whoops404 */ "./src/components/routes/whoops404.js");
 
 var _store = __webpack_require__(/*! ../store */ "./src/store/index.js");
@@ -53615,6 +53636,7 @@ var App = function (_PureComponent) {
               }),
               _react2.default.createElement(_reactRouterDom.Route, { path: '/AboutProject', component: _aboutProject.AboutProject }),
               _react2.default.createElement(_reactRouterDom.Route, { path: '/Blog', component: _blog.Blog }),
+              _react2.default.createElement(_reactRouterDom.Route, { path: '/AdaptiveDesign', component: _adaptiveDesign.AdaptiveDesign }),
               _react2.default.createElement(_reactRouterDom.Route, { path: '/Webinar', component: _webinar.Webinar }),
               _react2.default.createElement(_reactRouterDom.Route, { path: '/Search', component: _search.Search }),
               _react2.default.createElement(_reactRouterDom.Route, { component: _whoops.Whoops404 })
@@ -56336,7 +56358,7 @@ exports.default = Root;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.AboutMenu = exports.MainMenu = undefined;
 
@@ -56357,153 +56379,167 @@ var _reactRouterBootstrap = __webpack_require__(/*! react-router-bootstrap */ ".
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var MainMenu = exports.MainMenu = function MainMenu() {
-    return _react2.default.createElement(
-        _reactBootstrap.Navbar,
-        { fluid: true, collapseOnSelect: true, className: 'navbar-green' },
+  return _react2.default.createElement(
+    _reactBootstrap.Navbar,
+    { fluid: true, collapseOnSelect: true, className: 'navbar-green' },
+    _react2.default.createElement(
+      _reactBootstrap.Navbar.Header,
+      null,
+      _react2.default.createElement(
+        _reactBootstrap.Navbar.Brand,
+        null,
         _react2.default.createElement(
-            _reactBootstrap.Navbar.Header,
-            null,
+          'div',
+          { className: 'container-Logo' },
+          _react2.default.createElement(
+            _reactRouterBootstrap.LinkContainer,
+            { to: '/', className: 'container-Logo' },
             _react2.default.createElement(
-                _reactBootstrap.Navbar.Brand,
-                null,
-                _react2.default.createElement(
-                    'div',
-                    { className: 'container-Logo' },
-                    _react2.default.createElement(
-                        _reactRouterBootstrap.LinkContainer,
-                        { to: '/', className: 'container-Logo' },
-                        _react2.default.createElement(
-                            _reactBootstrap.NavItem,
-                            { className: 'linkLogo' },
-                            _react2.default.createElement('img', { src: './src/images/imgLogo.jpg',
-                                alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F', width: '40', height: '40' }),
-                            ' iSMART'
-                        )
-                    )
-                )
-            ),
-            _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null)
+              _reactBootstrap.NavItem,
+              { className: 'linkLogo' },
+              _react2.default.createElement('img', {
+                src: './src/images/imgLogo.jpg',
+                alt: '\u043B\u043E\u0433\u043E\u0442\u0438\u043F',
+                width: '40',
+                height: '40'
+              }),
+              ' ',
+              'iSMART'
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null)
+    ),
+    _react2.default.createElement(
+      _reactBootstrap.Navbar.Collapse,
+      null,
+      _react2.default.createElement(
+        _reactBootstrap.Nav,
+        null,
+        _react2.default.createElement(
+          _reactRouterBootstrap.LinkContainer,
+          { to: '/Training' },
+          _react2.default.createElement(
+            _reactBootstrap.NavItem,
+            { className: 'navbarborder' },
+            '\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435'
+          )
         ),
         _react2.default.createElement(
-            _reactBootstrap.Navbar.Collapse,
-            null,
-            _react2.default.createElement(
-                _reactBootstrap.Nav,
-                null,
-                _react2.default.createElement(
-                    _reactRouterBootstrap.LinkContainer,
-                    { to: '/Training' },
-                    _react2.default.createElement(
-                        _reactBootstrap.NavItem,
-                        { className: 'navbarborder' },
-                        '\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435'
-                    )
-                ),
-                _react2.default.createElement(
-                    _reactRouterBootstrap.LinkContainer,
-                    { to: '/AboutProject' },
-                    _react2.default.createElement(
-                        _reactBootstrap.NavItem,
-                        { className: 'navbarborder' },
-                        '\u041E \u043F\u0440\u043E\u0435\u043A\u0442\u0435'
-                    )
-                ),
-                _react2.default.createElement(
-                    _reactRouterBootstrap.LinkContainer,
-                    { to: '/Blog' },
-                    _react2.default.createElement(
-                        _reactBootstrap.NavItem,
-                        { className: 'navbarborder' },
-                        '\u0411\u043B\u043E\u0433'
-                    )
-                ),
-                _react2.default.createElement(
-                    _reactRouterBootstrap.LinkContainer,
-                    { to: '/Webinar' },
-                    _react2.default.createElement(
-                        _reactBootstrap.NavItem,
-                        { className: 'navbarborder' },
-                        '\u0412\u0435\u0431\u0438\u043D\u0430\u0440'
-                    )
-                ),
-                _react2.default.createElement(
-                    _reactBootstrap.NavItem,
-                    { eventKey: 3, href: '#', className: 'navbarborder' },
-                    '\u0414\u0438\u0430\u0433\u043D\u043E\u0441\u0442\u0438\u043A\u0430'
-                )
-            ),
-            _react2.default.createElement(
-                _reactRouterBootstrap.LinkContainer,
-                { to: '/Search' },
-                _react2.default.createElement(
-                    'div',
-                    null,
-                    _react2.default.createElement(
-                        'form',
-                        { 'class': 'navbar-form navbar-left ', role: 'search' },
-                        _react2.default.createElement(
-                            'button',
-                            { 'class': ' btn btn-default navbar-MyBtn' },
-                            _react2.default.createElement('span', { 'class': 'glyphicon glyphicon-search' })
-                        )
-                    )
-                )
-            ),
-            _react2.default.createElement(
-                _reactBootstrap.Nav,
-                { pullRight: true },
-                _react2.default.createElement(
-                    _reactBootstrap.NavItem,
-                    { eventKey: 1, href: '#', className: 'navbarborder' },
-                    '\u0412\u0445\u043E\u0434'
-                ),
-                _react2.default.createElement(
-                    _reactBootstrap.NavItem,
-                    { eventKey: 2, href: '#', className: 'navbarborderReg' },
-                    '\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F'
-                )
-            )
+          _reactRouterBootstrap.LinkContainer,
+          { to: '/AboutProject' },
+          _react2.default.createElement(
+            _reactBootstrap.NavItem,
+            { className: 'navbarborder' },
+            '\u041E \u043F\u0440\u043E\u0435\u043A\u0442\u0435'
+          )
+        ),
+        _react2.default.createElement(
+          _reactRouterBootstrap.LinkContainer,
+          { to: '/Blog' },
+          _react2.default.createElement(
+            _reactBootstrap.NavItem,
+            { className: 'navbarborder' },
+            '\u0411\u043B\u043E\u0433'
+          )
+        ),
+        _react2.default.createElement(
+          _reactRouterBootstrap.LinkContainer,
+          { to: '/AdaptiveDesign' },
+          _react2.default.createElement(
+            _reactBootstrap.NavItem,
+            { className: 'navbarborder' },
+            '\u0410\u0434\u0430\u043F\u0442\u0438\u0432\u043D\u044B\u0439 \u0434\u0438\u0437\u0430\u0439\u043D'
+          )
+        ),
+        _react2.default.createElement(
+          _reactRouterBootstrap.LinkContainer,
+          { to: '/Webinar' },
+          _react2.default.createElement(
+            _reactBootstrap.NavItem,
+            { className: 'navbarborder' },
+            '\u0412\u0435\u0431\u0438\u043D\u0430\u0440'
+          )
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.NavItem,
+          { eventKey: 3, href: '#', className: 'navbarborder' },
+          '\u0414\u0438\u0430\u0433\u043D\u043E\u0441\u0442\u0438\u043A\u0430'
         )
-    );
+      ),
+      _react2.default.createElement(
+        _reactRouterBootstrap.LinkContainer,
+        { to: '/Search' },
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'form',
+            { 'class': 'navbar-form navbar-left ', role: 'search' },
+            _react2.default.createElement(
+              'button',
+              { 'class': ' btn btn-default navbar-MyBtn' },
+              _react2.default.createElement('span', { 'class': 'glyphicon glyphicon-search' })
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        _reactBootstrap.Nav,
+        { pullRight: true },
+        _react2.default.createElement(
+          _reactBootstrap.NavItem,
+          { eventKey: 1, href: '#', className: 'navbarborder' },
+          '\u0412\u0445\u043E\u0434'
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.NavItem,
+          { eventKey: 2, href: '#', className: 'navbarborderReg' },
+          '\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F'
+        )
+      )
+    )
+  );
 };
 
 var AboutMenu = exports.AboutMenu = function AboutMenu(_ref) {
-    var match = _ref.match;
-    return _react2.default.createElement(
-        'div',
-        null,
+  var match = _ref.match;
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      _reactBootstrap.Navbar,
+      { fluid: true, className: 'navbar-groupGrey' },
+      _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null),
+      _react2.default.createElement(
+        _reactBootstrap.Navbar.Collapse,
+        { className: 'navbar-groupGrey' },
         _react2.default.createElement(
-            _reactBootstrap.Navbar,
-            { fluid: true, className: 'navbar-groupGrey' },
-            _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null),
+          _reactBootstrap.Nav,
+          null,
+          _react2.default.createElement(
+            _reactRouterBootstrap.LinkContainer,
+            { to: '/Training/begin' },
             _react2.default.createElement(
-                _reactBootstrap.Navbar.Collapse,
-                { className: 'navbar-groupGrey' },
-                _react2.default.createElement(
-                    _reactBootstrap.Nav,
-                    null,
-                    _react2.default.createElement(
-                        _reactRouterBootstrap.LinkContainer,
-                        { to: '/Training/begin' },
-                        _react2.default.createElement(
-                            _reactBootstrap.NavItem,
-                            null,
-                            '\u0421 \u0447\u0435\u0433\u043E \u043D\u0430\u0447\u0430\u0442\u044C'
-                        )
-                    ),
-                    _react2.default.createElement(
-                        _reactRouterBootstrap.LinkContainer,
-                        { to: '/Training/rewards' },
-                        _react2.default.createElement(
-                            _reactBootstrap.NavItem,
-                            null,
-                            '\u041D\u0430\u0433\u0440\u0430\u0434\u044B'
-                        )
-                    )
-                )
+              _reactBootstrap.NavItem,
+              null,
+              '\u0421 \u0447\u0435\u0433\u043E \u043D\u0430\u0447\u0430\u0442\u044C'
             )
+          ),
+          _react2.default.createElement(
+            _reactRouterBootstrap.LinkContainer,
+            { to: '/Training/rewards' },
+            _react2.default.createElement(
+              _reactBootstrap.NavItem,
+              null,
+              '\u041D\u0430\u0433\u0440\u0430\u0434\u044B'
+            )
+          )
         )
-    );
+      )
+    )
+  );
 };
 
 /***/ }),
@@ -56693,6 +56729,453 @@ var AboutProject = exports.AboutProject = function AboutProject() {
     )
   );
 };
+
+/***/ }),
+
+/***/ "./src/components/routes/adaptiveDesign.js":
+/*!*************************************************!*\
+  !*** ./src/components/routes/adaptiveDesign.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.AdaptiveDesign = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _menus = __webpack_require__(/*! ../menus */ "./src/components/menus.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var AdaptiveDesign = exports.AdaptiveDesign = function (_PureComponent) {
+  _inherits(AdaptiveDesign, _PureComponent);
+
+  function AdaptiveDesign(props) {
+    _classCallCheck(this, AdaptiveDesign);
+
+    var _this = _possibleConstructorReturn(this, (AdaptiveDesign.__proto__ || Object.getPrototypeOf(AdaptiveDesign)).call(this, props));
+
+    _this.handleSelectItem = function (e) {
+      var blackout = _this.showTag(e, 'mask_panel', true);
+
+      if (blackout) {
+        _this.showTag(e, 'maskAll', true);
+      }
+    };
+
+    _this.state = {
+      visibleTag: '',
+      idDomElement: ''
+    };
+
+    var elemBody = document.body;
+    _this.styleBody = elemBody.className;
+    return _this;
+  }
+
+  _createClass(AdaptiveDesign, [{
+    key: 'changeID',
+    value: function changeID(elem, prefixID, level) {
+      if (elem && elem.childNodes) {
+        for (var i = 0; i < elem.childNodes.length; i++) {
+          if (elem.childNodes[i].nodeType != 1) {
+            continue;
+          }
+
+          if (elem.childNodes[i].childNodes && elem.childNodes[i].childNodes.length > 0) {
+            this.changeID(elem.childNodes[i], prefixID, level + 1);
+          }
+
+          if (elem.childNodes[i].hasAttribute('id')) {
+            var idElem = elem.childNodes[i].getAttribute('id');
+
+            if (idElem && !idElem.startsWith(prefixID)) {
+              elem.childNodes[i].setAttribute('id', prefixID + idElem);
+            }
+          }
+        } // end for
+
+        if (!level && elem.nodeType == 1 && elem.hasAttribute('id')) {
+          var _idElem = elem.getAttribute('id');
+
+          if (_idElem && !_idElem.startsWith(prefixID)) {
+            elem.setAttribute('id', prefixID + _idElem);
+          }
+
+          var elemCloseItem = document.getElementById(prefixID + elem.dataset.idtag + '_close');
+
+          if (elemCloseItem) elemCloseItem.addEventListener('click', this.handleClose.bind(this));
+        } // end if
+      }
+    }
+  }, {
+    key: 'getFirstElemByClassName',
+    value: function getFirstElemByClassName(nameClass) {
+      var elemPanel = void 0,
+          elemsPanel = document.getElementsByClassName(nameClass);
+
+      if (elemsPanel && elemsPanel.length) {
+        elemPanel = elemsPanel[0];
+      }
+
+      return elemPanel;
+    }
+  }, {
+    key: 'replaceCloneElements',
+    value: function replaceCloneElements(elemPanel, elemClone) {
+      var successReplace = false;
+
+      if (elemPanel.childNodes && elemPanel.childNodes.length > 2) {
+        var idElem = void 0,
+            saveElem = void 0;
+
+        if (this.state.idDomElement) saveElem = document.getElementById(this.state.idDomElement);else {
+          var indexNodes = Math.floor(elemPanel.childNodes.length / 2);
+          saveElem = elemPanel.childNodes[indexNodes];
+          idElem = saveElem.getAttribute('id');
+          this.setState({
+            visibleTag: this.state.visibleTag,
+            idDomElement: idElem
+          });
+          elemPanel.insertBefore(elemClone, saveElem);
+        }
+
+        saveElem.classList.toggle('hide');
+        successReplace = true;
+      }
+
+      return successReplace;
+    }
+  }, {
+    key: 'showTag',
+    value: function showTag(e, id, pVisible) {
+      var result = false;
+
+      if (!pVisible && !/close/.test(e.target.id) || pVisible && this.state.visibleTag) return result;
+
+      var elemMask = document.getElementById(id);
+
+      if (e && elemMask) {
+        elemMask.classList.toggle('mask');
+
+        if (elemMask.id == 'mask_panel' && (pVisible && !this.state.visibleTag || !pVisible && this.state.visibleTag)) {
+          var prefixID = 'DOUBLE';
+          var eNode = e.currentTarget;
+
+          if (eNode && eNode.hasAttribute('data-idtag')) {
+            var elemPanel = this.getFirstElemByClassName('sad_panel');
+
+            if (!elemPanel) return;
+
+            if (pVisible) {
+              if (eNode.className == 'sad_item') {
+                var elemClone = eNode.cloneNode(true);
+                var successReplace = this.replaceCloneElements(elemPanel, elemClone);
+
+                if (!successReplace) {
+                  elemPanel.appendChild(elemClone);
+                }
+
+                this.changeID(elemClone, prefixID, 0);
+                eNode = elemClone;
+              }
+              eNode.classList.toggle('active');
+              var idvisibleTag = prefixID + pVisible ? eNode.id : eNode.dataset.idtag;
+              this.setState({ visibleTag: idvisibleTag });
+
+              var elemPanelItem = document.getElementById(idvisibleTag + '_Panel');
+
+              if (elemPanelItem) {
+                elemPanelItem.classList.toggle('active');
+              }
+
+              var elemButtonPay = document.getElementById(idvisibleTag + '_Button');
+
+              if (elemButtonPay) {
+                elemButtonPay.classList.toggle('active');
+              }
+            } else {
+              eNode = document.getElementById(prefixID + eNode.dataset.idtag);
+              this.replaceCloneElements(elemPanel, eNode);
+              elemPanel.removeChild(eNode);
+              this.setState({ visibleTag: '', idDomElement: '' });
+            }
+
+            result = true;
+          }
+        }
+      }
+
+      return result;
+    }
+  }, {
+    key: 'handleClose',
+    value: function handleClose(e) {
+      var blackout = this.showTag(e, 'mask_panel', false);
+
+      if (blackout) {
+        this.showTag(e, 'maskAll', false);
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var elemBody = document.body;
+      elemBody.className = 'sad_total';
+
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_menus.MainMenu, null),
+        _react2.default.createElement(
+          'div',
+          { 'class': 'sad_block' },
+          _react2.default.createElement(
+            'div',
+            { 'class': 'sad_panel' },
+            _react2.default.createElement('div', { id: 'mask_panel' }),
+            _react2.default.createElement(
+              'div',
+              {
+                'class': 'sad_item',
+                id: 'Mobile',
+                'data-idtag': 'Mobile',
+                onClick: function onClick(e) {
+                  return _this2.handleSelectItem(e);
+                }
+              },
+              _react2.default.createElement(
+                'div',
+                { 'class': 'sad_panelItem', id: 'Mobile_Panel' },
+                _react2.default.createElement(
+                  'p',
+                  { 'class': 'sad_panelItemTitle' },
+                  'Confirmation'
+                ),
+                _react2.default.createElement('img', {
+                  src: './src/images/cross.svg',
+                  id: 'Mobile_close',
+                  'class': 'sad_close',
+                  'data-idtag': 'Mobile',
+                  onClick: function onClick(e) {
+                    return _this2.handleClose(e);
+                  }
+                })
+              ),
+              _react2.default.createElement('img', { src: './src/images/device.svg', 'class': 'sad_img' }),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_title' },
+                'MOBILE'
+              ),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_text' },
+                'Get notifications about new releases in our mobile app'
+              ),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_title' },
+                _react2.default.createElement(
+                  'sup',
+                  null,
+                  '$'
+                ),
+                _react2.default.createElement(
+                  'big',
+                  null,
+                  '10'
+                ),
+                ' ',
+                _react2.default.createElement(
+                  'sub',
+                  null,
+                  _react2.default.createElement(
+                    'small',
+                    null,
+                    '/ month'
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                'button',
+                { id: 'Mobile_Button', 'class': 'sad_button' },
+                'Confirm and pay'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              {
+                'class': 'sad_item',
+                id: 'Desktop',
+                'data-idtag': 'Desktop',
+                onClick: function onClick(e) {
+                  return _this2.handleSelectItem(e);
+                }
+              },
+              _react2.default.createElement(
+                'div',
+                { 'class': 'sad_panelItem', id: 'Desktop_Panel' },
+                _react2.default.createElement(
+                  'p',
+                  { 'class': 'sad_panelItemTitle' },
+                  'Confirmation'
+                ),
+                _react2.default.createElement('img', {
+                  src: './src/images/cross.svg',
+                  id: 'Desktop_close',
+                  'class': 'sad_close',
+                  'data-idtag': 'Desktop',
+                  onClick: function onClick(e) {
+                    return _this2.handleClose(e);
+                  }
+                })
+              ),
+              _react2.default.createElement('img', { src: './src/images/laptop.svg', 'class': 'sad_img' }),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_title' },
+                'Desktop'
+              ),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_text' },
+                'Enjoy new episodes on your laptop in browser with our web service, which supports all the platforms',
+                ' '
+              ),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_title' },
+                _react2.default.createElement(
+                  'sup',
+                  null,
+                  '$'
+                ),
+                _react2.default.createElement(
+                  'big',
+                  null,
+                  '15'
+                ),
+                ' ',
+                _react2.default.createElement(
+                  'sub',
+                  null,
+                  _react2.default.createElement(
+                    'small',
+                    null,
+                    '/ month'
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                'button',
+                { id: 'Desktop_Button', 'class': 'sad_button' },
+                'Confirm and pay'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              {
+                'class': 'sad_item',
+                id: 'TV',
+                'data-idtag': 'TV',
+                onClick: function onClick(e) {
+                  return _this2.handleSelectItem(e);
+                }
+              },
+              _react2.default.createElement(
+                'div',
+                { 'class': 'sad_panelItem', id: 'TV_Panel' },
+                _react2.default.createElement(
+                  'p',
+                  { 'class': 'sad_panelItemTitle' },
+                  'Confirmation'
+                ),
+                _react2.default.createElement('img', {
+                  src: './src/images/cross.svg',
+                  id: 'TV_close',
+                  'class': 'sad_close',
+                  'data-idtag': 'TV',
+                  onClick: function onClick(e) {
+                    return _this2.handleClose(e);
+                  }
+                })
+              ),
+              _react2.default.createElement('img', { src: './src/images/laptop.svg', 'class': 'sad_img' }),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_title' },
+                'TV'
+              ),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_text' },
+                'Watch your favorite series at home on large screen with our TV application'
+              ),
+              _react2.default.createElement(
+                'p',
+                { 'class': 'sad_title' },
+                _react2.default.createElement(
+                  'sup',
+                  null,
+                  '$'
+                ),
+                _react2.default.createElement(
+                  'big',
+                  null,
+                  '20'
+                ),
+                ' ',
+                _react2.default.createElement(
+                  'sub',
+                  null,
+                  _react2.default.createElement(
+                    'small',
+                    null,
+                    '/ month'
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                'button',
+                { id: 'TV_Button', 'class': 'sad_button' },
+                'Confirm and pay'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement('div', { id: 'maskAll' })
+      );
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      var elemBody = document.body;
+      elemBody.className = this.styleBody;
+    } //~componentDidMount
+
+  }]);
+
+  return AdaptiveDesign;
+}(_react.PureComponent);
 
 /***/ }),
 
@@ -57810,6 +58293,31 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./src/css/styleAdaptiveDesign.css":
+/*!*****************************************!*\
+  !*** ./src/css/styleAdaptiveDesign.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/postcss-loader/lib??ref--7-2!./styleAdaptiveDesign.css */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js??ref--7-2!./src/css/styleAdaptiveDesign.css");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
 /***/ "./src/css/styleFooter.css":
 /*!*********************************!*\
   !*** ./src/css/styleFooter.css ***!
@@ -58196,6 +58704,8 @@ __webpack_require__(/*! styles/LessonTemplate/styleTask.css */ "./src/css/Lesson
 __webpack_require__(/*! styles/LessonTemplate/styleCenterLessonTemplate.css */ "./src/css/LessonTemplate/styleCenterLessonTemplate.css");
 
 __webpack_require__(/*! styles/LessonTemplate/styleTabTip.css */ "./src/css/LessonTemplate/styleTabTip.css");
+
+__webpack_require__(/*! styles/styleAdaptiveDesign.css */ "./src/css/styleAdaptiveDesign.css");
 
 __webpack_require__(/*! libs/less.min.js */ "./src/lib/less.min.js");
 
